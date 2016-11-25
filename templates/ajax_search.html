@@ -1,0 +1,22 @@
+{% if startwords.count > 0 %}
+      {% for word in startwords %}
+          <div class="word">
+              <h2 class="latin">{{ word.latin }}: <span class="english">{{ word.english }}</span></h2>
+              <h2 class="category">From <b>{{ word.category }}</b></h2>
+
+
+              <h3 class="type">Type: {{ word.type }}</h3>
+          </div>
+      {% endfor %}
+{% elif words.count > 0 %}
+  {% for word in words %}
+      <div class="word">
+          <h2 class="latin">{{ word.latin }}: <span class="english">{{ word.english }}</span></h2>
+          <h2 class="category">From <b>{{ word.category }}</b></h2>
+
+          <h3 class="type">Type: {{ word.type }}</h3>
+      </div>
+  {% endfor %}
+{% else %}
+  <p>No words found.</p>
+{% endif %}

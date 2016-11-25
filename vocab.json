@@ -1,0 +1,205 @@
+{
+  "animus, animi, m": {
+    "type": "noun 2",
+    "meaning": "spirit, soul, mind",
+    "category": "Nouns: Body"
+  },
+  "corpus, corporis, n": {
+    "type": "noun 3",
+    "meaning": "body",
+    "category": "Nouns: Body"
+  },
+  "manus, manus, f": {
+    "type": "noun 4",
+    "meaning": "hand, group of people",
+    "category": "Nouns: Body"
+  },
+  "pes, pedis, m": {
+    "type": "noun 3",
+    "meaning": "foot",
+    "category": "Nouns: Body"
+  },
+  "sanguis, sanguinis, m": {
+    "type": "noun 3",
+    "meaning": "blood",
+    "category": "Nouns: Body"
+  },
+  "vulnus, vulneris, n": {
+    "type": "noun 3",
+    "meaning": "wound",
+    "category": "Nouns: Body"
+  },
+  "vultus, vultus, m": {
+    "type": "noun 4",
+    "meaning": "expression, face",
+    "category": "Nouns: Body"
+  },
+  "ars, artis, f": {
+    "type": "noun 3",
+    "meaning": "art, skill",
+    "category": "Nouns: Communication"
+  },
+  "clamor, clamoris, m": {
+    "type": "noun 3",
+    "meaning": "shout, shouting, noise",
+    "category": "Nouns: Communication"
+  },
+  "consilium, consilii, n": {
+    "type": "noun 2",
+    "meaning": "plan, idea, advice",
+    "category": "Nouns: Communication"
+  },
+  "epistula, epistulae, f": {
+    "type": "noun 1",
+    "meaning": "letter",
+    "category": "Nouns: Communication"
+  },
+  "verbum, verbi, n": {
+    "type": "noun 2",
+    "meaning": "word",
+    "category": "Nouns: Communication"
+  },
+  "vox, vocis, f": {
+    "type": "noun 3",
+    "meaning": "voice, shout",
+    "category": "Nouns: Communication"
+  },
+  "amor, amoris, m": {
+    "type": "noun 3",
+    "meaning": "love",
+    "category": "Nouns: Emotion"
+  },
+  "cura, curae, f": {
+    "type": "noun 1",
+    "meaning": "care, worry",
+    "category": "Nouns: Emotion"
+  },
+  "gaudium, gaudii, n": {
+    "type": "noun 2",
+    "meaning": "joy, pleasure",
+    "category": "Nouns: Emotion"
+  },
+  "ira, irae, f": {
+    "type": "noun 1",
+    "meaning": "anger",
+    "category": "Nouns: Emotion"
+  },
+  "periculum, periculi, n": {
+    "type": "noun 2",
+    "meaning": "danger",
+    "category": "Nouns: Emotion"
+  },
+  "spes, spei, f": {
+    "type": "noun 5",
+    "meaning": "hope",
+    "category": "Nouns: Emotion"
+  },
+  "virtus, virtutis, f": {
+    "type": "noun 3",
+    "meaning": "courage, virtue",
+    "category": "Nouns: Emotion"
+  },
+  "arma": {
+    "type": "noun 2 plural",
+    "meaning": "arms, weapons",
+    "category": "Nouns: Military"
+  },
+  "auxilium": {
+    "type": "noun 2",
+    "meaning": "help",
+    "category": "Nouns: Military"
+  },
+  "bellum": false,
+  "captivus": {
+    "type": "noun 2",
+    "meaning": "captive, prisoner",
+    "category": "Nouns: Military"
+  },
+  "castra": {
+    "type": "noun 2",
+    "meaning": "camp",
+    "category": "Nouns: Military"
+  },
+  "comes": {
+    "type": "noun 3",
+    "meaning": "comrade, companion",
+    "category": "Nouns: Military"
+  },
+  "copiae": {
+    "type": "noun 1 plural",
+    "meaning": "forces, troops",
+    "category": "Nouns: Military"
+  },
+  "custos": {
+    "type": "noun 3",
+    "meaning": "guard",
+    "category": "Nouns: Military"
+  },
+  "dux": "2016-10-16T18:30:42.345Z",
+  "exercitus": {
+    "type": "noun 4",
+    "meaning": "army",
+    "category": "Nouns: Military"
+  },
+  "gladius": {
+    "type": "noun 2",
+    "meaning": "sword",
+    "category": "Nouns: Military"
+  },
+  "hostis": {
+    "type": "noun 3",
+    "meaning": "enemy",
+    "category": "Nouns: Military"
+  },
+  "imperator": {
+    "type": "noun 3",
+    "meaning": "emperor, general, leader",
+    "category": "Nouns: Military"
+  },
+  "imperium": {
+    "type": "noun 2",
+    "meaning": "empire, power, command",
+    "category": "Nouns: Military"
+  },
+  "inimicus": {
+    "type": "noun 2",
+    "meaning": "enemy",
+    "category": "Nouns: Military"
+  },
+  "legio": {
+    "type": "noun 3",
+    "meaning": "legion",
+    "category": "Nouns: Military"
+  },
+  "miles": {
+    "type": "noun 3",
+    "meaning": "soldier",
+    "category": "Nouns: Military"
+  },
+  "mors": {
+    "type": "noun 3",
+    "meaning": "death",
+    "category": "Nouns: Military"
+  },
+  "navis": 0,
+  "pax": {
+    "type": "noun 3",
+    "meaning": "peace",
+    "category": "Nouns: Military"
+  },
+  "princeps": {
+    "type": "noun 3",
+    "meaning": "chief, emperor",
+    "category": "Nouns: Military"
+  },
+  "proelium": {
+    "type": "noun 2",
+    "meaning": "battle",
+    "category": "Nouns: Military"
+  },
+  "victoria": {
+    "type": "noun 1",
+    "meaning": "victory",
+    "category": "Nouns: Military"
+  }
+}

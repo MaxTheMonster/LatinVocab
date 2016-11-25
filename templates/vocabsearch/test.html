@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GCSE Latin Quiz</title>
+  <link rel="icon" href="{% static "favicon.ico" %}"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="{% static "styles.css" %}">
+</head>
+<body>
+  <h1><a id="test" href="/">Home</a></h1>
+  <h1 id="title">GCSE Latin Vocabulary Test</h1>
+  {%csrf_token%}
+  <form action="" id="test_form" name="test_form">
+    <div class="selection">
+      <label for="type">What would you like to be tested on?</label>
+      <select name="type" id="type" value="Hi">
+        {% for type in types %}
+        <option value="{{ type }}">{{ type }}</option>
+        {% endfor %}
+      </select>
+    </div>
+<br/>
+    <div class="selection">
+      <label for="amount">How many words do you want?</label>
+      <br/>
+      <input type="range" id="amount" name="amount" step="5" min="0" max="470" oninput="rangevalue.value=value" value="35">
+      <output id="rangevalue">35</output>
+    </div>
+<br/>
+    <div class="selection">
+      <label for="direction">Which translation direction?</label>
+      <input type="radio" id="r1" name="direction" checked>Latin -> English
+      <input type="radio" id="r2" name="direction" >English -> Latin
+    </div>
+<br/>
+    <input type="button" class="submit" value="Go!" onclick="goto()">
+  </form>
+  <script>
+  function goto() {
+    var success = false;
+    var typeValue = document.getElementById("type").value;
+    if (typeValue === "EVERYTHING BABE!"){
+      var typeValue = "everything";
+    }
+    var amountValue = document.getElementById("amount").value;
+    console.log(amountValue);
+    if (amountValue == 0) {
+      $("form").append("<h3 id='warning'>You must choose a number greater than 0.</h3>");
+    } else {
+      success = true;
+    }
+    if (document.getElementById('r1').checked) {
+      var directionValue = "latin";
+    }
+    else if (document.getElementById('r2').checked) {
+      var directionValue = "english";
+    }
+    if (success === true) {
+      window.location.href = "/test/" + typeValue.toLowerCase() + "/" + amountValue + "/" + directionValue + "/";
+    }
+  }
+  </script>
+</body>
+</html>

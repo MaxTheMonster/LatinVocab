@@ -1,0 +1,470 @@
+animus, animi, m/noun 2/spirit, soul, mind/Nouns: Body
+corpus, corporis, n/noun 3/body/Nouns: Body
+manus, manus, f/noun 4/hand, group of people/Nouns: Body
+pes, pedis, m/noun 3/foot/Nouns: Body
+sanguis, sanguinis, m/noun 3/blood/Nouns: Body
+vulnus, vulneris, n/noun 3/wound/Nouns: Body
+vultus, vultus, m/noun 4/expression, face/Nouns: Body
+ars, artis, f/noun 3/art, skill/Nouns: Communication
+clamor, clamoris, m/noun 3/shout, shouting, noise/Nouns: Communication
+consilium, consilii, n/noun 2/plan, idea, advice/Nouns: Communication
+epistula, epistulae, f/noun 1/letter/Nouns: Communication
+verbum, verbi, n/noun 2/word/Nouns: Communication
+vox, vocis, f/noun 3/voice, shout/Nouns: Communication
+amor, amoris, m/noun 3/love/Nouns: Emotion
+cura, curae, f/noun 1/care, worry/Nouns: Emotion
+gaudium, gaudii, n/noun 2/joy, pleasure/Nouns: Emotion
+ira, irae, f/noun 1/anger/Nouns: Emotion
+periculum, periculi, n/noun 2/danger/Nouns: Emotion
+spes, spei, f/noun 5/hope/Nouns: Emotion
+virtus, virtutis, f/noun 3/courage, virtue/Nouns: Emotion
+arma, armorum, n/noun 2 plural/arms, weapons/Nouns: Military
+auxilium, auxilii, n/noun 2/help/Nouns: Military
+bellum, belli, n/noun 2/war/Nouns: Military
+captivus, captivi, m/noun 2/captive, prisoner/Nouns: Military
+castra, castrorum, n/noun 2/camp/Nouns: Military
+comes, comitis, m and f/noun 3/comrade, companion/Nouns: Military
+copiae, copiarum, f/noun 1 plural/forces, troops/Nouns: Military
+custos, custodis, m and f/noun 3/guard/Nouns: Military
+dux, ducis, m/noun 3/leader/Nouns: Military
+exercitus, exercitus, m/noun 4/army/Nouns: Military
+gladius, gladii, m/noun 2/sword/Nouns: Military
+hostis, hostis, m/noun 3/enemy/Nouns: Military
+imperator, imperatoris, m/noun 3/emperor, general, leader/Nouns: Military
+imperium, imperii, n/noun 2/empire, power, command/Nouns: Military
+inimicus, inimici, m/noun 2/enemy/Nouns: Military
+legio, legionis, f/noun 3/legion/Nouns: Military
+miles, militis, m/noun 3/soldier/Nouns: Military
+mors, mortis, f/noun 3/death/Nouns: Military
+navis, navis, f/noun 3/ship/Nouns: Military
+pax, pacis, f/noun 3/peace/Nouns: Military
+princeps, principis, m/noun 3/chief, emperor/Nouns: Military
+proelium, proelii, n/noun 2/battle/Nouns: Military
+victoria, victoriae, f/noun 1/victory/Nouns: Military
+ager, agri, m/noun 2/field/Nouns: Nature
+aqua, aquae, f/noun 1/water/Nouns: Nature
+caelum, caeli, n/noun 2/sky, heaven/Nouns: Nature
+canis, canis, m and f/noun 3/dog/Nouns: Nature
+dea, deae, f/noun 1/goddess/Nouns: Nature
+deus, dei, m/noun 2/god/Nouns: Nature
+equus, equi, m/noun 2/horse/Nouns: Nature
+flumen, fluminis, n/noun 3/river/Nouns: Nature
+leo, leonis, m/noun 3/lion/Nouns: Nature
+lux, lucis, f/noun 3/light, daylight/Nouns: Nature
+mare, maris, n/noun 3/sea/Nouns: Nature
+mons, montis, m/noun 3/mountain/Nouns: Nature
+nox, noctis, f/noun 3/night/Nouns: Nature
+silva, silvae, f/noun 1/wood/Nouns: Nature
+tempestas, tempestatis, f/noun 3/storm/Nouns: Nature
+terra, terrae, f/noun 1/ground, land, country/Nouns: Nature
+cena, cenae, f/noun 1/dinner, meal/Nouns: Object
+cibus, cibi, m/noun 2/food/Nouns: Object
+donum, doni, n/noun 2/gift, present/Nouns: Object
+ianua, ianuae, f/noun 1/door/Nouns: Object
+insula, insulae, f/noun 1/island, block of flats/Nouns: Object
+iter, itineris, n/noun 3/journey/Nouns: Object
+labor, laboris, m/noun 3/work/Nouns: Object
+liber, libri, m/noun 2/book/Nouns: Object
+modus, modi, m/noun 2/manner, way, kind/Nouns: Object
+murus, muri, m/noun 2/wall/Nouns: Object
+nihil (indeclinable)/noun irregular/nothing/Nouns: Object
+pars, partis, f/noun 3/part/Nouns: Object
+pecunia, pecuniae, f/noun 1/money/Nouns: Object
+poena, poenae, f/noun 1/punishment/Nouns: Object
+praemium, praemii, n/noun 2/prize, reward, profit/Nouns: Object
+res, rei, f/noun 5/thing, matter, event/Nouns: Object
+scelus, sceleris, n/noun 3/crime/Nouns: Object
+signum, signi, n/noun 2/sign, signal, standard/Nouns: Object
+vinum, vini, n/noun 2/wine/Nouns: Object
+amicus, amici, m/noun 2/friend/Nouns: People
+ancilla, ancillae, f/noun 1/slave girl, slave woman/Nouns: People
+caput, capitis, n/noun 3/head/Nouns: People
+civis, civis, m and f/noun 3/citizen/Nouns: People
+consul, consulis, m/noun 3/consul/Nouns: People
+domina, dominae, f/noun 1/mistress/Nouns: People
+dominus, domini, m/noun 2/master/Nouns: People
+femina, feminae, f/noun 1/woman/Nouns: People
+filia, filiae, f/noun 1/daughter/Nouns: People
+filius, filii, m/noun 2/son/Nouns: People
+frater, fratris, m/noun 3/brother/Nouns: People
+gens, gentis, f/noun 3/family, tribe, race, people/Nouns: People
+homo, hominis, m/noun 3/man, human being/Nouns: People
+iuvenis, iuvenis, m/noun 3/young man/Nouns: People
+liberi, liberorum, m/noun 2 plural/children/Nouns: People
+libertus, liberti, m/noun 2/freedman, ex-slave/Nouns: People
+maritus, mariti, m/noun 2/husband/Nouns: People
+mater, matris, f/noun 3/mother/Nouns: People
+mercator, mercatoris, m/noun 3/merchant/Nouns: People
+nauta, nautae, m/noun 1/sailor/Nouns: People
+nemo, neminis/noun(irregular)/no one, nobody/Nouns: People
+nomen, nominis, n/noun 3/name/Nouns: People
+nuntius, nuntii, m/noun 2/messenger, message, news/Nouns: People
+pater, patris, m/noun 3/father/Nouns: People
+puella, puellae, f/noun 1/girl/Nouns: People
+puer, pueri, m/noun 2/boy/Nouns: People
+regina, reginae, f/noun 1/queen/Nouns: People
+rex, regis, m/noun 3/king/Nouns: People
+senator, senatoris, m/noun 3/senator/Nouns: People
+senex, senis, m/noun 3/old man/Nouns: People
+servus, servi, m/noun 2/slave/Nouns: People
+turba, turbae, f/noun 1/crowd/Nouns: People
+uxor, uxoris, f/noun 3/wife/Nouns: People
+vir, viri, m/noun 2/man/Nouns: People
+domus, domus, f (domi = at home)/noun 4/home/Nouns: Places
+forum, fori, n/noun 2/forum, market place/Nouns: Places
+hortus, horti, m/noun 2/garden/Nouns: Places
+locus, loci, m/noun 2/place/Nouns: Places
+patria, patriae, f/noun 1/country, homeland/Nouns: Places
+porta, portae, f/noun 1/gate/Nouns: Places
+portus, portus, m/noun 4/harbour, port/Nouns: Places
+regnum, regni, n/noun 2/kingdom/Nouns: Places
+Roma, Romae, f (Romae: at/in Rome)/noun 1/Rome/Nouns: Places
+taberna, tabernae, f/noun 1/shop, inn/Nouns: Places
+templum, templi, n/noun 2/temple/Nouns: Places
+urbs, urbis, f/noun 3/city, town/Nouns: Places
+via, viae, f/noun 1/street, road, way/Nouns: Places
+villa, villae, f/noun 1/house, country villa/Nouns: Places
+annus, anni, m/noun 2/year/Nouns: Time
+dies, diei, m/noun 5/day/Nouns: Time
+hora, horae, f/noun 1/hour/Nouns: Time
+tempus, temporis, n/noun 3/time/Nouns: Time
+vita, vitae, f/noun 1/life/Nouns: Time
+audax, audacis/adjective/bold, daring/Adjectives: Favourable Attributes
+benignus, benigna, benignum/adjective/kind/Adjectives: Favourable Attributes
+bonus, bona, bonum/adjective/good/Adjectives: Favourable Attributes
+clarus, clara, clarum/adjective/famous, clear/Adjectives: Favourable Attributes
+diligens, diligentis/adjective/careful/Adjectives: Favourable Attributes
+felix, felicis/adjective/fortunate, happy/Adjectives: Favourable Attributes
+fidelis, fidele/adjective/faithful, loyal/Adjectives: Favourable Attributes
+fortis, forte/adjective/brave/Adjectives: Favourable Attributes
+laetus, laeta, laetum/adjective/happy/Adjectives: Favourable Attributes
+pulcher, pulchra, pulchrum/adjective/beautiful, handsome/Adjectives: Favourable Attributes
+qualis?, quale/adjective/what sort of?/Adjectives: Favourable Attributes
+Romanus, Romana, Romanum/adjective/Roman/Adjectives: Favourable Attributes
+sacer, sacra, sacrum/adjective/sacred/Adjectives: Favourable Attributes
+sapiens, sapientis/adjective/wise/Adjectives: Favourable Attributes
+talis, tale/adjective/such/Adjectives: Favourable Attributes
+tantus, tanta, tantum/adjective/so great, such a great/Adjectives: Favourable Attributes
+validus, valida, validum/adjective/strong/Adjectives: Favourable Attributes
+verus, vera, verum/adjective/true, real/Adjectives: Favourable Attributes
+crudelis, crudele/adjective/cruel/Adjectives: Negative Attributes
+dirus, dira, dirum/adjective/dreadful/Adjectives: Negative Attributes
+ferox, ferocis/adjective/fierce, ferocious/Adjectives: Negative Attributes
+infelix, infelicis/adjective/unlucky, unhappy/Adjectives: Negative Attributes
+iratus, irata, iratum/adjective/angry/Adjectives: Negative Attributes
+malus, mala, malum/adjective/evil, bad/Adjectives: Negative Attributes
+miser, misera, miserum/adjective/miserable, wretched, sad/Adjectives: Negative Attributes
+perterritus, perterrita, perterritum/adjective/terrified/Adjectives: Negative Attributes
+saevus, saeva, saevum/adjective/savage, cruel/Adjectives: Negative Attributes
+scelestus, scelesta, scelestum/adjective/wicked/Adjectives: Negative Attributes
+stultus, stulta, stultum/adjective/stupid, foolish/Adjectives: Negative Attributes
+tristis, triste/adjective/sad/Adjectives: Negative Attributes
+medius, media, medium/adjective/middle/Adjectives: Positional
+primus, prima, primum/adjective/first/Adjectives: Positional
+proximus, proxima, proximum/adjective/nearest, next to/Adjectives: Positional
+summus, summa, summum/adjective/highest, greatest, top (of)/Adjectives: Positional
+altus, alta, altum/adjective/high, deep/Adjectives: Size
+brevis, breve/adjective/short, brief/Adjectives: Size
+difficilis, difficile/adjective/difficult/Adjectives: Size
+facilis, facile/adjective/easy/Adjectives: Size
+gravis, grave/adjective/heavy, serious/Adjectives: Size
+ingens, ingentis/adjective/huge/Adjectives: Size
+longus, longa, longum/adjective/long/Adjectives: Size
+magnus, magna, magnum/adjective/big, large, great/Adjectives: Size
+multus, multa, multum/adjective/much, many/Adjectives: Size
+nonnulli, nonnullae, nonnulla/adjective/some, several/Adjectives: Size
+nullus, nulla, nullum/adjective/not any, no/Adjectives: Size
+omnis, omne/adjective/all, every/Adjectives: Size
+parvus, parva, parvum/adjective/small/Adjectives: Size
+plenus, plena, plenum/adjective/full/Adjectives: Size
+quantus?, quanta?, quantum?/adjective/how big? how much?/Adjectives: Size
+quot? (indeclinable)/adjective/how many?/Adjectives: Size
+solus, sola, solum/adjective/alone, lonely, only, on one's own/Adjectives: Size
+tot (indeclinable)/adjective/so many/Adjectives: Size
+totus, tota, totum/adjective/whole/Adjectives: Size
+celer, celeris, celere/adjective/quick, fast/Adjectives: Time
+lentus, lenta, lentum/adjective/slow/Adjectives: Time
+novus, nova, novum/adjective/new/Adjectives: Time
+vivus, viva, vivum/adjective/alive, living/Adjectives: Time
+adeo (indeclinable)/adverb/so much, so greatly/Adverbs
+antea (indeclinable)/adverb/before/Adverbs
+bene (indeclinable)/adverb/well/Adverbs
+cras (indeclinable)/adverb/tomorrow/Adverbs
+cur? (indeclinable)/adverb/why?/Adverbs
+deinde (indeclinable)/adverb/then/Adverbs
+diu (indeclinable)/adverb/for a long time/Adverbs
+ecce! (indeclinable)/adverb/look!/Adverbs
+etiam (indeclinable)/adverb/also, even/Adverbs
+forte (indeclinable)/adverb/by chance/Adverbs
+frustra (indeclinable)/adverb/in vain/Adverbs
+heri (indeclinable)/adverb/yesterday/Adverbs
+hic (indeclinable)/adverb/here/Adverbs
+hodie (indeclinable)/adverb/today/Adverbs
+iam (indeclinable)/adverb/now, already/Adverbs
+ibi (indeclinable)/adverb/there/Adverbs
+igitur (indeclinable)/adverb/therefore, and so/Adverbs
+interea (indeclinable)/adverb/meanwhile/Adverbs
+ita (indeclinable)/adverb/in this way, to such an extent, so/Adverbs
+itaque (indeclinable)/adverb/and so, therefore/Adverbs
+iterum (indeclinable)/adverb/again/Adverbs
+libenter (indeclinable)/adverb/willingly, gladly/Adverbs
+magis (indeclinable)/adverb/more/Adverbs
+magnopere indeclinable)/adverb/greatly/Adverbs
+maxime (indeclinable)/adverb/very greatly/Adverbs
+minime (indeclinable)/adverb/very little, least, no/Adverbs
+mox (indeclinable)/adverb/soon/Adverbs
+multo (indeclinable)/adverb/much/Adverbs
+non (indeclinable)/adverb/not/Adverbs
+nonne …? (indeclinable)/adverb/surely ... ?/Adverbs
+numquam (indeclinable)/adverb/never/Adverbs
+nunc (indeclinable)/adverb/now/Adverbs
+olim (indeclinable)/adverb/once, some time ago/Adverbs
+paene (indeclinable)/adverb/almost, nearly/Adverbs
+postea (indeclinable)/adverb/afterwards/Adverbs
+postridie (indeclinable)/adverb/on the next day/Adverbs
+primo (indeclinable)/adverb/at first/Adverbs
+quam (indeclinable)/adverb/than/Adverbs
+quam? quam! (indeclinable)/adverb/how … ? how … !/Adverbs
+quando? (indeclinable)/adverb/when?/Adverbs
+quo? (indeclinable)/adverb/to where?/Adverbs
+quomodo? (indeclinable)/adverb/how?/Adverbs
+saepe (indeclinable)/adverb/often/Adverbs
+satis (indeclinable)/adverb/enough/Adverbs
+semper (indeclinable)/adverb/always/Adverbs
+sic (indeclinable)/adverb/thus, in this way/Adverbs
+simul (indeclinable)/adverb/at the same time/Adverbs
+statim (indeclinable)/adverb/at once, immediately/Adverbs
+subito (indeclinable)/adverb/suddenly/Adverbs
+tam (indeclinable)/adverb/so/Adverbs
+tamen (indeclinable)/adverb/however
+tandem (indeclinable)/adverb/at last, finally/Adverbs
+tum (indeclinable)/adverb/then/Adverbs
+ubi (indeclinable)/adverb/where? where, when/Adverbs
+umquam (indeclinable)/adverb/ever/Adverbs
+unde (indeclinable)/adverb/from where/Adverbs
+vehementer (indeclinable)/adverb/violently, loudly/Adverbs
+aedifico, aedificare, aedificavi, aedificatus/verb 1/build/Verbs: Constructive Actions
+conor, conari, conatus sum/verb 1/deponent try/Verbs: Constructive Actions
+custodio, custodire, custodivi, custoditus/verb 4/guard/Verbs: Constructive Actions
+defendo, defendere, defendi, defensus/verb 3/defend/Verbs: Constructive Actions
+doceo, docere, docui, doctus/verb 2/teach/Verbs: Constructive Actions
+emo, emere, emi, emptus/verb 3/buy/Verbs: Constructive Actions
+facio, facere, feci, factus/verb 3/make, do/Verbs: Constructive Actions
+hortor, hortari, hortatus sum verb 1/deponent encourage, urge/Verbs: Constructive Actions
+promitto, promittere, promisi, promissus/verb 3/promise/Verbs: Constructive Actions
+resisto, resistere, restiti + dative/verb 3/resist/Verbs: Constructive Actions
+servo, servare, servavi, servatus/verb 1/save, protect, keep/Verbs: Constructive Actions
+bellum, gero gerere, gessi, gestus/verb 3/wage war/Verbs: Destructive Actions
+capio, capere, cepi, captus/verb 3/take, catch, capture/Verbs: Destructive Actions
+cogo, cogere, coegi, coactus/verb 3/force, compel/Verbs: Destructive Actions
+deleo, delere, delevi, deletus /verb 2/destroy/Verbs: Destructive Actions
+incendo, incendere, incendi, incensus/verb 3/burn, set on fire/Verbs: Destructive Actions
+interficio, interficere, interfeci, interfectus/verb 3/kill/Verbs: Destructive Actions
+morior, mori, mortuus sum/verb 3 deponent/die/Verbs: Destructive Actions
+neco, necare, necavi, necatus/verb 1/kill/Verbs: Destructive Actions
+occido, occidere, occidi, occisus/verb 3/kill/Verbs: Destructive Actions
+opprimo, opprimere, oppressi, oppressus/verb 3/crush, overwhelm/Verbs: Destructive Actions
+oppugno, oppugnare, oppugnavi,oppugnatus/verb 1/attack/Verbs: Destructive Actions
+patior, pati, passus sum/verb 3 deponent/suffer, endure/Verbs: Destructive Actions
+pereo, perire, perii/verb irregular/die, perish/Verbs: Destructive Actions
+pugno, pugnare, pugnavi/verb 1/fight/Verbs: Destructive Actions
+punio, punire, punivi, punitus/verb 4/punish/Verbs: Destructive Actions
+rumpo, rumpere, rupi, ruptus/verb 3/break, burst/Verbs: Destructive Actions
+supero, superare, superavi, superatus/verb 1/overcome, overpower/Verbs: Destructive Actions
+vinco, vincere, vici, victus/verb 3/conquer, win, be victorious/Verbs: Destructive Actions
+vulnero, vulnerare, vulneravi, vulneratus/verb 1/wound, injure/Verbs: Destructive Actions
+amo, amare, amavi, amatus/verb 1/love, like/Verbs: Emotions and Feelings
+faveo, favere, favi, fautus + dative/verb 2/favour, support/Verbs: Emotions and Feelings
+gaudeo, gaudere, gavisus sum/verb 2/be pleased, rejoice/Verbs: Emotions and Feelings
+lacrimo, lacrimare, lacrimavi/verb 1/weep, cry/Verbs: Emotions and Feelings
+laudo, laudare, laudavi, laudatus/verb 1/praise/Verbs: Emotions and Feelings
+malo, malle, malui/verb irregular/prefer/Verbs: Emotions and Feelings
+nolo, nolle, nolui /erb irregular/not want, refuse/Verbs: Emotions and Feelings
+precor, precari, precatus sum/verb 1 deponent/pray (to), beg/Verbs: Emotions and Feelings
+rideo, ridere, risi/verb 2/laugh, smile/Verbs: Emotions and Feelings
+spero, sperare, speravi, speratus/verb 1/hope, expect/Verbs: Emotions and Feelings
+terreo, terrere, terrui, territus/verb 2/frighten/Verbs: Emotions and Feelings
+timeo, timere, timui/verb 2/fear, be afraid/Verbs: Emotions and Feelings
+audeo, audere, ausus sum/verb 2/dare/Verbs: Perception, Sensory and Mental Processes
+audio, audire, audivi, auditus/verb 4/hear, listen to/Verbs: Perception, Sensory and Mental Processes
+bibo, bibere, bibi/verb 3 drink/Verbs: Perception, Sensory and Mental Processes
+clamo, clamare, clamavi, clamatus/verb 1/shout/Verbs: Perception, Sensory and Mental Processes
+cogito, cogitare, cogitavi, cogitatus/verb 1/think, consider/Verbs: Perception, Sensory and Mental Processes
+cognosco, cognoscere, cognovi, cognitus/verb 3/get to know, find out/Verbs: Perception, Sensory and Mental Processes
+conspicio, conspicere, conspexi, conspectus/verb 3/catch sight of, notice/Verbs: Perception, Sensory and Mental Processes
+constituo, constituere, constitui, constitutus/verb 3/decide/Verbs: Perception, Sensory and Mental Processes
+consumo, consumere, consumpsi, consumptus/verb 3/eat/Verbs: Perception, Sensory and Mental Processes
+dico, dicere, dixi, dictus/verb 3/say/Verbs: Perception, Sensory and Mental Processes
+exspecto, exspectare, exspectavi, exspectatus/verb 1/wait for/Verbs: Perception, Sensory and Mental Processes
+iaceo, iacere, iacui/verb 2/lie/Verbs: Perception, Sensory and Mental Processes
+impero, imperare, imperavi, imperatus + dative/verb 1/order, command/Verbs: Perception, Sensory and Mental Processes
+inquit/verb irregular/he/she says, he/she said/Verbs: Perception, Sensory and Mental Processes
+intellego, intellegere, intellexi, intellectus/verb 3/understand, realise/Verbs: Perception, Sensory and Mental Processes
+invito invitare, invitavi, invitatus/verb 1/invite/Verbs: Perception, Sensory and Mental Processes
+iubeo, iubere, iussi, iussus/verb 2/order/Verbs: Perception, Sensory and Mental Processes
+lego, legere, legi, lectus/verb 3/read, choose/Verbs: Perception, Sensory and Mental Processes
+loquor, loqui, locutus sum/verb 3 deponent/speak/Verbs: Perception, Sensory and Mental Processes
+miror, mirari, miratus sum/verb 1 deponent/wonder at, admire/Verbs: Perception, Sensory and Mental Processes
+moneo, monere, monui, monitus/verb 2/warn, advise/Verbs: Perception, Sensory and Mental Processes
+narro, narrare, narravi, narratus/verb 1/tell, relate/Verbs: Perception, Sensory and Mental Processes
+nescio, nescire, nescivi/verb 4/not know/Verbs: Perception, Sensory and Mental Processes
+nuntio, nuntiare, nuntiavi, nuntiatus/verb 1/announce/Verbs: Perception, Sensory and Mental Processes
+oro, orare, oravi, oratus/verb 1/beg/Verbs: Perception, Sensory and Mental Processes
+persuadeo, persuadere, persuasi + dative/verb 2/persuade/Verbs: Perception, Sensory and Mental Processes
+puto, putare, putavi, putatus /erb 1/think/Verbs: Perception, Sensory and Mental Processes
+quaero, quaerere, quaesivi, quaesitus/verb 3/search for, look for, ask/Verbs: Perception, Sensory and Mental Processes
+respondeo, respondere, respondi, responsus/verb 2/reply/Verbs: Perception, Sensory and Mental Processes
+rogo, rogare, rogavi, rogatus/verb 1/ask, ask for/Verbs: Perception, Sensory and Mental Processes
+saluto, salutare, salutavi, salutatus/verb 1/greet/Verbs: Perception, Sensory and Mental Processes
+salve!, salvete!/verb imperative plural/hello!/Verbs: Perception, Sensory and Mental Processes
+scio, scire, scivi, scitus/verb 4/know/Verbs: Perception, Sensory and Mental Processes
+scribo, scribere, scripsi, scriptus/verb 3/write/Verbs: Perception, Sensory and Mental Processes
+sentio, sentire, sensi, sensus/verb 4/feel, notice/Verbs: Perception, Sensory and Mental Processes
+specto, spectare, spectavi, spectatus/verb 1/look at, watch/Verbs: Perception, Sensory and Mental Processes
+vale!, valete!/verb imperative plural/goodbye, farewell!/Verbs: Perception, Sensory and Mental Processes
+video, videre, vidi, visus/verb 2/see/Verbs: Perception, Sensory and Mental Processes
+voco, vocare, vocavi, vocatus/verb 1/call/Verbs: Perception, Sensory and Mental Processes
+accipio, accipere, accepi, acceptus/verb 3/accept, take in, receive/Verbs that Affect Motion or Position
+aufero, auferre, abstuli, ablatus/verb irregular/take away, carry off, steal/Verbs that Affect Motion or Position
+celo, celare, celavi, celatus/verb 1/hide/Verbs that Affect Motion or Position
+conficio, conficere, confeci, confectus/verb 3/finish, wear out/Verbs that Affect Motion or Position
+do, dare, dedi, datus/verb 1/give/Verbs that Affect Motion or Position
+duco, ducere, duxi, ductus/verb 3/lead, take/Verbs that Affect Motion or Position
+fero, ferre, tuli, latus/verb irregular/bring, carry, bear/Verbs that Affect Motion or Position
+iacio, iacere, ieci, iactus (in compounds -icio)/verb 3/throw/Verbs that Affect Motion or Position
+invenio, invenire, inveni, inventus/verb 4/find/Verbs that Affect Motion or Position
+libero, liberare, liberavi, liberatus/verb 1/set free/Verbs that Affect Motion or Position
+mitto, mittere, misi, missus/verb 3/send/Verbs that Affect Motion or Position
+moveo, movere, movi, motus/verb 2/move/Verbs that Affect Motion or Position
+offero, offerre, obtuli, oblatus/verb irregular/offer/Verbs that Affect Motion or Position
+ostendo, ostendere, ostendi, ostentus/verb 3/show/Verbs that Affect Motion or Position
+paro, parare, paravi, paratus/verb 1/prepare/Verbs that Affect Motion or Position
+pello, pellere, pepuli, pulsus/verb 3/drive/Verbs that Affect Motion or Position
+pono, ponere, posui, positus/verb 3/put, place, put up/Verbs that Affect Motion or Position
+porto, portare, portavi, portatus/verb 1/carry/Verbs that Affect Motion or Position
+rapio, rapere, rapui, raptus/verb 3/seize, grab/Verbs that Affect Motion or Position
+reddo, reddere, reddidi, redditus/verb 3/give back, restore/Verbs that Affect Motion or Position
+refero, referre, rettuli, relatus/verb irregular/bring/carry back, report, tell/Verbs that Affect Motion or Position
+relinquo, relinquere, reliqui, relictus/verb 3/leave, leave behind/Verbs that Affect Motion or Position
+teneo, tenere, tenui, tentus/verb 2/hold/Verbs that Affect Motion or Position
+tollo, tollere, sustuli, sublatus/verb 3/raise, lift up, hold up/Verbs that Affect Motion or Position
+trado, tradere, tradidi, traditus/verb 3/hand over/Verbs that Affect Motion or Position
+traho, trahere, traxi, tractus/verb 3/drag/Verbs that Affect Motion or Position
+vendo, vendere, vendidi, venditus/verb 3/sell/Verbs that Affect Motion or Position
+verto, vertere, verti, versus/verb 3/turn/Verbs that Affect Motion or Position
+absum, abesse, afui/verb irregular/am absent, am away, am distant from/Verbs that Affect the State of a Subject
+accido, accidere, accidi/verb 3/happen/Verbs that Affect the State of a Subject
+adsum, adesse, adfui/verb irregular/be here, be present/Verbs that Affect the State of a Subject
+credo, credere, credidi, creditus + dative/verb 3/believe, trust/Verbs that Affect the State of a Subject
+cupio, cupere, cupivi, cupitus/verb 3/want, desire/Verbs that Affect the State of a Subject
+debeo, debere, debui, debitus/verb 2/owe, ought, should, must/Verbs that Affect the State of a Subject
+dormio, dormire, dormivi/verb 4/sleep/Verbs that Affect the State of a Subject
+habeo, habere, habui, habitus/verb 2/have/Verbs that Affect the State of a Subject
+habito, habitare, habitavi, habitatus/verb 1/live/Verbs that Affect the State of a Subject
+possum, posse, potui/verb irregular/can, be able/Verbs that Affect the State of a Subject
+rego, regere, rexi, rectus/verb 3/rule/Verbs that Affect the State of a Subject
+sedeo, sedere, sedi/verb 2/sit/Verbs that Affect the State of a Subject
+soleo, solere, solitus sum/verb 2/be accustomed/Verbs that Affect the State of a Subject
+sum, esse, fui/verb irregular/to be/Verbs that Affect the State of a Subject
+taceo, tacere, tacui, tacitus/verb 2/be silent, be quiet/Verbs that Affect the State of a Subject
+videor, videri, visus sum/verb 2/deponent seem, appear/Verbs that Affect the State of a Subject
+vivo, vivere, vixi/verb 3/live, be alive/Verbs that Affect the State of a Subject
+volo, velle, volui/verb irregular/want/Verbs that Affect the State of a Subject
+advenio, advenire, adveni/verb 4/arrive/Verbs that Affect the Motion or Location of a Subject
+ago, agere, egi, actus/verb 3/do, act, drive/Verbs that Affect the Motion or Location of a Subject
+ambulo, ambulare, ambulavi/verb 1/walk/Verbs that Affect the Motion or Location of a Subject
+appareo, apparere, apparui/verb 2/appear/Verbs that Affect the Motion or Location of a Subject
+appropinquo, appropinquare, appropinquavi + dative/verb 1/approach, come near to/Verbs that Affect the Motion or Location of a Subject
+ascendo, ascendere, ascendi, ascensus/verb 3/climb/Verbs that Affect the Motion or Location of a Subject
+cado, cadere, cecidi, casus/verb 3/fall/Verbs that Affect the Motion or Location of a Subject
+coepi, coepisse/verb irregular/begin/Verbs that Affect the Motion or Location of a Subject
+convenio, convenire, conveni/verb 4/come together, gather, meet/Verbs that Affect the Motion or Location of a Subject
+curro, currere, cucurri, cursus/verb 3/run/Verbs that Affect the Motion or Location of a Subject
+descendo, descendere, descendi, descensus/verb 3/go down, come down/Verbs that Affect the Motion or Location of a Subject
+discedo, discedere, discessi/verb 3/depart, leave/Verbs that Affect the Motion or Location of a Subject
+effugio, effugere, effugi/verb 3/escape/Verbs that Affect the Motion or Location of a Subject
+egredior, egredi, egressus sum/verb 3 deponent/go out/Verbs that Affect the Motion or Location of a Subject
+eo, ire, i(v)i/verb irregular/go/Verbs that Affect the Motion or Location of a Subject
+festino, festinare, festinavi/verb 1/hurry/Verbs that Affect the Motion or Location of a Subject
+fugio, fugere, fugi/verb 3/run away, flee/Verbs that Affect the Motion or Location of a Subject
+ingredior, ingredi, ingressus sum/verb 3 deponent/enter/Verbs that Affect the Motion or Location of a Subject
+intro, intrare, intravi, intratus/verb 1/enter/Verbs that Affect the Motion or Location of a Subject
+laboro, laborare, laboravi/verb 1/work/Verbs that Affect the Motion or Location of a Subject
+maneo, manere, mansi/verb 2/remain, stay/Verbs that Affect the Motion or Location of a Subject
+navigo, navigare, navigavi/verb 1/sail/Verbs that Affect the Motion or Location of a Subject
+pervenio, pervenire, perveni, perventus/verb 4/reach, arrive at/Verbs that Affect the Motion or Location of a Subject
+peto, petere, petivi, petitus/verb 3/make for, seek, beg/ask for/Verbs that Affect the Motion or Location of a Subject
+procedo, procedere, processi/verb 3/advance, proceed/Verbs that Affect the Motion or Location of a Subject
+proficiscor, proficisci, profectus sum/verb 3 deponent/set out/Verbs that Affect the Motion or Location of a Subject
+progredior, progredi, progressus sum/verb 3 deponent/advance/Verbs that Affect the Motion or Location of a Subject
+redeo, redire, redii/verb irregular/go back, come back, return/Verbs that Affect the Motion or Location of a Subject
+regredior, regredi, regressus sum/verb 3 deponent/go back, return/Verbs that Affect the Motion or Location of a Subject
+sequor, sequi, secutus sum/verb 3 deponent/follow/Verbs that Affect the Motion or Location of a Subject
+sto, stare, steti/verb 1/stand/Verbs that Affect the Motion or Location of a Subject
+surgo, surgere, surrexi/verb 3/get up, stand up, rise/Verbs that Affect the Motion or Location of a Subject
+venio, venire, veni/verb 4/come/Verbs that Affect the Motion or Location of a Subject
+-que (indeclinable)/conjunction/and/Conjunctions
+ac, atque (indeclinable)/conjunction/and/Conjunctions
+autem (indeclinable)/conjunction/but, however/Conjunctions
+cum (indeclinable)/conjunction/when, since/Conjunctions
+dum (indeclinable)/conjunction/while, until/Conjunctions
+enim (indeclinable)/conjunction/for/Conjunctions
+et (indeclinable)/conjunction/and/Conjunctions
+nam (indeclinable)/conjunction/for/Conjunctions
+ne (indeclinable) + subjunctive/conjunction/that ... not, so that ... not, that, lest/Conjunctions
+nec, neque (indeclinable)/conjunction/and not, nor, neither/Conjunctions
+nisi (indeclinable)/conjunction/unless, except/Conjunctions
+postquam (indeclinable)/conjunction/after, when/Conjunctions
+quamquam (indeclinable)/conjunction/although/Conjunctions
+quod (indeclinable)/conjunction/because/Conjunctions
+quoque (indeclinable)/conjunction/also, too/Conjunctions
+sed (indeclinable)/conjunction/but/Conjunctions
+si (indeclinable)/conjunction/if/Conjunctions
+simulac, simulatque (indeclinable)/conjunction/as soon as/Conjunctions
+ut (indeclinable) + subjunctive/conjunction/that, so that, in order that/Conjunctions
+ut (indeclinable) + indicative/conjunction/as, when/Conjunctions
+ego, mei/pronoun/I, me/Pronouns and Pronominal Adjectives
+hic, haec, hoc/pronoun/this, he, she, it/Pronouns and Pronominal Adjectives
+idem, eadem, idem/pronoun/the same/Pronouns and Pronominal Adjectives
+ille, ilIa, illud/pronoun/that, he, she, it/Pronouns and Pronominal Adjectives
+ipse, ipsa, ipsum/pronoun/himself, herself, itself, themselves/Pronouns and Pronominal Adjectives
+is, ea, id/pronoun/this, that, he, she, it, them/Pronouns and Pronominal Adjectives
+meus, mea, meum/pronoun/my/Pronouns and Pronominal Adjectives
+nos, nostrum/pronoun/we, us/Pronouns and Pronominal Adjectives
+noster, nostra, nostrum/pronoun/our/Pronouns and Pronominal Adjectives
+qui, quae, quod/pronoun/who, which/Pronouns and Pronominal Adjectives
+quidam, quaedam, quoddam/pronoun/one, a certain, some/Pronouns and Pronominal Adjectives
+quis? quid?/pronoun/who? what?/Pronouns and Pronominal Adjectives
+se, sui/pronoun/himself, herself, itself, themselves/Pronouns and Pronominal Adjectives
+suus, sua, suum/pronoun/his, her, its, their (own)/Pronouns and Pronominal Adjectives
+tu, tui/pronoun/you (singular)/Pronouns and Pronominal Adjectives
+tuus, tua, tuum/pronoun/your (singular), yours/Pronouns and Pronominal Adjectives
+vester, vestra, vestrum/pronoun/your (plural), yours/Pronouns and Pronominal Adjectives
+vos, vestrum/pronoun/you (plural)/Pronouns and Pronominal Adjectives
+alius, alia, aliud/pronoun/adjective other, another, else/Pronouns and Pronominal Adjectives
+alter, altera, alterum/pronoun/adjective the other, another, the second of two/Pronouns and Pronominal Adjectives
+ceteri, ceterae, cetera/adjective/the rest, the others/Pronouns and Pronominal Adjectives
+-ne (indeclinable)/particle/(introduces question)/Particles
+num (indeclinable)/particle/whether/Particles
+num ... ? (indeclinable)/particle/surely … not?/Particles
+re-/prefix/-back/Particles
+a, ab (+ abl) (also used as prefix with verbs)/preposition/from, away from, by/Prepositions
+ad (+ acc) (also used as prefix with verbs)/preposition/to, towards, at/Prepositions
+ante (+ acc)/preposition/before, in front of/Prepositions
+apud (+ acc)/preposition/among, with, at the house of/Prepositions
+circum (+ acc)/preposition/around/Prepositions
+contra (+ acc)/preposition/against/Prepositions
+cum (+ abl)/preposition/with/Prepositions
+de (+ abl)/preposition/from, down from, about/Prepositions
+e, ex (+ abl) (also used as prefix with verbs)/preposition/from, out of, out/Prepositions
+in (+ abl) (also used as prefix with verbs)/preposition/in, on/Prepositions
+in (+ acc) (also used as prefix with verbs)/preposition/into, onto/Prepositions
+inter (+ acc)/preposition/among, between/Prepositions
+per (+ acc)/preposition/through, along/Prepositions
+post (+ acc)/preposition/after, behind/Prepositions
+pro (+ abl)/preposition/in front of, for, in return for/Prepositions
+prope (+ acc)/preposition/near/Prepositions
+propter (+ acc)/preposition/on account of, because of/Prepositions
+sine (+ abl)/preposition/without/Prepositions
+sub (+ acc) or ablative/preposition/under, beneath/Prepositions
+trans (+ acc) (also used as prefix with verbs)/preposition/across/Prepositions

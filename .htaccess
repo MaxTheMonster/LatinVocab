@@ -1,0 +1,16 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^latinvocab.maximumrevision\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.latinvocab.maximumrevision\.com$
+RewriteRule ^/?$ "http\:\/\/latinvocab\.maximumrevision\.co\.uk\/" [R=301,L]
+
+AddHandler fcgid-script .fcgi
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ latinvocab.fcgi/$1 [QSA,L]
+
+<IfModule mod_expires.c>
+   ExpiresActive on
+   ExpiresDefault "access plus 1 month"
+   ExpiresByType application/javascript "access plus 1 year"
+   ExpiresByType image/x-ico "access plus 1 year"
+   ExpiresByType text/css "access plus 14 days"
+</IfModule>

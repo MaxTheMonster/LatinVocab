@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GCSE Latin Vocabulary</title>
+  <link rel="stylesheet" href="{% static "styles.css" %}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link rel="icon" href="{% static "favicon.ico" %}"/>
+</head>
+<body>
+  <h1><a id="test" href="/test/">Test me!</a></h1>
+  <h1 id="title">Search through GCSE Latin Vocabulary</h1>
+  {% csrf_token %}
+  <input type="text" id="search" name="search">
+  <div id="search-results"></div>
+  <script>
+  $(function(){
+
+      $('#search').keyup(function() {
+          console.log("KEY");
+          $.ajax({
+              type: "POST",
+              url: "/search/",
+              data: {
+                  'search_text' : $('#search').val(),
+                  'csrfmiddlewaretoken' : $("input[name=csrfmiddlewaretoken]").val()
+              },
+              success: searchSuccess,
+              dataType: 'html'
+          });
+
+      });
+
+  });
+
+  function searchSuccess(data, textStatus, jqXHR)
+  {
+      $('#search-results').html(data);
+  }
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53354801-6', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

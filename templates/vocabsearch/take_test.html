@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GCSE Latin Vocabulary Quiz</title>
+  <link rel="icon" href="{% static "favicon.ico" %}"/>
+  <link rel="stylesheet" href="{% static "styles.css" %}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+  <h1><a id="test" href="/">Home</a></h1>
+  <h1 id="title">GCSE Latin Vocabulary Test</h1>
+  <h2 id="question-track">Question <span id="count"></span> out of {{ amount }}</h2>
+
+  <div class="scores">
+    <h1 id="retake" onclick="window.location.reload(false);">Retake</h1>
+    <h1>You scored <span id="corrects"></span> out of {{ amount }}</h1>
+    <h1 id="percentage"></h1>
+    <div class="report">
+      <div class="incorrectquestions"></div>
+      <div class="answers"></div>
+      <div class="correctanswers"></div>
+    </div>
+  </div>
+
+  <div class="questions">
+  {% if direction == "latin" %}
+    {% for word in words %}
+    <div class="question">
+      <h2>{{ word.latin }}</h2>
+      <input type="text" class="answer" autocomplete= "off" name="answer">
+
+      <input type="button" value=">" class="answer_button" onclick="checkAnswer({{ forloop.counter }});">
+    </div>
+    {% endfor %}
+  {% else %}
+    {% for word in words %}
+    <div class="question">
+      <h2>{{ word.english }}</h2>
+      <input type="text" class="answer" autocomplete= "off" name="answer">
+
+      <input type="button" value=">" class="answer_button" onclick="checkAnswer({{ forloop.counter }});">
+    </div>
+    {% endfor %}
+  {% endif %}
+  </div>
+
+  <script>
+  var score = 0;
+  var corrects = 0;
+  var incorrects = 0;
+  var incorrectQuestions = [];
+  var incorrectAnswers = [];
+  var questions = [];
+  var answers = [];
+  var correctAnswers = [];
+  {% for current_answer in answers %}
+    var newLength = answers.push('{{ current_answer }}');
+  {% endfor %}
+  {% for current_question in words %}
+    {% if direction == "latin" %}
+    var newLength = questions.push("{{ current_question.latin }}");
+    {% else %}
+    var newLength = questions.push("{{ current_question.english }}");
+    {% endif %}
+  {% endfor %}
+  console.log(questions);
+  console.log(answers);
+
+  function correct() {
+    console.log("CORRECT")
+    corrects = corrects + 1;
+    correct_text = document.createTextNode(corrects);
+    $("#correct").innerText = correct_text.textContent;
+  }
+
+  function incorrect(users_answer, count) {
+    incorrects = incorrects + 1;
+    var incans = incorrectAnswers.push(users_answer)
+    var incques = incorrectQuestions.push(questions[count])
+    var correct_answer = correctAnswers.push(answers[count]);
+    console.log("WRONG");
+  }
+
+  function nextQuestion(count) {
+    count = count + 2;
+    $(".question:nth-of-type(" + (count -1 ) +")").css("display", "none");
+    $(".question:nth-of-type(" + (count ) +")").keyup(function (e) {
+     var key = e.which;
+     if(key == 13)  {
+       console.log(count)
+       $('.question:nth-of-type(' + count + ') .answer_button').click();
+      }
+    });
+
+    if (count > answers.length) {
+      $(".scores").fadeIn();
+      $(".incorrectquestions").append("<h2>Incorrect Questions</h2>");
+      $(".answers").append("<h2>Your Answers</h2>");
+      $(".correctanswers").append("<h2>Correct Answers</h2>");
+      $("#test").fadeIn()
+      for (var incorrect in incorrectQuestions) {
+        console.log(incorrectQuestions[incorrect]);
+        $(".incorrectquestions").append("<h3>" + incorrectQuestions[incorrect] + "</h3>");
+      }
+      for (var corrections in incorrectAnswers) {
+        $(".answers").append("<h3 class='correction'>" + incorrectAnswers[corrections] + "</h3>")
+      }
+      for (var correc in correctAnswers) {
+        $(".correctanswers").append("<h3>" + correctAnswers[correc] + "</h3>")
+      }
+
+      $("#question-track").fadeOut();
+
+      scores_text = document.createTextNode(corrects);
+      percentage = document.createTextNode((corrects / {{ amount }})*100 + "%");
+      document.getElementById("corrects").innerText = scores_text.textContent;
+      document.getElementById("percentage").innerText = percentage.textContent;
+
+    }
+
+    text = document.createTextNode(count);
+    document.getElementById("count").innerText = text.textContent;
+    $(".question:nth-of-type(" + (count) +")").css("display", "block");
+    $(".answer").focus();
+  }
+
+  function checkAnswer(count) {
+    console.log(count);
+    count = count - 1;
+    var user_answer = document.getElementsByClassName("answer")[count].value;
+    user_answer = user_answer.toLowerCase()
+    if (user_answer === "") {
+      user_answer = "None";
+    }
+    console.log(user_answer);
+    answer = answers[count];
+    if ("{{ direction }}" === "latin") {
+      possible_answers = answer.split(", ");
+    } else {
+      possible_answers = [answer];
+    }
+    console.log(possible_answers);
+    if ( possible_answers.indexOf(user_answer) >= 0 ) {
+      correct();
+    } else {
+      incorrect(user_answer, count);
+    }
+
+    nextQuestion(count);
+  }
+  $("#test").hide();
+  nextQuestion(-1);
+  </script>
+
+
+</body>
+</html>
