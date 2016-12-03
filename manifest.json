@@ -1,0 +1,14 @@
+{
+  "name": "GCSE Latin Vocabulary",
+  "icons": [
+    {
+      "src": "static/launcher-favicon.png",
+      "sizes": "16x16",
+      "type": "image/png",
+      "density": 0.5
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait"
+}
