@@ -244,20 +244,20 @@ umquam (indeclinable)/adverb/ever/Adverbs
 unde (indeclinable)/adverb/from where/Adverbs
 vehementer (indeclinable)/adverb/violently, loudly/Adverbs
 aedifico, aedificare, aedificavi, aedificatus/verb 1/build/Verbs: Constructive Actions
-conor, conari, conatus sum/verb 1/deponent try/Verbs: Constructive Actions
+conor, conari, conatus sum/verb 1 deponent/try/Verbs: Constructive Actions
 custodio, custodire, custodivi, custoditus/verb 4/guard/Verbs: Constructive Actions
 defendo, defendere, defendi, defensus/verb 3/defend/Verbs: Constructive Actions
 doceo, docere, docui, doctus/verb 2/teach/Verbs: Constructive Actions
 emo, emere, emi, emptus/verb 3/buy/Verbs: Constructive Actions
 facio, facere, feci, factus/verb 3/make, do/Verbs: Constructive Actions
-hortor, hortari, hortatus sum verb 1/deponent encourage, urge/Verbs: Constructive Actions
+hortor, hortari, hortatus sum/verb 1 deponent/encourage, urge/Verbs: Constructive Actions
 promitto, promittere, promisi, promissus/verb 3/promise/Verbs: Constructive Actions
 resisto, resistere, restiti + dative/verb 3/resist/Verbs: Constructive Actions
 servo, servare, servavi, servatus/verb 1/save, protect, keep/Verbs: Constructive Actions
 bellum, gero gerere, gessi, gestus/verb 3/wage war/Verbs: Destructive Actions
 capio, capere, cepi, captus/verb 3/take, catch, capture/Verbs: Destructive Actions
 cogo, cogere, coegi, coactus/verb 3/force, compel/Verbs: Destructive Actions
-deleo, delere, delevi, deletus /verb 2/destroy/Verbs: Destructive Actions
+deleo, delere, delevi, deletus/verb 2/destroy/Verbs: Destructive Actions
 incendo, incendere, incendi, incensus/verb 3/burn, set on fire/Verbs: Destructive Actions
 interficio, interficere, interfeci, interfectus/verb 3/kill/Verbs: Destructive Actions
 morior, mori, mortuus sum/verb 3 deponent/die/Verbs: Destructive Actions
@@ -266,8 +266,8 @@ occido, occidere, occidi, occisus/verb 3/kill/Verbs: Destructive Actions
 opprimo, opprimere, oppressi, oppressus/verb 3/crush, overwhelm/Verbs: Destructive Actions
 oppugno, oppugnare, oppugnavi,oppugnatus/verb 1/attack/Verbs: Destructive Actions
 patior, pati, passus sum/verb 3 deponent/suffer, endure/Verbs: Destructive Actions
-pereo, perire, perii/verb irregular/die, perish/Verbs: Destructive Actions
-pugno, pugnare, pugnavi/verb 1/fight/Verbs: Destructive Actions
+pereo, perire, perii, peritus/verb irregular/die, perish/Verbs: Destructive Actions
+pugno, pugnare, pugnavi, pugnatus/verb 1/fight/Verbs: Destructive Actions
 punio, punire, punivi, punitus/verb 4/punish/Verbs: Destructive Actions
 rumpo, rumpere, rupi, ruptus/verb 3/break, burst/Verbs: Destructive Actions
 supero, superare, superavi, superatus/verb 1/overcome, overpower/Verbs: Destructive Actions
@@ -276,7 +276,7 @@ vulnero, vulnerare, vulneravi, vulneratus/verb 1/wound, injure/Verbs: Destructiv
 amo, amare, amavi, amatus/verb 1/love, like/Verbs: Emotions and Feelings
 faveo, favere, favi, fautus + dative/verb 2/favour, support/Verbs: Emotions and Feelings
 gaudeo, gaudere, gavisus sum/verb 2/be pleased, rejoice/Verbs: Emotions and Feelings
-lacrimo, lacrimare, lacrimavi/verb 1/weep, cry/Verbs: Emotions and Feelings
+lacrimo, lacrimare, lacrimavi, lacrimatus/verb 1/weep, cry/Verbs: Emotions and Feelings
 laudo, laudare, laudavi, laudatus/verb 1/praise/Verbs: Emotions and Feelings
 malo, malle, malui/verb irregular/prefer/Verbs: Emotions and Feelings
 nolo, nolle, nolui /erb irregular/not want, refuse/Verbs: Emotions and Feelings
@@ -284,10 +284,10 @@ precor, precari, precatus sum/verb 1 deponent/pray (to), beg/Verbs: Emotions and
 rideo, ridere, risi/verb 2/laugh, smile/Verbs: Emotions and Feelings
 spero, sperare, speravi, speratus/verb 1/hope, expect/Verbs: Emotions and Feelings
 terreo, terrere, terrui, territus/verb 2/frighten/Verbs: Emotions and Feelings
-timeo, timere, timui/verb 2/fear, be afraid/Verbs: Emotions and Feelings
+timeo, timere, timui, timitus/verb 2/fear, be afraid/Verbs: Emotions and Feelings
 audeo, audere, ausus sum/verb 2/dare/Verbs: Perception, Sensory and Mental Processes
 audio, audire, audivi, auditus/verb 4/hear, listen to/Verbs: Perception, Sensory and Mental Processes
-bibo, bibere, bibi/verb 3 drink/Verbs: Perception, Sensory and Mental Processes
+bibo, bibere, bibi, bibitus/verb 3 drink/Verbs: Perception, Sensory and Mental Processes
 clamo, clamare, clamavi, clamatus/verb 1/shout/Verbs: Perception, Sensory and Mental Processes
 cogito, cogitare, cogitavi, cogitatus/verb 1/think, consider/Verbs: Perception, Sensory and Mental Processes
 cognosco, cognoscere, cognovi, cognitus/verb 3/get to know, find out/Verbs: Perception, Sensory and Mental Processes
@@ -367,7 +367,7 @@ sedeo, sedere, sedi/verb 2/sit/Verbs that Affect the State of a Subject
 soleo, solere, solitus sum/verb 2/be accustomed/Verbs that Affect the State of a Subject
 sum, esse, fui/verb irregular/to be/Verbs that Affect the State of a Subject
 taceo, tacere, tacui, tacitus/verb 2/be silent, be quiet/Verbs that Affect the State of a Subject
-videor, videri, visus sum/verb 2/deponent seem, appear/Verbs that Affect the State of a Subject
+videor, videri, visus sum/verb 2 deponent/seem, appear/Verbs that Affect the State of a Subject
 vivo, vivere, vixi/verb 3/live, be alive/Verbs that Affect the State of a Subject
 volo, velle, volui/verb irregular/want/Verbs that Affect the State of a Subject
 advenio, advenire, adveni/verb 4/arrive/Verbs that Affect the Motion or Location of a Subject

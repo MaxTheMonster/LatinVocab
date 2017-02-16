@@ -19,19 +19,19 @@ class IndexView(generic.TemplateView):
             context['words'] = serializers.serialize('json', Word.objects.all(), fields=("latin", "english", "category", "type"))
             return context
 
-def search_words(request):
-    if request.method == "POST":
-        if request.POST["search_text"] == "":
-            search_text = ""
-        else:
-            search_text = request.POST["search_text"]
-    else:
-        search_text = ''
-#  | Word.objects.filter(english__contains=search_text)
-    start_words = Word.objects.filter(latin__startswith=search_text) | Word.objects.filter(english__startswith=search_text)
-    words = Word.objects.filter(latin__contains=search_text) | Word.objects.filter(english__contains=search_text)
+# def search_words(request):
+#     if request.method == "POST":
+#         if request.POST["search_text"] == "":
+#             search_text = ""
+#         else:
+#             search_text = request.POST["search_text"]
+#     else:
+#         search_text = ''
+# #  | Word.objects.filter(english__contains=search_text)
+#     start_words = Word.objects.filter(latin__startswith=search_text) | Word.objects.filter(english__startswith=search_text)
+#     words = Word.objects.filter(latin__contains=search_text) | Word.objects.filter(english__contains=search_text)
 
-    return render(request, "ajax_search.html", {"words": words, "startwords": start_words})
+#     return render(request, "ajax_search.html", {"words": words, "startwords": start_words})
 
 
 def init_test(request):

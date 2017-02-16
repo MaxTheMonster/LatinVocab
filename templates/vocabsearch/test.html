@@ -10,10 +10,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <link rel="stylesheet" href="{% static "styles.css" %}">
 </head>
-<body>
+<body class="test_body">
   <h1><a id="test" href="/">Home</a></h1>
   <h1 id="title">GCSE Latin Vocabulary Test</h1>
-  {%csrf_token%}
+  {% csrf_token %}
   <form action="" id="test_form" name="test_form">
     <div class="selection">
       <label for="type">What would you like to be tested on?</label>

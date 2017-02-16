@@ -19,8 +19,6 @@ from vocabsearch import views
 
 urlpatterns = [
     url(r'^$', views.IndexView.as_view(), name="index"),
-    url(r'^search/', views.search_words, name='search_words'),
-
     url(r'^test/$', views.init_test, name="init_test"),
     url(r'^test/([a-zA-Z]+)/(\d+)/([a-zA-Z]+)/$', views.test, name="take_test"),
     url(r'^admin/', admin.site.urls),

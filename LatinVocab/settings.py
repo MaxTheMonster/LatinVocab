@@ -22,12 +22,12 @@ STATICFILES_DIRS = [STATIC_DIR, ]
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '*)!g2rox9nc3-x@ywzt_b7nxh907r_&$6f7(xol1bx*(w$4-x3'
-
+#SECRET_KEY = '*)!g2rox9nc3-x@ywzt_b7nxh907r_&$6f7(xol1bx*(w$4-x3'
+SECRET_KEY = os.environ['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["localhost", "http://latinvocab.maximumrevision.co.uk", "http://maximumrevision.co.uk"]
 
 
 # Application definition
