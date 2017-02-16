@@ -1,16 +1,23 @@
 import random
+
 from django.shortcuts import render
+import json
+
+from django.core import serializers
 from django.db.models import Q
 from vocabsearch.models import Word
 from django.template.context_processors import csrf
+from django.views import generic
 from django.views.decorators.csrf import ensure_csrf_cookie
 
-@ensure_csrf_cookie
-def index(request):
-    args = {}
-    args.update(csrf(request))
-    return render(request, "vocabsearch/index.html")
+class IndexView(generic.TemplateView):
+    template_name = "vocabsearch/index.html"
+    # words = json.dumps(list(words_queryset), cls=DjangoJSONEncoder)
 
+    def get_context_data(self, **kwargs):
+            context = super(IndexView, self).get_context_data(**kwargs)
+            context['words'] = serializers.serialize('json', Word.objects.all(), fields=("latin", "english", "category", "type"))
+            return context
 
 def search_words(request):
     if request.method == "POST":

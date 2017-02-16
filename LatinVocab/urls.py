@@ -18,7 +18,7 @@ from django.contrib import admin
 from vocabsearch import views
 
 urlpatterns = [
-    url(r'^$', views.index, name="index"),
+    url(r'^$', views.IndexView.as_view(), name="index"),
     url(r'^search/', views.search_words, name='search_words'),
 
     url(r'^test/$', views.init_test, name="init_test"),
