@@ -426,7 +426,7 @@ ut (indeclinable) + indicative/conjunction/as, when/Conjunctions
 ego, mei/pronoun/I, me/Pronouns and Pronominal Adjectives
 hic, haec, hoc/pronoun/this, he, she, it/Pronouns and Pronominal Adjectives
 idem, eadem, idem/pronoun/the same/Pronouns and Pronominal Adjectives
-ille, ilIa, illud/pronoun/that, he, she, it/Pronouns and Pronominal Adjectives
+ille, illa, illud/pronoun/that, he, she, it/Pronouns and Pronominal Adjectives
 ipse, ipsa, ipsum/pronoun/himself, herself, itself, themselves/Pronouns and Pronominal Adjectives
 is, ea, id/pronoun/this, that, he, she, it, them/Pronouns and Pronominal Adjectives
 meus, mea, meum/pronoun/my/Pronouns and Pronominal Adjectives
