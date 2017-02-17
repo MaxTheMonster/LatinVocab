@@ -67,7 +67,7 @@ labor, laboris, m/noun 3/work/Nouns: Object
 liber, libri, m/noun 2/book/Nouns: Object
 modus, modi, m/noun 2/manner, way, kind/Nouns: Object
 murus, muri, m/noun 2/wall/Nouns: Object
-nihil (indeclinable)/noun irregular/nothing/Nouns: Object
+nihil/noun irregular/nothing/Nouns: Object
 pars, partis, f/noun 3/part/Nouns: Object
 pecunia, pecuniae, f/noun 1/money/Nouns: Object
 poena, poenae, f/noun 1/punishment/Nouns: Object
@@ -178,71 +178,71 @@ omnis, omne/adjective/all, every/Adjectives: Size
 parvus, parva, parvum/adjective/small/Adjectives: Size
 plenus, plena, plenum/adjective/full/Adjectives: Size
 quantus?, quanta?, quantum?/adjective/how big? how much?/Adjectives: Size
-quot? (indeclinable)/adjective/how many?/Adjectives: Size
+quot?/adjective/how many?/Adjectives: Size
 solus, sola, solum/adjective/alone, lonely, only, on one's own/Adjectives: Size
-tot (indeclinable)/adjective/so many/Adjectives: Size
+tot/adjective/so many/Adjectives: Size
 totus, tota, totum/adjective/whole/Adjectives: Size
 celer, celeris, celere/adjective/quick, fast/Adjectives: Time
 lentus, lenta, lentum/adjective/slow/Adjectives: Time
 novus, nova, novum/adjective/new/Adjectives: Time
 vivus, viva, vivum/adjective/alive, living/Adjectives: Time
-adeo (indeclinable)/adverb/so much, so greatly/Adverbs
-antea (indeclinable)/adverb/before/Adverbs
-bene (indeclinable)/adverb/well/Adverbs
-cras (indeclinable)/adverb/tomorrow/Adverbs
-cur? (indeclinable)/adverb/why?/Adverbs
-deinde (indeclinable)/adverb/then/Adverbs
-diu (indeclinable)/adverb/for a long time/Adverbs
-ecce! (indeclinable)/adverb/look!/Adverbs
-etiam (indeclinable)/adverb/also, even/Adverbs
-forte (indeclinable)/adverb/by chance/Adverbs
-frustra (indeclinable)/adverb/in vain/Adverbs
-heri (indeclinable)/adverb/yesterday/Adverbs
-hic (indeclinable)/adverb/here/Adverbs
-hodie (indeclinable)/adverb/today/Adverbs
-iam (indeclinable)/adverb/now, already/Adverbs
-ibi (indeclinable)/adverb/there/Adverbs
-igitur (indeclinable)/adverb/therefore, and so/Adverbs
-interea (indeclinable)/adverb/meanwhile/Adverbs
-ita (indeclinable)/adverb/in this way, to such an extent, so/Adverbs
-itaque (indeclinable)/adverb/and so, therefore/Adverbs
-iterum (indeclinable)/adverb/again/Adverbs
-libenter (indeclinable)/adverb/willingly, gladly/Adverbs
-magis (indeclinable)/adverb/more/Adverbs
+adeo/adverb/so much, so greatly/Adverbs
+antea/adverb/before/Adverbs
+bene/adverb/well/Adverbs
+cras/adverb/tomorrow/Adverbs
+cur?/adverb/why?/Adverbs
+deinde/adverb/then/Adverbs
+diu/adverb/for a long time/Adverbs
+ecce!/adverb/look!/Adverbs
+etiam/adverb/also, even/Adverbs
+forte/adverb/by chance/Adverbs
+frustra/adverb/in vain/Adverbs
+heri/adverb/yesterday/Adverbs
+hic/adverb/here/Adverbs
+hodie/adverb/today/Adverbs
+iam/adverb/now, already/Adverbs
+ibi/adverb/there/Adverbs
+igitur/adverb/therefore, and so/Adverbs
+interea/adverb/meanwhile/Adverbs
+ita/adverb/in this way, to such an extent, so/Adverbs
+itaque/adverb/and so, therefore/Adverbs
+iterum/adverb/again/Adverbs
+libenter/adverb/willingly, gladly/Adverbs
+magis/adverb/more/Adverbs
 magnopere indeclinable)/adverb/greatly/Adverbs
-maxime (indeclinable)/adverb/very greatly/Adverbs
-minime (indeclinable)/adverb/very little, least, no/Adverbs
-mox (indeclinable)/adverb/soon/Adverbs
-multo (indeclinable)/adverb/much/Adverbs
-non (indeclinable)/adverb/not/Adverbs
-nonne …? (indeclinable)/adverb/surely ... ?/Adverbs
-numquam (indeclinable)/adverb/never/Adverbs
-nunc (indeclinable)/adverb/now/Adverbs
-olim (indeclinable)/adverb/once, some time ago/Adverbs
-paene (indeclinable)/adverb/almost, nearly/Adverbs
-postea (indeclinable)/adverb/afterwards/Adverbs
-postridie (indeclinable)/adverb/on the next day/Adverbs
-primo (indeclinable)/adverb/at first/Adverbs
-quam (indeclinable)/adverb/than/Adverbs
-quam? quam! (indeclinable)/adverb/how … ? how … !/Adverbs
-quando? (indeclinable)/adverb/when?/Adverbs
-quo? (indeclinable)/adverb/to where?/Adverbs
-quomodo? (indeclinable)/adverb/how?/Adverbs
-saepe (indeclinable)/adverb/often/Adverbs
-satis (indeclinable)/adverb/enough/Adverbs
-semper (indeclinable)/adverb/always/Adverbs
-sic (indeclinable)/adverb/thus, in this way/Adverbs
-simul (indeclinable)/adverb/at the same time/Adverbs
-statim (indeclinable)/adverb/at once, immediately/Adverbs
-subito (indeclinable)/adverb/suddenly/Adverbs
-tam (indeclinable)/adverb/so/Adverbs
-tamen (indeclinable)/adverb/however
-tandem (indeclinable)/adverb/at last, finally/Adverbs
-tum (indeclinable)/adverb/then/Adverbs
-ubi (indeclinable)/adverb/where? where, when/Adverbs
-umquam (indeclinable)/adverb/ever/Adverbs
-unde (indeclinable)/adverb/from where/Adverbs
-vehementer (indeclinable)/adverb/violently, loudly/Adverbs
+maxime/adverb/very greatly/Adverbs
+minime/adverb/very little, least, no/Adverbs
+mox/adverb/soon/Adverbs
+multo/adverb/much/Adverbs
+non/adverb/not/Adverbs
+nonne …?/adverb/surely ... ?/Adverbs
+numquam/adverb/never/Adverbs
+nunc/adverb/now/Adverbs
+olim/adverb/once, some time ago/Adverbs
+paene/adverb/almost, nearly/Adverbs
+postea/adverb/afterwards/Adverbs
+postridie/adverb/on the next day/Adverbs
+primo/adverb/at first/Adverbs
+quam/adverb/than/Adverbs
+quam? quam!/adverb/how … ? how … !/Adverbs
+quando?/adverb/when?/Adverbs
+quo?/adverb/to where?/Adverbs
+quomodo?/adverb/how?/Adverbs
+saepe/adverb/often/Adverbs
+satis/adverb/enough/Adverbs
+semper/adverb/always/Adverbs
+sic/adverb/thus, in this way/Adverbs
+simul/adverb/at the same time/Adverbs
+statim/adverb/at once, immediately/Adverbs
+subito/adverb/suddenly/Adverbs
+tam/adverb/so/Adverbs
+tamen/adverb/however
+tandem/adverb/at last, finally/Adverbs
+tum/adverb/then/Adverbs
+ubi/adverb/where? where, when/Adverbs
+umquam/adverb/ever/Adverbs
+unde/adverb/from where/Adverbs
+vehementer/adverb/violently, loudly/Adverbs
 aedifico, aedificare, aedificavi, aedificatus/verb 1/build/Verbs: Constructive Actions
 conor, conari, conatus sum/verb 1 deponent/try/Verbs: Constructive Actions
 custodio, custodire, custodivi, custoditus/verb 4/guard/Verbs: Constructive Actions
@@ -279,7 +279,7 @@ gaudeo, gaudere, gavisus sum/verb 2/be pleased, rejoice/Verbs: Emotions and Feel
 lacrimo, lacrimare, lacrimavi, lacrimatus/verb 1/weep, cry/Verbs: Emotions and Feelings
 laudo, laudare, laudavi, laudatus/verb 1/praise/Verbs: Emotions and Feelings
 malo, malle, malui/verb irregular/prefer/Verbs: Emotions and Feelings
-nolo, nolle, nolui /erb irregular/not want, refuse/Verbs: Emotions and Feelings
+nolo, nolle, nolui/erb irregular/not want, refuse/Verbs: Emotions and Feelings
 precor, precari, precatus sum/verb 1 deponent/pray (to), beg/Verbs: Emotions and Feelings
 rideo, ridere, risi/verb 2/laugh, smile/Verbs: Emotions and Feelings
 spero, sperare, speravi, speratus/verb 1/hope, expect/Verbs: Emotions and Feelings
@@ -311,7 +311,7 @@ nescio, nescire, nescivi/verb 4/not know/Verbs: Perception, Sensory and Mental P
 nuntio, nuntiare, nuntiavi, nuntiatus/verb 1/announce/Verbs: Perception, Sensory and Mental Processes
 oro, orare, oravi, oratus/verb 1/beg/Verbs: Perception, Sensory and Mental Processes
 persuadeo, persuadere, persuasi + dative/verb 2/persuade/Verbs: Perception, Sensory and Mental Processes
-puto, putare, putavi, putatus /erb 1/think/Verbs: Perception, Sensory and Mental Processes
+puto, putare, putavi, putatus/erb 1/think/Verbs: Perception, Sensory and Mental Processes
 quaero, quaerere, quaesivi, quaesitus/verb 3/search for, look for, ask/Verbs: Perception, Sensory and Mental Processes
 respondeo, respondere, respondi, responsus/verb 2/reply/Verbs: Perception, Sensory and Mental Processes
 rogo, rogare, rogavi, rogatus/verb 1/ask, ask for/Verbs: Perception, Sensory and Mental Processes
@@ -403,26 +403,26 @@ sequor, sequi, secutus sum/verb 3 deponent/follow/Verbs that Affect the Motion o
 sto, stare, steti/verb 1/stand/Verbs that Affect the Motion or Location of a Subject
 surgo, surgere, surrexi/verb 3/get up, stand up, rise/Verbs that Affect the Motion or Location of a Subject
 venio, venire, veni/verb 4/come/Verbs that Affect the Motion or Location of a Subject
--que (indeclinable)/conjunction/and/Conjunctions
-ac, atque (indeclinable)/conjunction/and/Conjunctions
-autem (indeclinable)/conjunction/but, however/Conjunctions
-cum (indeclinable)/conjunction/when, since/Conjunctions
-dum (indeclinable)/conjunction/while, until/Conjunctions
-enim (indeclinable)/conjunction/for/Conjunctions
-et (indeclinable)/conjunction/and/Conjunctions
-nam (indeclinable)/conjunction/for/Conjunctions
-ne (indeclinable) + subjunctive/conjunction/that ... not, so that ... not, that, lest/Conjunctions
-nec, neque (indeclinable)/conjunction/and not, nor, neither/Conjunctions
-nisi (indeclinable)/conjunction/unless, except/Conjunctions
-postquam (indeclinable)/conjunction/after, when/Conjunctions
-quamquam (indeclinable)/conjunction/although/Conjunctions
-quod (indeclinable)/conjunction/because/Conjunctions
-quoque (indeclinable)/conjunction/also, too/Conjunctions
-sed (indeclinable)/conjunction/but/Conjunctions
-si (indeclinable)/conjunction/if/Conjunctions
-simulac, simulatque (indeclinable)/conjunction/as soon as/Conjunctions
-ut (indeclinable) + subjunctive/conjunction/that, so that, in order that/Conjunctions
-ut (indeclinable) + indicative/conjunction/as, when/Conjunctions
+-que/conjunction/and/Conjunctions
+ac, atque/conjunction/and/Conjunctions
+autem/conjunction/but, however/Conjunctions
+cum/conjunction/when, since/Conjunctions
+dum/conjunction/while, until/Conjunctions
+enim/conjunction/for/Conjunctions
+et/conjunction/and/Conjunctions
+nam/conjunction/for/Conjunctions
+ne  + subjunctive/conjunction/that ... not, so that ... not, that, lest/Conjunctions
+nec, neque/conjunction/and not, nor, neither/Conjunctions
+nisi/conjunction/unless, except/Conjunctions
+postquam/conjunction/after, when/Conjunctions
+quamquam/conjunction/although/Conjunctions
+quod/conjunction/because/Conjunctions
+quoque/conjunction/also, too/Conjunctions
+sed/conjunction/but/Conjunctions
+si/conjunction/if/Conjunctions
+simulac, simulatque/conjunction/as soon as/Conjunctions
+ut  + subjunctive/conjunction/that, so that, in order that/Conjunctions
+ut  + indicative/conjunction/as, when/Conjunctions
 ego, mei/pronoun/I, me/Pronouns and Pronominal Adjectives
 hic, haec, hoc/pronoun/this, he, she, it/Pronouns and Pronominal Adjectives
 idem, eadem, idem/pronoun/the same/Pronouns and Pronominal Adjectives
@@ -444,27 +444,27 @@ vos, vestrum/pronoun/you (plural)/Pronouns and Pronominal Adjectives
 alius, alia, aliud/pronoun/adjective other, another, else/Pronouns and Pronominal Adjectives
 alter, altera, alterum/pronoun/adjective the other, another, the second of two/Pronouns and Pronominal Adjectives
 ceteri, ceterae, cetera/adjective/the rest, the others/Pronouns and Pronominal Adjectives
--ne (indeclinable)/particle/(introduces question)/Particles
-num (indeclinable)/particle/whether/Particles
-num ... ? (indeclinable)/particle/surely … not?/Particles
+-ne/particle/(introduces question)/Particles
+num/particle/whether/Particles
+num ... ?/particle/surely … not?/Particles
 re-/prefix/-back/Particles
-a, ab (+ abl) (also used as prefix with verbs)/preposition/from, away from, by/Prepositions
-ad (+ acc) (also used as prefix with verbs)/preposition/to, towards, at/Prepositions
-ante (+ acc)/preposition/before, in front of/Prepositions
-apud (+ acc)/preposition/among, with, at the house of/Prepositions
-circum (+ acc)/preposition/around/Prepositions
-contra (+ acc)/preposition/against/Prepositions
-cum (+ abl)/preposition/with/Prepositions
-de (+ abl)/preposition/from, down from, about/Prepositions
-e, ex (+ abl) (also used as prefix with verbs)/preposition/from, out of, out/Prepositions
-in (+ abl) (also used as prefix with verbs)/preposition/in, on/Prepositions
-in (+ acc) (also used as prefix with verbs)/preposition/into, onto/Prepositions
-inter (+ acc)/preposition/among, between/Prepositions
-per (+ acc)/preposition/through, along/Prepositions
-post (+ acc)/preposition/after, behind/Prepositions
-pro (+ abl)/preposition/in front of, for, in return for/Prepositions
-prope (+ acc)/preposition/near/Prepositions
-propter (+ acc)/preposition/on account of, because of/Prepositions
-sine (+ abl)/preposition/without/Prepositions
-sub (+ acc) or ablative/preposition/under, beneath/Prepositions
-trans (+ acc) (also used as prefix with verbs)/preposition/across/Prepositions
+a, ab (+ ablative)/preposition/from, away from, by/Prepositions
+ad (+ accusative)/preposition/to, towards, at/Prepositions
+ante (+ accusative)/preposition/before, in front of/Prepositions
+apud (+ accusative)/preposition/among, with, at the house of/Prepositions
+circum (+ accusative)/preposition/around/Prepositions
+contra (+ accusative)/preposition/against/Prepositions
+cum (+ ablative)/preposition/with/Prepositions
+de (+ ablative)/preposition/from, down from, about/Prepositions
+e, ex (+ ablative)/preposition/from, out of, out/Prepositions
+in (+ ablative)/preposition/in, on/Prepositions
+in (+ accusative)/preposition/into, onto/Prepositions
+inter (+ accusative)/preposition/among, between/Prepositions
+per (+ accusative)/preposition/through, along/Prepositions
+post (+ accusative)/preposition/after, behind/Prepositions
+pro (+ ablative)/preposition/in front of, for, in return for/Prepositions
+prope (+ accusative)/preposition/near/Prepositions
+propter (+ accusative)/preposition/on account of, because of/Prepositions
+sine (+ ablative)/preposition/without/Prepositions
+sub (+ accusative or ablative)/preposition/under, beneath/Prepositions
+trans (+ accusative)/preposition/across/Prepositions

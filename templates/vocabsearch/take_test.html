@@ -119,7 +119,6 @@
       percentage = document.createTextNode((corrects / {{ amount }})*100 + "%");
       document.getElementById("corrects").innerText = scores_text.textContent;
       document.getElementById("percentage").innerText = percentage.textContent;
-
     }
 
     text = document.createTextNode(count);
@@ -141,7 +140,7 @@
     if ("{{ direction }}" === "latin") {
       possible_answers = answer.split(", ");
     } else {
-      possible_answers = [answer];
+      possible_answers = answer.split(", ");
     }
     console.log(possible_answers);
     if ( possible_answers.indexOf(user_answer) >= 0 ) {

@@ -39,8 +39,8 @@
     const matches = searchWords(this.value, words)
     const html = matches.map(word => {
       const regex = new RegExp(this.value, "gi");
-      const latinWord = word["fields"].latin.replace(regex, `<span class="hl">${this.value}</span>`);
-      const englishWord = word["fields"].english.replace(regex, `<span class="hl english">${this.value}</span>`);
+      const latinWord = word["fields"].latin.replace(regex, `<span class="hl">${this.value.toLowerCase()}</span>`);
+      const englishWord = word["fields"].english.replace(regex, `<span class="hl english">${this.value.toLowerCase()}</span>`);
 
       return `
         <div class="word">
