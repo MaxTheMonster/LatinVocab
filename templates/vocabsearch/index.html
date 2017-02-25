@@ -14,52 +14,47 @@
 <body>
   <h1><a id="test" href="/test/">Test me!</a></h1>
   <h1 id="title">Search GCSE Latin Vocabulary</h1>
-  <input type="text" id="search" name="search" autocomplete="off" placeholder="e.g amicus, amici, m">
+  <input type="text" id="search" name="search" placeholder="e.g amicus, amici, m">
   <div id="search-results"></div>
   <script>
-  const wordsJSON = JSON.parse("{{ words | escapejs }}");
   const searchInput = document.querySelector("#search");
   const results = document.querySelector("#search-results");
-  const words = [];
-  words.push(...wordsJSON);
+  const words = JSON.parse("{{ words | escapejs }}");
 
   function searchWords(user_input, words) {
     if (user_input === "") {
       return [];
     } else {
-      var result = words.filter(word => {
+      var result = words.filter(function(word) {
         const regex = new RegExp(user_input, "gi");
-        return word["fields"].english.match(regex) || word["fields"].latin.match(regex)
+        return word["fields"].english.match(regex) || word["fields"].latin.match(regex);
       });
-      return result
+      return result;
     }
   }
 
   function showWords() {
+    const currentElem = this.value
     const matches = searchWords(this.value, words)
-    const html = matches.map(word => {
-      const regex = new RegExp(this.value, "gi");
-      const latinWord = word["fields"].latin.replace(regex, `<span class="hl">${this.value.toLowerCase()}</span>`);
-      const englishWord = word["fields"].english.replace(regex, `<span class="hl english">${this.value.toLowerCase()}</span>`);
-
-      return `
-        <div class="word">
-          <div class="word-content">
-            <h2 class="">${latinWord}: <span class="english">${englishWord}</span><h2>
-            <h2 class="category">From ${ word["fields"].category}</h2>
-
-            <h3 class="type">Type: ${ word["fields"].type}</h3>
-          </div>
-      </div>
-      `
+   
+    const html = matches.map(function(word) {
+      const regex = new RegExp(currentElem, "gi");
+      const latinWord = word["fields"].latin.replace(regex, "<span class='hl'>" + currentElem +"</span>");
+      const englishWord = word["fields"].english.replace(regex, "<span class='hl english'>" + currentElem +"</span>");
+      return "<div class='word'> \
+          <div class='word-content'> \
+            <h2>" + latinWord + ": <span class='english'>" + englishWord + "</span><h2>\
+            <h2 class='category'>From " + word['fields'].category + "</h2>\
+            <h3 class='type'>Type: " + word['fields'].type + "</h3>\
+          </div>\
+      </div>\
+      "
     }).join("");
 
     results.innerHTML = html
   }
   searchInput.addEventListener("keyup", showWords);
   
-
-
 
   // Google analytics
 
