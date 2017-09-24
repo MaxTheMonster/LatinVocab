@@ -7,7 +7,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>GCSE Latin Quiz</title>
   <link rel="icon" href="{% static "favicon.ico" %}"/>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <link rel="stylesheet" href="{% static "styles.css" %}">
 </head>
 <body class="test_body">
@@ -33,8 +32,8 @@
 <br/>
     <div class="selection">
       <label for="direction">Which translation direction?</label>
-      <input type="radio" id="r1" name="direction" checked>Latin -> English
-      <input type="radio" id="r2" name="direction" >English -> Latin
+      <input type="radio" id="directionLatinEnglish" name="direction" checked>Latin -> English
+      <input type="radio" id="directionEnglishLatin" name="direction" >English -> Latin
     </div>
 <br/>
     <input type="button" class="submit" value="Go!" onclick="goto()">
@@ -49,14 +48,14 @@
     var amountValue = document.getElementById("amount").value;
     console.log(amountValue);
     if (amountValue == 0) {
-      $("form").append("<h3 id='warning'>You must choose a number greater than 0.</h3>");
+      document.querySelector("form") += "<h3 id='warning'>You must choose a number greater than 0.</h3>";
     } else {
       success = true;
     }
-    if (document.getElementById('r1').checked) {
+    if (document.getElementById('directionLatinEnglish').checked) {
       var directionValue = "latin";
     }
-    else if (document.getElementById('r2').checked) {
+    else if (document.getElementById('directionEnglishLatin').checked) {
       var directionValue = "english";
     }
     if (success === true) {

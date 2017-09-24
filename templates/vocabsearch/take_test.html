@@ -70,18 +70,18 @@
   console.log(questions);
   console.log(answers);
 
-  function correct() {
+  function ifCorrect() {
     console.log("CORRECT")
     corrects = corrects + 1;
     correct_text = document.createTextNode(corrects);
     $("#correct").innerText = correct_text.textContent;
   }
 
-  function incorrect(users_answer, count) {
+  function ifIncorrect(users_answer, count) {
     incorrects = incorrects + 1;
     var incans = incorrectAnswers.push(users_answer)
     var incques = incorrectQuestions.push(questions[count])
-    var correct_answer = correctAnswers.push(answers[count]);
+    var correctAnswer = correctAnswers.push(answers[count]);
     console.log("WRONG");
   }
 
@@ -144,9 +144,9 @@
     }
     console.log(possible_answers);
     if ( possible_answers.indexOf(user_answer) >= 0 ) {
-      correct();
+      ifCorrect();
     } else {
-      incorrect(user_answer, count);
+      ifIncorrect(user_answer, count);
     }
 
     nextQuestion(count);

@@ -1,10 +1,15 @@
+{% if categories.count > 0 %}
+    {% for category in categories %}
+        <div class="category_result">
+
+        </div>
+    {% endfor %}
+{% endif %}
 {% if startwords.count > 0 %}
       {% for word in startwords %}
           <div class="word">
               <h2 class="latin">{{ word.latin }}: <span class="english">{{ word.english }}</span></h2>
               <h2 class="category">From <b>{{ word.category }}</b></h2>
-
-
               <h3 class="type">Type: {{ word.type }}</h3>
           </div>
       {% endfor %}
@@ -13,10 +18,9 @@
       <div class="word">
           <h2 class="latin">{{ word.latin }}: <span class="english">{{ word.english }}</span></h2>
           <h2 class="category">From <b>{{ word.category }}</b></h2>
-
           <h3 class="type">Type: {{ word.type }}</h3>
       </div>
-  {% endfor %}
+  {% endfor %} 
 {% else %}
   <p>No words found.</p>
 {% endif %}

@@ -2,405 +2,426 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 
-
 /* =-=-=-=-=-=-= Clearfix =-=-=-=-=-=-= */
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* =-=-=-=-=-=-= General Styles =-=-=-=-=-=-= */ 
 
 body {
-  text-align: center;
-  background: #FF7605;
-  font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background: #FF7605;
+    font-family: 'Raleway', sans-serif;
 }
 
 body.test_body {
-  background: white;
-  color: black;
+    background: white;
+    color: black;
 }
 
 body.test_body #test {
-  background: #FF7605;
-  color: white;
+    background: #FF7605;
+    color: white;
 }
 
 body.test_body .submit {
-  background: #FF7605;
-  color: white;
+    background: #FF7605;
+    color: white;
 }
 
 
 #title {
-  font-size: 3rem;
-  margin: 1rem;
-  color: white;
-  font-weight: normal;
-  display: block;
+    font-size: 3rem;
+    margin: 1rem;
+    color: white;
+    font-weight: normal;
+    display: block;
+}
+
+main#search-section {
+    width: 50%;
+    margin: 0 auto;
+}
+
+label#filter-category {
+    margin-top: 5em;
+    color: white;
+    text-align: left;
+}
+
+select#category_selector {
+    padding: 0.5em;
+    margin: 0 auto;
+    display: inline-block;
 }
 
 #search {
-  outline: 0;
-  border: 0;
-  padding: 0.5em 1em;
-  font-size: 3rem;
-  width: 50%;
-  border-radius: 3px;
-  text-align: center;
-  transition: 0.1s all;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin: 0;
+    outline: 0;
+    border: 0;
+    padding: 0.5em 1em;
+    font-size: 3rem;
+    width: 100%;
+    border-radius: 3px;
+    text-align: center;
+    transition: 0.1s all;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 #search:focus {
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-  transition: 0.3s all;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    transition: 0.3s all;
 }
 
 
 div#search-results {
-  text-align: left;
-  margin-top: 2em;
+    text-align: left;
+    margin-top: 2em;
 }
 
 .word:nth-child(even) {
-  //transform: perspective(100px) rotateX(3deg) translateY(2px) scale(1.001);
-  background: linear-gradient(to bottom,  #ffffff 0%,#EFEFEF 100%);
+    //transform: perspective(100px) rotateX(3deg) translateY(2px) scale(1.001);
+    background: linear-gradient(to bottom,  #ffffff 0%,#EFEFEF 100%);
 }
 
 .word:nth-child(odd) {
- // transform: perspective(100px) rotateX(-3deg) translateY(3px);
-  background: linear-gradient(to top,  #ffffff 0%,#EFEFEF 100%);
+    // transform: perspective(100px) rotateX(-3deg) translateY(3px);
+    background: linear-gradient(to top,  #ffffff 0%,#EFEFEF 100%);
 }
 
 
 .word {
-  padding: 2%;
-  width: 50%;
-  //border-bottom: 2px solid rgba(0,0,0,0.2);
-  text-align: left;
-  margin: 0.5em auto;
-  border-radius: 3px;
-  color: rgba(0,0,0,0.9);
-  background: white;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  
-/*  box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);*/
+    padding: 2%;
+    width: 50%;
+    //border-bottom: 2px solid rgba(0,0,0,0.2);
+    text-align: left;
+    margin: 0.5em auto;
+    border-radius: 3px;
+    color: rgba(0,0,0,0.9);
+    background: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    
+    /*  box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);*/
 }
 
 .word .category {
-  text-align: right;
+    text-align: right;
 }
 
 .hl {
-  color: white;
-  background:  #FF7605;
+    color: white;
+    background:  #FF7605;
 }
 
 .hl.english {
-  color: white;
-  background: #FF7605;
+    color: white;
+    background: #FF7605;
 }
 
 .english {
-  color: #FF7605;
+    color: #FF7605;
 }
 
 #warning {
-  color: #B40202;
-  font-weight: bold;
-  font-size: 0.9rem;
+    color: #B40202;
+    font-weight: bold;
+    font-size: 0.9rem;
 }
 
 h2 {
-  margin-bottom: 2%;
+    margin-bottom: 2%;
 }
 
 h3 {
-  margin-bottom: 2%;
+    margin-bottom: 2%;
 }
 
 
 label {
-  font-size: 1.6rem;
+    font-size: 1.6rem;
 }
 
 select {
-  font-size: 1.4rem;
-  color: rgba(0,0,0,0.7);
-  outline: 0;
-  border-radius: 3px;
+    font-size: 1.4rem;
+    color: rgba(0,0,0,0.7);
+    outline: 0;
+    border-radius: 3px;
 }
 
 form {
-  margin-bottom: 20%;
+    margin-bottom: 20%;
 }
 .selection input[type=range] {
-  width: 30%;
+    width: 30%;
 }
 
 .selection input {
-  font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
 br {
-  margin-top: 5vh;
+    margin-top: 5vh;
 }
 
 .selection {
-  margin-top: 5vh;
+    margin-top: 5vh;
 }
 
-#test {
-  position: absolute;
-  top: 1em;
-  left: 1em;
-  color: white;
-  padding: 1em;
-  border-radius: 3px;
-  background: white;
-  color: #FF7605;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-
+.buttons {
+    position: absolute;
+    top: 1em;
+    left: 1em;
 }
 
-#test:hover {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+.button {
+    color: white;
+    padding: 1em;
+    border-radius: 3px;
+    background: white;
+    color: #FF7605;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    display: block;
+    margin-bottom: 1em;
+}
+
+.button:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 h1#retake {
-  background: #FF7605;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  position: absolute;
-  top: 1em;
-  color: white;
-  cursor: pointer;
-  padding: 1em;
-  right: 1em;
-  text-decoration: underline;
-  border-radius: 3px;
+    background: #FF7605;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    position: absolute;
+    top: 1em;
+    color: white;
+    cursor: pointer;
+    padding: 1em;
+    right: 1em;
+    text-decoration: underline;
+    border-radius: 3px;
 }
 
 h1#retake:hover {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 #corrects {
-  color: #FF7605;
+    color: #FF7605;
 }
 
 input {
-  margin: 0 1em;
+    margin: 0 1em;
 }
 
 .results {
-  margin: 20% auto;
+    margin: 20% auto;
 }
 
 .scores h1 {
-  margin-bottom: 5%;
+    margin-bottom: 5%;
 }
 
 .correction {
-  color: #FF7605;
-  text-align: left;
-  margin: 2vh;
+    color: #FF7605;
+    text-align: left;
+    margin: 2vh;
 }
 
 .incorrectquestions h3 {
-  text-align: left;
-  margin: 2vh;
+    text-align: left;
+    margin: 2vh;
 }
 
 .correctanswers h3 {
-  color: #31A400;
-  text-align: left;
-  margin: 2vh;
+    color: #31A400;
+    text-align: left;
+    margin: 2vh;
 }
 
 .correctanswers {
-  padding: 1em;
-  display: inline-block;
+    padding: 1em;
+    display: inline-block;
 }
 
 .answers {
-  display: inline-block;
-  padding: 1em;
-  border-right: 3px solid black;
+    display: inline-block;
+    padding: 1em;
+    border-right: 3px solid black;
 }
 
 .incorrectquestions {
-  display: inline-block;
-  padding: 1em;
-  border-right: 3px solid black;
+    display: inline-block;
+    padding: 1em;
+    border-right: 3px solid black;
 }
 
 #count {
-  color: #FF7605;
+    color: #FF7605;
 }
 
 input.submit {
-  font-size: 2rem;
-  outline: 0;
-  border: 0;
-  cursor: pointer;
-  color: white;
-  padding: 0.7em;
-  margin-top: 2vh;
-  width: 10%;
-  border-radius: 3px;
-  background: white;
-  color: #FF7605;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);}
+    font-size: 2rem;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    padding: 0.7em;
+    margin-top: 2vh;
+    width: 10%;
+    border-radius: 3px;
+    background: white;
+    color: #FF7605;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);}
 
 input.submit:hover {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .scores {
-  display: none;
+    display: none;
 }
 
 .questions {
-  margin: 0 auto;
-  text-align: center;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .question {
-  display: none;
-  margin: 0 auto;
+    display: none;
+    margin: 0 auto;
 }
 
 .question input[type=text] {
-  margin: 0 auto;
-  padding: 1em;
-  border-radius: 4px;
-  outline: 0;
-  font-size: 1.3rem;
-  border: 1px solid #FF7605;
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 4px;
+    outline: 0;
+    font-size: 1.3rem;
+    border: 1px solid #FF7605;
 }
 
 .question input[type=button] {
-  background: #FF7605;
-  color: white;
-  outline: 0;
-  border: 1px solid #FF7605;
-  cursor: pointer;
-  padding: 1em;
-  border-radius: 5px;
-  margin-left: 0;
-  transition: 0.3s;
-  font-size: 1.3rem;
+    background: #FF7605;
+    color: white;
+    outline: 0;
+    border: 1px solid #FF7605;
+    cursor: pointer;
+    padding: 1em;
+    border-radius: 5px;
+    margin-left: 0;
+    transition: 0.3s;
+    font-size: 1.3rem;
 }
 
 .question input[type=button]:hover {
-  background: white;
-  color: #FF7605;
-  transition: 0.2s;
+    background: white;
+    color: #FF7605;
+    transition: 0.2s;
 }
 
 @media screen and (max-width: 1300px) {
-  body {
-    margin-bottom: 9%;
-  }
+    body {
+	margin-bottom: 9%;
+    }
 
-  #test {
-    position: fixed;
-    bottom: 0;
-    top: auto;
-    right: 0;
-    border-radius: 0;
-    padding: 2%;
-    width: 100%;
-    left: 0;
-  }
+    #test {
+	position: fixed;
+	bottom: 0;
+	top: auto;
+	right: 0;
+	border-radius: 0;
+	padding: 2%;
+	width: 100%;
+	left: 0;
+    }
 
-  #search {
-    padding: 0.8rem;
-    font-size: 2rem;
-    width: 90%;
-  }
+    #search {
+	padding: 0.8rem;
+	font-size: 2rem;
+	width: 90%;
+    }
 
-  .word {
-    width: 90%;
-  }
+    .word {
+	width: 90%;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  #title {
-    font-size: 2rem;
-  }  
+    #title {
+	font-size: 2rem;
+    }  
 }
 
 @media screen and (max-width: 500px) {
-  #title {
-    font-size: 1.5rem;
-  }
+    #title {
+	font-size: 1.5rem;
+    }
 
-  h1#retake {
-    position: inherit;
-  }
+    h1#retake {
+	position: inherit;
+    }
 
-  #search {
-    width: 92%;
-    margin: 0;
-    padding: 2%;
-    font-size: 2rem;
-  }
+    #search {
+	width: 92%;
+	margin: 0;
+	padding: 2%;
+	font-size: 2rem;
+    }
 
-  .word {
-    width: 92%;
-    padding: 1.3em;
-    text-align: left;
-    font-size: 0.68rem;
-  }
+    .word {
+	width: 92%;
+	padding: 1.3em;
+	text-align: left;
+	font-size: 0.68rem;
+    }
 
-  h2 {
-    margin-bottom: 1em;
-  }
+    h2 {
+	margin-bottom: 1em;
+    }
 
-  .results {
-    display: flex;
-  }
+    .results {
+	display: flex;
+    }
 
-  .incorrectquestions, .answers {
-    width: 40%;
-  }
+    .incorrectquestions, .answers {
+	width: 40%;
+    }
 
-  .incorrectquestions h3,.correctanswers h3, .answers h3 {
-    font-size: 0.9rem;
-  }
+    .incorrectquestions h3,.correctanswers h3, .answers h3 {
+	font-size: 0.9rem;
+    }
 
-  .correctanswers {
-    flex: 1;
-    font-size: 0.9rem;
-  }
+    .correctanswers {
+	flex: 1;
+	font-size: 0.9rem;
+    }
 
-  input.submit {
-    width: 50%;
-  }
+    input.submit {
+	width: 50%;
+    }
 
-  .question input[type=text] {
-    width: 60%;
-    margin: 0;
-  }
+    .question input[type=text] {
+	width: 60%;
+	margin: 0;
+    }
 
-  .question input[type=button] {
-    width: 20%;
-    margin: 0;
-  }
+    .question input[type=button] {
+	width: 20%;
+	margin: 0;
+    }
 
-  .selection label {
-    font-size: 1.2rem;
-  }
+    .selection label {
+	font-size: 1.2rem;
+    }
 }
 

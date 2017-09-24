@@ -12,10 +12,16 @@ from django.views.decorators.csrf import ensure_csrf_cookie
 
 class IndexView(generic.TemplateView):
     template_name = "vocabsearch/index.html"
-    # words = json.dumps(list(words_queryset), cls=DjangoJSONEncoder)
 
     def get_context_data(self, **kwargs):
             context = super(IndexView, self).get_context_data(**kwargs)
+            categories_queryset = Word.objects.all().values("category")
+            categories = []
+            for category in categories_queryset:
+                categories.append(category['category'])
+
+            context['categories'] = sorted(list(set(categories)))
+            print(context['categories'])
             context['words'] = serializers.serialize('json', Word.objects.all(), fields=("latin", "english", "category", "type"))
             return context
 
