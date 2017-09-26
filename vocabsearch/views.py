@@ -21,7 +21,6 @@ class IndexView(generic.TemplateView):
                 categories.append(category['category'])
 
             context['categories'] = sorted(list(set(categories)))
-            print(context['categories'])
             context['words'] = serializers.serialize('json', Word.objects.all(), fields=("latin", "english", "category", "type"))
             return context
 
@@ -42,7 +41,6 @@ class IndexView(generic.TemplateView):
 
 def init_test(request):
     types = ["EVERYTHING BABE!", "Noun", "Adjective", "Adverb", "Verb", "Conjunction", "Preposition", "Pronoun"]
-    print("BLEH")
     return render(request, "vocabsearch/test.html", {"types": types})
 
 
@@ -58,7 +56,6 @@ def test(request, type, amount, direction):
     words = words[:amount]
     answers = []
     for word in words:
-        print(word.english)
         if direction == "latin":
             answers.append(word.english)
         elif direction == "english":

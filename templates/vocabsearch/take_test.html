@@ -67,11 +67,7 @@
     var newLength = questions.push("{{ current_question.english }}");
     {% endif %}
   {% endfor %}
-  console.log(questions);
-  console.log(answers);
-
   function ifCorrect() {
-    console.log("CORRECT")
     corrects = corrects + 1;
     correct_text = document.createTextNode(corrects);
     $("#correct").innerText = correct_text.textContent;
@@ -82,7 +78,6 @@
     var incans = incorrectAnswers.push(users_answer)
     var incques = incorrectQuestions.push(questions[count])
     var correctAnswer = correctAnswers.push(answers[count]);
-    console.log("WRONG");
   }
 
   function nextQuestion(count) {
@@ -91,7 +86,6 @@
     $(".question:nth-of-type(" + (count ) +")").keyup(function (e) {
      var key = e.which;
      if(key == 13)  {
-       console.log(count)
        $('.question:nth-of-type(' + count + ') .answer_button').click();
       }
     });
@@ -103,7 +97,6 @@
       $(".correctanswers").append("<h2>Correct Answers</h2>");
       $("#test").fadeIn()
       for (var incorrect in incorrectQuestions) {
-        console.log(incorrectQuestions[incorrect]);
         $(".incorrectquestions").append("<h3>" + incorrectQuestions[incorrect] + "</h3>");
       }
       for (var corrections in incorrectAnswers) {
@@ -128,21 +121,18 @@
   }
 
   function checkAnswer(count) {
-    console.log(count);
     count = count - 1;
     var user_answer = document.getElementsByClassName("answer")[count].value;
     user_answer = user_answer.toLowerCase()
     if (user_answer === "") {
       user_answer = "None";
     }
-    console.log(user_answer);
     answer = answers[count];
     if ("{{ direction }}" === "latin") {
       possible_answers = answer.split(", ");
     } else {
       possible_answers = answer.split(", ");
     }
-    console.log(possible_answers);
     if ( possible_answers.indexOf(user_answer) >= 0 ) {
       ifCorrect();
     } else {
