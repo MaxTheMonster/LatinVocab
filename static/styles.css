@@ -281,7 +281,8 @@ input.submit {
     color: #FF7605;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);}
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
 
 input.submit:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -334,7 +335,7 @@ input.submit:hover {
 	margin-bottom: 9%;
     }
 
-    #test {
+    .button {
 	position: fixed;
 	bottom: 0;
 	top: auto;
@@ -343,6 +344,11 @@ input.submit:hover {
 	padding: 2%;
 	width: 100%;
 	left: 0;
+	margin: 0;
+    }
+
+    #print.button {
+	display: none;
     }
 
     #search {
@@ -353,6 +359,10 @@ input.submit:hover {
 
     .word {
 	width: 90%;
+    }
+
+    #search-results {
+	margin-bottom: 5em;
     }
 }
 
@@ -422,6 +432,18 @@ input.submit:hover {
 
     .selection label {
 	font-size: 1.2rem;
+    }
+
+    .selection input[type=range] {
+	width: 90%;
+    }
+
+    select {
+	width: 90%;
+    }
+
+    main#search-section {
+	width: 100%;
     }
 }
 

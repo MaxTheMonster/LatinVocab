@@ -32,27 +32,30 @@
 	 const searchInput = document.querySelector("#search");
 	 const results = document.querySelector("#search-results");
 	 const words = JSON.parse("{{ words | escapejs }}");
-	 const categorySelector = document.querySelector("select#category_selector")
+	 const categorySelector = document.querySelector("select#category_selector");
+	 const printButton = document.querySelector("#print.button");
 	 
 	 function searchWords(user_input, words) {
-	     let userSelectedCategory = document.querySelector("select#category_selector").value
+	     let userSelectedCategory = document.querySelector("select#category_selector").value;
 	     let isCategoryMatch;
+
 	     
-	     if (user_input === "") {
-		 return [];
-	     } else {
-		 var result = words.filter(function(word) {
-		     const regex = new RegExp(user_input, "gi");
-		     if (userSelectedCategory == "All") {
-			 isCategoryMatch = true
-		     } else {
-			 isCategoryMatch = word["fields"].category.match(userSelectedCategory)
-		     }
-		     
+	     var result = words.filter(function(word) {
+		 const regex = new RegExp(user_input, "gi");
+
+		 if (userSelectedCategory == "All") {
+		     isCategoryMatch = true
+		 } else {
+		     isCategoryMatch = word["fields"].category.match(userSelectedCategory)
+		 }
+
+		 if (user_input == "") {
+		     return isCategoryMatch;
+		 } else {
 		     return (word["fields"].english.match(regex) || word["fields"].latin.match(regex)) && isCategoryMatch;
-		 });
-		 return result;
-	     }
+		 }
+	     });
+	     return result;
 	 }
 
 	 function showWords() {
@@ -77,7 +80,7 @@
 	 }
 	 categorySelector.addEventListener("change", showWords);
 	 searchInput.addEventListener("keyup", showWords);
-	 
+	 printButton.addEventListener("click", printWords());
 
 	 // Google analytics
 
