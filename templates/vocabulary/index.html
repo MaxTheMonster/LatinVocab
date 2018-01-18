@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block title %}Vocabulary | {% endblock %}
+
+{% block content %}
+<main id="search-section">
+    <input type="text" id="search" name="search" placeholder="e.g amicus, amici, m">
+    <label for="category_selector" id="filter-category">Filter by category</label>
+    <select id="category_selector" name="category_selector">
+	<option value="All">All</option>
+	{% for category in categories %}
+	<option value="{{ category }}">{{ category }}</option>
+	{% endfor %}
+    </select>
+</main>
+<div id="search-results"></div>
+<script>
+    const searchInput = document.querySelector("#search");
+    const results = document.querySelector("#search-results");
+    const words = JSON.parse("{{ words | escapejs }}");
+    const categorySelector = document.querySelector("select#category_selector");
+    const printButton = document.querySelector("#print.button");
+
+    function searchWords(user_input, words) {
+    let userSelectedCategory = document.querySelector("select#category_selector").value;
+    let isCategoryMatch;
+
+    var result = words.filter(function(word) {
+    const regex = new RegExp(user_input, "gi");
+
+    if (userSelectedCategory == "All") {
+    isCategoryMatch = true
+    } else {
+    isCategoryMatch = word["fields"].category.match(userSelectedCategory)
+    }
+
+    if (user_input == "") {
+    return isCategoryMatch;
+    } else {
+    return (word["fields"].english.match(regex) || word["fields"].latin.match(regex)) && isCategoryMatch;
+    }
+    });
+    return result;
+    }
+
+    function showWords() {
+    const currentElem = searchInput.value.toLowerCase()
+    const matches = searchWords(searchInput.value, words)
+    const html = matches.map(function(word) {
+    const regex = new RegExp(currentElem, "gi");
+    const latinWord = word["fields"].latin.replace(regex, "<span class='hl'>" + currentElem +"</span>");
+    const englishWord = word["fields"].english.replace(regex, "<span class='hl english'>" + currentElem +"</span>");
+    return "<div class='word'> \
+    <div class='word-content'> \
+        <h2>" + latinWord + ": <span class='english'>" + englishWord + "</span><h2>\
+            <h2 class='category'>From " + word['fields'].category + "</h2>\
+            <h3 class='type'>Type: " + word['fields'].type + "</h3>\
+    </div>\
+    </div>\
+    "
+    }).join("");
+
+    results.innerHTML = html
+    }
+    categorySelector.addEventListener("change", showWords);
+    searchInput.addEventListener("keyup", showWords);
+    printButton.addEventListener("click", printWords());
+
+    // Google analytics
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-53354801-6', 'auto');
+    ga('send', 'pageview');
+</script>
+{% endblock %}

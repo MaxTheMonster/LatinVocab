@@ -1,5 +1,5 @@
 {
-  "name": "GCSE Latin Vocabulary",
+  "name": "Latin Vocabulary",
   "icons": [
     {
       "src": "static/launcher-favicon.png",
@@ -8,7 +8,6 @@
       "density": 0.5
     }
   ],
-  "start_url": "index.html",
   "display": "standalone",
   "orientation": "portrait"
 }

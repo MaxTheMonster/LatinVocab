@@ -118,7 +118,7 @@ patria, patriae, f/noun 1/country, homeland/Nouns: Places
 porta, portae, f/noun 1/gate/Nouns: Places
 portus, portus, m/noun 4/harbour, port/Nouns: Places
 regnum, regni, n/noun 2/kingdom/Nouns: Places
-Roma, Romae, f (Romae: at/in Rome)/noun 1/Rome/Nouns: Places
+Roma, Romae, f/noun 1/Rome/Nouns: Places
 taberna, tabernae, f/noun 1/shop, inn/Nouns: Places
 templum, templi, n/noun 2/temple/Nouns: Places
 urbs, urbis, f/noun 3/city, town/Nouns: Places
@@ -441,8 +441,8 @@ tu, tui/pronoun/you (singular)/Pronouns and Pronominal Adjectives
 tuus, tua, tuum/pronoun/your (singular), yours/Pronouns and Pronominal Adjectives
 vester, vestra, vestrum/pronoun/your (plural), yours/Pronouns and Pronominal Adjectives
 vos, vestrum/pronoun/you (plural)/Pronouns and Pronominal Adjectives
-alius, alia, aliud/pronoun/adjective other, another, else/Pronouns and Pronominal Adjectives
-alter, altera, alterum/pronoun/adjective the other, another, the second of two/Pronouns and Pronominal Adjectives
+alius, alia, aliud/pronoun/other, another, else/Pronouns and Pronominal Adjectives
+alter, altera, alterum/pronoun/the other, another, the second of two/Pronouns and Pronominal Adjectives
 ceteri, ceterae, cetera/adjective/the rest, the others/Pronouns and Pronominal Adjectives
 -ne/particle/(introduces question)/Particles
 num/particle/whether/Particles

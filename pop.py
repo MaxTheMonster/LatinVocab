@@ -2,7 +2,7 @@ import os
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "LatinVocab.settings")
 import django
 django.setup()
-from vocabsearch import models
+from vocabulary import models
 file = open("vocab.txt", "r").readlines()
 
 for line in file:
