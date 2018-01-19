@@ -1,0 +1,31 @@
+/* [====] Fonts [====] */
+@import url('https://fonts.googleapis.com/css?family=Quattrocento|Old+Standard+TT:700');
+
+/* [====] Variables [====] */
+$display-font: 'Old Standard TT', sans-serif;
+$content-font: 'Quattrocento', serif;
+
+$primary-color: #df3b57;
+$secondary-color: #659157;
+
+$bp-mobile: 540px;
+$bp-desktop: 1024px;
+$bp-widescreen: 1920px;
+
+/* [====] Mixins [====] */
+@mixin mobile {
+    @media (max-width: #{$bp-mobile}){
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$bp-desktop}) and (max-width: #{$bp-widescreen}){
+        @content;
+    }
+}
+
+/* [====] Imports [====] */
+@import "general";
+@import "vocabulary";
+@import "nav";

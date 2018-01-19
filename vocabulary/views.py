@@ -24,25 +24,9 @@ class IndexView(generic.TemplateView):
             context['words'] = serializers.serialize('json', models.Word.objects.all(), fields=("latin", "english", "category", "type"))
             return context
 
-# def search_words(request):
-#     if request.method == "POST":
-#         if request.POST["search_text"] == "":
-#             search_text = ""
-#         else:
-#             search_text = request.POST["search_text"]
-#     else:
-#         search_text = ''
-# #  | models.Word.objects.filter(english__contains=search_text)
-#     start_words = models.Word.objects.filter(latin__startswith=search_text) | models.Word.objects.filter(english__startswith=search_text)
-#     words = models.Word.objects.filter(latin__contains=search_text) | models.Word.objects.filter(english__contains=search_text)
-
-#     return render(request, "ajax_search.html", {"words": words, "startwords": start_words})
-
-
 def init_test(request):
     types = ["EVERYTHING BABE!", "Noun", "Adjective", "Adverb", "Verb", "Conjunction", "Preposition", "Pronoun"]
     return render(request, "vocabulary/test.html", {"types": types})
-
 
 class TakeTest(generic.TemplateView):
     template_name = "vocabulary/take_test.html"
@@ -67,24 +51,3 @@ class TakeTest(generic.TemplateView):
         context['direction'] = self.kwargs["direction"]
         context['amount'] = self.kwargs["amount"]
         return context
-
-# def test(request, type, amount, direction):
-#     amount = int(amount)
-
-#     if type == "everything":
-#         words = list(models.Word.objects.all())
-#     else:
-#         words = list(models.Word.objects.all().filter(type__startswith=type))
-
-#     random.shuffle(words)
-#     words = words[:amount]
-#     answers = []
-#     for word in words:
-#         if direction == "latin":
-#             answers.append(word.english)
-#         elif direction == "english":
-#             answers.append(word.latin)
-
-
-
-#     return render(request, "vocabulary/take_test.html", {"words": words, "direction": direction, "answers": answers, "amount": amount})

@@ -1,0 +1,110 @@
+/* [====] Fonts [====] */
+@import url("https://fonts.googleapis.com/css?family=Quattrocento|Old+Standard+TT:700");
+/* [====] Variables [====] */
+/* [====] Mixins [====] */
+/* [====] Imports [====] */
+body {
+  font-family: "Quattrocento", serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Old Standard TT", sans-serif; }
+
+a {
+  text-decoration: none;
+  color: #659157; }
+
+input {
+  width: 20vw;
+  font-size: 2em;
+  font-family: "Quattrocento", serif; }
+
+input, select, option {
+  background: white;
+  border: 1px solid black;
+  border-radius: 0;
+  padding: 0.5em;
+  color: black; }
+
+select {
+  padding: 0.1em; }
+
+.card {
+  background: white;
+  border: 1px solid black;
+  border-radius: 0;
+  padding: 1.5em;
+  margin: 1em 0;
+  color: black; }
+
+main#search-section {
+  width: 50vw;
+  margin: 0 auto; }
+  main#search-section a#search-more-options {
+    background: white;
+    border: 1px solid black;
+    padding: 0.6em;
+    color: #df3b57;
+    text-decoration: none; }
+    main#search-section a#search-more-options:hover {
+      text-decoration: underline; }
+  main#search-section #search-body {
+    margin: 0 auto;
+    text-align: center;
+    display: block; }
+  main#search-section input {
+    display: inline-block; }
+  main#search-section div#search-select {
+    min-width: 100%;
+    margin: 1em auto;
+    text-align: center;
+    display: none; }
+
+div#search-results {
+  width: 100%; }
+  div#search-results div.word span.hl {
+    color: white;
+    background: #df3b57; }
+  div#search-results div.word span.hl.english {
+    color: white;
+    background: #df3b57; }
+  div#search-results div.word span.english {
+    display: inline;
+    color: #df3b57; }
+  div#search-results div.word h2.definition {
+    display: inline; }
+  div#search-results div.word h3.type {
+    display: inline;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.5); }
+  div#search-results div.word h2.category {
+    text-decoration: underline;
+    margin: 1em 0 0; }
+
+nav {
+  width: 50vw;
+  margin: 0 auto;
+  text-align: center; }
+  nav h1 {
+    margin: 0 auto; }
+    nav h1 a {
+      font-size: 3rem;
+      border-bottom: 9px double;
+      display: inline;
+      color: black; }
+      nav h1 a:hover {
+        color: #df3b57;
+        border-bottom: 3px solid black; }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 0; }
+    nav ul li {
+      padding: 0 1em; }
+      nav ul li a {
+        color: #df3b57;
+        font-size: 1.3em;
+        border-bottom: 2px solid black; }
+        nav ul li a:hover {
+          border-bottom: 5px double black; }

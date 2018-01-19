@@ -1,0 +1,43 @@
+nav {
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+
+    h1 {
+        margin: 0 auto;
+
+        a {
+            font-size: 3rem;
+            border-bottom: 9px double;
+            display: inline;
+            color: black;
+
+            &:hover {
+                color: $primary-color;
+                border-bottom: 3px solid black;
+            }
+        }
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding-left: 0;
+
+        li {
+            padding: 0 1em;
+
+            a {
+                color: $primary-color;
+                font-size: 1.3em;
+                border-bottom: 2px solid black;
+
+                &:hover {
+                    border-bottom: 5px double black;
+                }
+            }
+        }
+    }
+}

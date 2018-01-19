@@ -3,4 +3,11 @@
 
 {% block content %}
 <h1>Literature!</h1>
+<section id="literature-texts">
+    {% for text in texts %}
+    <div class="card">
+        <h2>{{ text.author }}: {{ text.title }}</h2>
+    </div>
+    {% endfor %}
+</section>
 {% endblock %}

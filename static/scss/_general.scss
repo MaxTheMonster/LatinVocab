@@ -1,0 +1,39 @@
+body {
+    font-family: $content-font;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $display-font;
+}
+
+a {
+    text-decoration: none;
+    color: $secondary-color;
+}
+
+input {
+    width: 20vw;
+    font-size: 2em;
+    font-family: $content-font;
+}
+
+input, select, option {
+    background: white;
+    border: 1px solid black;
+    border-radius: 0;
+    padding: 0.5em;
+    color: black;
+}
+
+select {
+    padding: 0.1em;
+}
+
+.card {
+    background: white;
+    border: 1px solid black;
+    border-radius: 0;
+    padding: 1.5em;
+    margin: 1em 0;
+    color: black;
+}
