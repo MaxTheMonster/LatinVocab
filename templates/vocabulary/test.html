@@ -1,10 +1,12 @@
 {% extends "base.html" %}
 {% block title %}Vocabulary Test | {% endblock %}
 {% block content %}
-<body class="test_body">
-    <h1 id="title">GCSE Latin Vocabulary Test</h1>
+<main class="block" id="test-header">
+    <h1>GCSE Latin Vocabulary Test</h1>
+</main>
+<section class="block" id="test-setup">
     {% csrf_token %}
-    <form action="" id="test_form" name="test_form">
+    <form action="" name="test_form">
         <div class="selection">
             <label for="type">What would you like to be tested on?</label>
             <select name="type" id="type" value="Hi">
@@ -16,43 +18,45 @@
         <br/>
         <div class="selection">
             <label for="amount">How many words do you want?</label>
-            <br/>
-            <input type="range" id="amount" name="amount" step="5" min="0" max="470" oninput="rangevalue.value=value" value="35">
-            <output id="rangevalue">35</output>
+            <div>
+                <output id="rangevalue">35</output>
+                <input type="range" id="amount" name="amount" step="5" min="5" max="470" oninput="rangevalue.value=value" value="35">
+            </div>
         </div>
         <br/>
         <div class="selection">
             <label for="direction">Which translation direction?</label>
-            <input type="radio" id="directionLatinEnglish" name="direction" checked>Latin -> English
-            <input type="radio" id="directionEnglishLatin" name="direction" >English -> Latin
+            <div>
+                <div><input type="radio" id="directionLatinEnglish" name="direction" checked>Latin -> English</div>
+                <div><input type="radio" id="directionEnglishLatin" name="direction" >English -> Latin</div>
+            </div>
         </div>
-        <br/>
-        <input type="button" class="submit" value="Go!" onclick="goto()">
+        <a class="card" id="test-submit" onclick="goto()">Go!</a>
     </form>
-    <script>
-     function goto() {
-         var success = false;
-         var typeValue = document.getElementById("type").value;
-         if (typeValue === "EVERYTHING BABE!"){
-             var typeValue = "everything";
-         }
-         var amountValue = document.getElementById("amount").value;
-         console.log(amountValue);
-         if (amountValue == 0) {
-             document.querySelector("form") += "<h3 id='warning'>You must choose a number greater than 0.</h3>";
-         } else {
-             success = true;
-         }
-         if (document.getElementById('directionLatinEnglish').checked) {
-             var directionValue = "latin";
-         }
-         else if (document.getElementById('directionEnglishLatin').checked) {
-             var directionValue = "english";
-         }
-         if (success === true) {
-             window.location.href = "/test/" + typeValue.toLowerCase() + "/" + amountValue + "/" + directionValue + "/";
-         }
+</section>
+<script>
+ function goto() {
+     var success = false;
+     var typeValue = document.getElementById("type").value;
+     if (typeValue === "All"){
+         var typeValue = "everything";
      }
-    </script>
-</body>
+     var amountValue = document.getElementById("amount").value;
+     console.log(amountValue);
+     if (amountValue == 0) {
+         document.querySelector("form") += "<h3 id='warning'>You must choose a number greater than 0.</h3>";
+     } else {
+         success = true;
+     }
+     if (document.getElementById('directionLatinEnglish').checked) {
+         var directionValue = "latin";
+     }
+     else if (document.getElementById('directionEnglishLatin').checked) {
+         var directionValue = "english";
+     }
+     if (success === true) {
+         window.location.href = "/test/" + typeValue.toLowerCase() + "/" + amountValue + "/" + directionValue + "/";
+     }
+ }
+</script>
 {% endblock %}

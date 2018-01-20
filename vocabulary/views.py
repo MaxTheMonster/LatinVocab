@@ -25,7 +25,7 @@ class IndexView(generic.TemplateView):
             return context
 
 def init_test(request):
-    types = ["EVERYTHING BABE!", "Noun", "Adjective", "Adverb", "Verb", "Conjunction", "Preposition", "Pronoun"]
+    types = ["All", "Nounn", "Adjectives", "Adverbs", "Verbs", "Conjunctions", "Prepositions", "Pronouns"]
     return render(request, "vocabulary/test.html", {"types": types})
 
 class TakeTest(generic.TemplateView):
@@ -40,7 +40,7 @@ class TakeTest(generic.TemplateView):
         else:
             words = list(models.Word.objects.all().filter(type__startswith=self.kwargs["type"]))
             random.shuffle(words)
-            words = words[:amount]
+            words = words[:self.kwargs["amount"]]
             for word in words:
                 if direction == "latin":
                     answers.append(word.english)

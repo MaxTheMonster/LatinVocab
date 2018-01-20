@@ -1,7 +1,4 @@
 main#search-section {
-    width: 50vw;
-    margin: 0 auto;
-
     a#search-more-options {
         background: white;
         border: 1px solid black;
@@ -29,6 +26,17 @@ main#search-section {
         margin: 1em auto;
         text-align: center;
         display: none;
+    }
+
+    @include mobile {
+        input {
+            width: calc(100% - 1.2em - 2px);
+            margin-bottom: 0.3em;
+        }
+
+        a#search-more-options {
+            display: block;
+        }
     }
 }
 

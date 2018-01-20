@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}{{ text.title }} | {% endblock %}
+
+{% block content %}
+<main class="block" id="text-header">
+    <h1>{{ text.title }}</h1>
+    <p>By <span id="text-author">{{ text.author }}</span></p>
+</main>
+<section class="block" id="text-content">
+    <p>{{ text.content }}</p>
+</section>
+{% endblock %}

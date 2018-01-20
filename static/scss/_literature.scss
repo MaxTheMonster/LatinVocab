@@ -1,0 +1,39 @@
+main#literature-header {
+    h1 {
+
+    }
+}
+
+section#literature-texts {
+    .text-card {
+        display: block;
+
+        &:hover {
+            background: $primary-color;
+            color: white;
+            border: 2px solid $primary-color;
+        }
+    }
+}
+
+main#text-header {
+    margin-left: 2em;
+    width: 60rem;
+    margin: 0 auto;
+
+    h1 {
+        margin-bottom: 0.1em;
+    }
+
+    span#text-author {
+        font-style: italic;
+    }
+}
+
+section#text-content {
+    width: 60rem;
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    line-height: 3em;
+}

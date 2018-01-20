@@ -15,7 +15,7 @@ SECRET_KEY = '*)!g2rox9nc3-x@ywzt_b7nxh907r_&$6f7(xol1bx*(w$4-x3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "http://latinvocab.maximumrevision.co.uk", "http://maximumrevision.co.uk"]
+ALLOWED_HOSTS = ["192.168.1.80", "localhost", "http://latinvocab.maximumrevision.co.uk", "http://maximumrevision.co.uk"]
 
 # Application definition
 

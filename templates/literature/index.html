@@ -2,12 +2,12 @@
 {% block title %}Literature | {% endblock %}
 
 {% block content %}
-<h1>Literature!</h1>
-<section id="literature-texts">
+<main class="block" id="literature-header">
+    <h1>Literature</h1>
+</main>
+<section class="block" id="literature-texts">
     {% for text in texts %}
-    <div class="card">
-        <h2>{{ text.author }}: {{ text.title }}</h2>
-    </div>
+    <a class="text-card card" href="{{ text.get_absolute_url }}"><h2>{{ text.author }}: {{ text.title }}</h2></a>
     {% endfor %}
 </section>
 {% endblock %}
