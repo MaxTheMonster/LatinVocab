@@ -6,8 +6,28 @@
 <main class="block" id="text-header">
     <h1>{{ text.title }}</h1>
     <p>By <span id="text-author">{{ text.author }}</span></p>
+    <a id="toggle-language" class="card" href="#">Toggle Latin/English</a>
 </main>
-<section class="block" id="text-content">
+<section class="block text-lines" id="text-content">
     <p>{{ text.content }}</p>
 </section>
+<section class="block text-lines" id="text-translation">
+    <p>{{ text.translation }}</p>
+</section>
+<script>
+ const toggle_language = document.querySelector("#toggle-language");
+ const latin = document.querySelector("#text-content");
+ const english = document.querySelector("#text-translation");
+
+ function toggleLanguage() {
+     if (latin.style.display == "none" && english.style.display == "block") {
+         latin.style.display = "block";
+         english.style.display = "none";
+     } else {
+         latin.style.display = "none";
+         english.style.display = "block";
+     }
+ }
+ toggle_language.addEventListener("click", toggleLanguage)
+</script>
 {% endblock %}

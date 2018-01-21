@@ -1,9 +1,3 @@
-main#literature-header {
-    h1 {
-
-    }
-}
-
 section#literature-texts {
     .text-card {
         display: block;
@@ -28,12 +22,29 @@ main#text-header {
     span#text-author {
         font-style: italic;
     }
+
+    a#toggle-language {
+        text-align: right;
+        display: inline-block;
+        margin: 0;
+
+        &:hover {
+            background: $primary-color;
+            color: white;
+            border: 1px solid $primary-color;
+        }
+    }
 }
 
-section#text-content {
+section.text-lines {
     width: 60rem;
     max-width: 100%;
     margin: 0 auto;
     font-size: 1.5rem;
     line-height: 3em;
+}
+
+section#text-translation {
+    display: block;
+    font-style: italic;
 }

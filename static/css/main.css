@@ -142,13 +142,25 @@ main#text-header {
     margin-bottom: 0.1em; }
   main#text-header span#text-author {
     font-style: italic; }
+  main#text-header a#toggle-language {
+    text-align: right;
+    display: inline-block;
+    margin: 0; }
+    main#text-header a#toggle-language:hover {
+      background: #df3b57;
+      color: white;
+      border: 1px solid #df3b57; }
 
-section#text-content {
+section.text-lines {
   width: 60rem;
   max-width: 100%;
   margin: 0 auto;
   font-size: 1.5rem;
   line-height: 3em; }
+
+section#text-translation {
+  display: block;
+  font-style: italic; }
 
 section#test-setup .selection {
   display: flex;
