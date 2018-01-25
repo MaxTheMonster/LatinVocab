@@ -10,5 +10,12 @@ class LiteratureView(generic.ListView):
 
 class TextView(generic.DetailView):
     template_name = "literature/text.html"
-    model = models.Text
     slug_url_kwarg = "slug"
+    model = models.Text
+
+    def get_context_data(self, **kwargs):
+        context = super(TextView, self).get_context_data(**kwargs)
+        context['annotations'] = models.Annotation.objects.filter(relating_text__title=self.get_object().title)
+#        print(context['annotations'])
+        print(self.get_object)
+        return context

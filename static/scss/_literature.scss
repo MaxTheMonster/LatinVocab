@@ -45,6 +45,79 @@ section.text-lines {
 }
 
 section#text-translation {
-    display: block;
+    display: none;
     font-style: italic;
+}
+
+div.annotation-body {
+    position: relative;
+    display: inline-block;
+
+    span.highlight {
+        background: $secondary-color;
+        color: white;
+
+        &:hover {
+            background: darken($secondary-color, 25%);
+            cursor: pointer;
+        }
+
+        a {
+            color: white;
+        }
+    }
+
+    div.annotation {
+        position: absolute;
+        bottom: 3em;
+        right: 2em;
+        width: 50rem;
+        font-size: 0.9rem;
+        padding: 1em;
+        z-index: 1;
+        line-height: initial;
+        display: none;
+
+        h1 {
+            visibility: hidden;
+            display: none;
+        }
+
+        h2 {
+            margin: 0;
+            display: inline;
+        }
+
+        p {
+            display: inline;
+            margin: 0;
+        }
+    }
+}
+
+section#text-analyses {
+    .annotation {
+        border: 0;
+        margin: 0;
+        padding-top: 0;
+        border-bottom: 1px solid black;
+
+
+        h2 {
+            font-style: italic;
+            display: block;
+            font-weight: normal;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            color: $primary-color;
+            display: inline;
+            margin-top: 2em;
+        }
+
+        p {
+            display: inline;
+        }
+    }
 }

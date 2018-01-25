@@ -14,6 +14,15 @@
 <section class="block text-lines" id="text-translation">
     <p>{{ text.translation }}</p>
 </section>
+<section class="block card" id="text-analyses">
+    <h1>Summary of analyses</h1>
+    {% for annotation in annotations %}
+    <div class="card annotation-body annotation">
+        <h2>{{ annotation.latin }}</h2>
+        <h3>{{ annotation.device }}: </h3><p>{{ annotation.description }}</p>
+    </div>
+    {% endfor %}
+</section>
 <script>
  const toggle_language = document.querySelector("#toggle-language");
  const latin = document.querySelector("#text-content");
@@ -28,6 +37,26 @@
          english.style.display = "block";
      }
  }
- toggle_language.addEventListener("click", toggleLanguage)
+ toggle_language.addEventListener("click", toggleLanguage);
+
+ const annotations = document.querySelectorAll(".annotation");
+ const content = document.querySelector("#text-content p");
+ var newContent = content.innerHTML;
+
+ for (var i = 0, a; a = annotations[i]; i++) {
+     var latinLocation = a.querySelector("h2").innerHTML;
+     const regex = new RegExp(latinLocation, "gi");
+     newContent = newContent.replace(regex, "<div class='annotation-body'><span class='highlight' onmouseover='toggleAnnotation(this)' onmouseout='toggleAnnotation(this)'><a href='#'>" + latinLocation + "</a></span>" + a.outerHTML + "</div>");
+ }
+ content.innerHTML = newContent;
+
+ function toggleAnnotation(highlight) {
+     var annotation = highlight.parentNode.querySelector(".annotation");
+     if (annotation.style.display == "inline-block") {
+         annotation.style.display = "none";
+     } else {
+         annotation.style.display = "inline-block";
+     }
+ }
 </script>
 {% endblock %}

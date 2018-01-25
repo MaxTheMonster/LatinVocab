@@ -159,8 +159,56 @@ section.text-lines {
   line-height: 3em; }
 
 section#text-translation {
-  display: block;
+  display: none;
   font-style: italic; }
+
+div.annotation-body {
+  position: relative;
+  display: inline-block; }
+  div.annotation-body span.highlight {
+    background: #659157;
+    color: white; }
+    div.annotation-body span.highlight:hover {
+      background: #2d4127;
+      cursor: pointer; }
+    div.annotation-body span.highlight a {
+      color: white; }
+  div.annotation-body div.annotation {
+    position: absolute;
+    bottom: 3em;
+    right: 2em;
+    width: 50rem;
+    font-size: 0.9rem;
+    padding: 1em;
+    z-index: 1;
+    line-height: initial;
+    display: none; }
+    div.annotation-body div.annotation h1 {
+      visibility: hidden;
+      display: none; }
+    div.annotation-body div.annotation h2 {
+      margin: 0;
+      display: inline; }
+    div.annotation-body div.annotation p {
+      display: inline;
+      margin: 0; }
+
+section#text-analyses .annotation {
+  border: 0;
+  margin: 0;
+  padding-top: 0;
+  border-bottom: 1px solid black; }
+  section#text-analyses .annotation h2 {
+    font-style: italic;
+    display: block;
+    font-weight: normal; }
+  section#text-analyses .annotation h3 {
+    font-size: 1.5rem;
+    color: #df3b57;
+    display: inline;
+    margin-top: 2em; }
+  section#text-analyses .annotation p {
+    display: inline; }
 
 section#test-setup .selection {
   display: flex;

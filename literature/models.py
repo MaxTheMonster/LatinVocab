@@ -19,3 +19,13 @@ class Text(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Annotation(models.Model):
+    latin = models.CharField(max_length=120)
+    device = models.CharField(max_length=120)
+    description = models.TextField()
+    relating_text = models.ForeignKey(Text, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.device + ": " + self.latin

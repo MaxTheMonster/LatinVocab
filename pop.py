@@ -39,3 +39,21 @@ for line in file:
         w.save()
     except:
         continue
+
+from literature.models import Annotation
+file = open("annotations.txt", "r").readlines()
+
+for line in file:
+    b = line.split("/")
+    try:
+        print(b)
+        latin = b[0]
+        device = b[1]
+        description = b[2]
+        text = Text.objects.get(title=b[3])
+
+        w = Annotation(latin=latin, device=device, description=description, relating_text=text)
+
+        w.save()
+    except:
+        continue
