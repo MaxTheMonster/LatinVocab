@@ -49,10 +49,11 @@ for line in file:
         print(b)
         latin = b[0]
         device = b[1]
-        description = b[2]
-        text = Text.objects.get(title=b[3])
+        related_text = Text.objects.filter(title=b[2])[0]
+        description = b[3]
 
-        w = Annotation(latin=latin, device=device, description=description, relating_text=text)
+        print(related_text)
+        w = Annotation(latin=latin, device=device, description=description, relating_text=related_text)
 
         w.save()
     except:

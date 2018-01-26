@@ -46,7 +46,7 @@
  for (var i = 0, a; a = annotations[i]; i++) {
      var latinLocation = a.querySelector("h2").innerHTML;
      const regex = new RegExp(latinLocation, "gi");
-     newContent = newContent.replace(regex, "<div class='annotation-body'><span class='highlight' onmouseover='toggleAnnotation(this)' onmouseout='toggleAnnotation(this)'><a href='#'>" + latinLocation + "</a></span>" + a.outerHTML + "</div>");
+     newContent = newContent.replace(regex, "<div class='annotation-body'><span class='highlight' onclick='toggleAnnotation(this)'><a href='#'>" + latinLocation + "</a></span>" + a.outerHTML + "</div>");
  }
  content.innerHTML = newContent;
 

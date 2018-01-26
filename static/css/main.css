@@ -183,13 +183,16 @@ div.annotation-body {
     z-index: 1;
     line-height: initial;
     display: none; }
-    div.annotation-body div.annotation h1 {
+    div.annotation-body div.annotation h2 {
       visibility: hidden;
       display: none; }
-    div.annotation-body div.annotation h2 {
+    div.annotation-body div.annotation h3 {
       margin: 0;
-      display: inline; }
+      display: inline;
+      font-size: 1.4rem;
+      color: #df3b57; }
     div.annotation-body div.annotation p {
+      font-size: 1.2rem;
       display: inline;
       margin: 0; }
 

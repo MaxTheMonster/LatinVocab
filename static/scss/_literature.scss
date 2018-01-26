@@ -78,17 +78,20 @@ div.annotation-body {
         line-height: initial;
         display: none;
 
-        h1 {
+        h2 {
             visibility: hidden;
             display: none;
         }
 
-        h2 {
+        h3 {
             margin: 0;
             display: inline;
+            font-size: 1.4rem;
+            color: $primary-color;
         }
 
         p {
+            font-size: 1.2rem;
             display: inline;
             margin: 0;
         }
