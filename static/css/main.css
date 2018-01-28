@@ -41,7 +41,8 @@ select {
   margin: 0 auto; }
   @media (max-width: 540px) {
     .block {
-      width: 95vw; } }
+      width: 95%;
+      max-width: 95vw; } }
 
 main#search-section a#search-more-options {
   background: white;
@@ -157,61 +158,85 @@ section.text-lines {
   margin: 0 auto;
   font-size: 1.5rem;
   line-height: 3em; }
+  @media (max-width: 540px) {
+    section.text-lines {
+      font-size: 1.2rem; } }
 
 section#text-translation {
   display: none;
   font-style: italic; }
 
-div.annotation-body {
+section#text-content div.annotation-body {
   position: relative;
-  display: inline-block; }
-  div.annotation-body span.highlight {
+  display: inline; }
+  section#text-content div.annotation-body span.highlight {
     background: #659157;
     color: white; }
-    div.annotation-body span.highlight:hover {
+    section#text-content div.annotation-body span.highlight:hover {
       background: #2d4127;
       cursor: pointer; }
-    div.annotation-body span.highlight a {
+    section#text-content div.annotation-body span.highlight a {
       color: white; }
-  div.annotation-body div.annotation {
+      @media (max-width: 540px) {
+        section#text-content div.annotation-body span.highlight a {
+          padding: 0.2em; } }
+  section#text-content div.annotation-body div.annotation {
     position: absolute;
-    bottom: 3em;
-    right: 2em;
+    bottom: 2rem;
+    right: 2rem;
     width: 50rem;
     font-size: 0.9rem;
-    padding: 1em;
+    padding: 1.5em;
     z-index: 1;
     line-height: initial;
     display: none; }
-    div.annotation-body div.annotation h2 {
+    section#text-content div.annotation-body div.annotation h2 {
       visibility: hidden;
       display: none; }
-    div.annotation-body div.annotation h3 {
+    section#text-content div.annotation-body div.annotation h3 {
       margin: 0;
       display: inline;
       font-size: 1.4rem;
       color: #df3b57; }
-    div.annotation-body div.annotation p {
+    section#text-content div.annotation-body div.annotation p {
       font-size: 1.2rem;
       display: inline;
       margin: 0; }
+    @media (max-width: 540px) {
+      section#text-content div.annotation-body div.annotation {
+        bottom: 1rem;
+        position: relative;
+        right: 0;
+        width: 90vw;
+        font-size: 0.5rem; } }
+  @media (max-width: 540px) {
+    section#text-content div.annotation-body {
+      position: static;
+      left: 0;
+      width: 100vw; } }
 
-section#text-analyses .annotation {
-  border: 0;
-  margin: 0;
-  padding-top: 0;
-  border-bottom: 1px solid black; }
-  section#text-analyses .annotation h2 {
-    font-style: italic;
-    display: block;
-    font-weight: normal; }
-  section#text-analyses .annotation h3 {
-    font-size: 1.5rem;
-    color: #df3b57;
-    display: inline;
-    margin-top: 2em; }
-  section#text-analyses .annotation p {
-    display: inline; }
+section#text-analyses {
+  border: 1px solid black;
+  padding: 1em; }
+  section#text-analyses .annotation {
+    border: 0;
+    margin: 0;
+    padding-top: 0;
+    border-bottom: 1px solid black; }
+    section#text-analyses .annotation h2 {
+      font-style: italic;
+      display: block;
+      font-weight: normal; }
+    section#text-analyses .annotation h3 {
+      font-size: 1.5rem;
+      color: #df3b57;
+      display: inline;
+      margin-top: 2em; }
+    section#text-analyses .annotation p {
+      display: inline; }
+  @media (max-width: 540px) {
+    section#text-analyses {
+      width: 88%; } }
 
 section#test-setup .selection {
   display: flex;

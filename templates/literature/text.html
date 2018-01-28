@@ -6,7 +6,7 @@
 <main class="block" id="text-header">
     <h1>{{ text.title }}</h1>
     <p>By <span id="text-author">{{ text.author }}</span></p>
-    <a id="toggle-language" class="card" href="#">Toggle Latin/English</a>
+    <a id="toggle-language" class="card" href="#~">Toggle Latin/English</a>
 </main>
 <section class="block text-lines" id="text-content">
     <p>{{ text.content }}</p>
@@ -14,7 +14,7 @@
 <section class="block text-lines" id="text-translation">
     <p>{{ text.translation }}</p>
 </section>
-<section class="block card" id="text-analyses">
+<section class="block" id="text-analyses">
     <h1>Summary of analyses</h1>
     {% for annotation in annotations %}
     <div class="card annotation-body annotation">
@@ -46,7 +46,7 @@
  for (var i = 0, a; a = annotations[i]; i++) {
      var latinLocation = a.querySelector("h2").innerHTML;
      const regex = new RegExp(latinLocation, "gi");
-     newContent = newContent.replace(regex, "<div class='annotation-body'><span class='highlight' onclick='toggleAnnotation(this)'><a href='#'>" + latinLocation + "</a></span>" + a.outerHTML + "</div>");
+     newContent = newContent.replace(regex, "<div class='annotation-body'><span class='highlight' onclick='toggleAnnotation(this)'><a href='#~'>" + latinLocation + "</a></span>" + a.outerHTML + "</div> ");
  }
  content.innerHTML = newContent;
 

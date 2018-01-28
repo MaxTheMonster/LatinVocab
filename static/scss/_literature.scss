@@ -42,6 +42,10 @@ section.text-lines {
     margin: 0 auto;
     font-size: 1.5rem;
     line-height: 3em;
+
+    @include mobile {
+        font-size: 1.2rem;
+    }
 }
 
 section#text-translation {
@@ -49,62 +53,84 @@ section#text-translation {
     font-style: italic;
 }
 
-div.annotation-body {
-    position: relative;
-    display: inline-block;
+section#text-content {
+    div.annotation-body {
+        position: relative;
+        display: inline;
 
-    span.highlight {
-        background: $secondary-color;
-        color: white;
-
-        &:hover {
-            background: darken($secondary-color, 25%);
-            cursor: pointer;
-        }
-
-        a {
+        span.highlight {
+            background: $secondary-color;
             color: white;
+
+            &:hover {
+                background: darken($secondary-color, 25%);
+                cursor: pointer;
+            }
+
+            a {
+                color: white;
+
+                @include mobile {
+                    padding: 0.2em;
+                }
+            }
         }
-    }
 
-    div.annotation {
-        position: absolute;
-        bottom: 3em;
-        right: 2em;
-        width: 50rem;
-        font-size: 0.9rem;
-        padding: 1em;
-        z-index: 1;
-        line-height: initial;
-        display: none;
-
-        h2 {
-            visibility: hidden;
+        div.annotation {
+            position: absolute;
+            bottom: 2rem;
+            right: 2rem;
+            width: 50rem;
+            font-size: 0.9rem;
+            padding: 1.5em;
+            z-index: 1;
+            line-height: initial;
             display: none;
+
+            h2 {
+                visibility: hidden;
+                display: none;
+            }
+
+            h3 {
+                margin: 0;
+                display: inline;
+                font-size: 1.4rem;
+                color: $primary-color;
+            }
+
+            p {
+                font-size: 1.2rem;
+                display: inline;
+                margin: 0;
+            }
+
+            @include mobile {
+                bottom: 1rem;
+                position: relative;
+                right: 0;
+                width: 90vw;
+                font-size: 0.5rem;
+            }
         }
 
-        h3 {
-            margin: 0;
-            display: inline;
-            font-size: 1.4rem;
-            color: $primary-color;
-        }
-
-        p {
-            font-size: 1.2rem;
-            display: inline;
-            margin: 0;
+        @include mobile {
+            position: static;
+            left: 0;
+            width: 100vw;
         }
     }
 }
 
 section#text-analyses {
+    border: 1px solid black;
+    padding: 1em;
+
     .annotation {
         border: 0;
         margin: 0;
         padding-top: 0;
         border-bottom: 1px solid black;
-
 
         h2 {
             font-style: italic;
@@ -122,5 +148,8 @@ section#text-analyses {
         p {
             display: inline;
         }
+    }
+    @include mobile {
+        width: 88%;
     }
 }
