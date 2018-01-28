@@ -1,62 +1,65 @@
 {% extends "base.html" %}
+
 {% block title %}Vocabulary Test | {% endblock %}
+
 {% block content %}
 <main class="block" id="test-header">
-    <h1>GCSE Latin Vocabulary Test</h1>
+    <h1>Vocabulary Test - Work in Progress</h1>
+    <p>...... more will come</p>
 </main>
-<section class="block" id="test-setup">
-    {% csrf_token %}
-    <form action="" name="test_form">
-        <div class="selection">
-            <label for="type">What would you like to be tested on?</label>
-            <select name="type" id="type" value="Hi">
-                {% for type in types %}
-                <option value="{{ type }}">{{ type }}</option>
-                {% endfor %}
-            </select>
-        </div>
-        <br/>
-        <div class="selection">
-            <label for="amount">How many words do you want?</label>
-            <div>
-                <output id="rangevalue">35</output>
-                <input type="range" id="amount" name="amount" step="5" min="5" max="470" oninput="rangevalue.value=value" value="35">
-            </div>
-        </div>
-        <br/>
-        <div class="selection">
-            <label for="direction">Which translation direction?</label>
-            <div>
-                <div><input type="radio" id="directionLatinEnglish" name="direction" checked>Latin -> English</div>
-                <div><input type="radio" id="directionEnglishLatin" name="direction" >English -> Latin</div>
-            </div>
-        </div>
-        <a class="card" id="test-submit" onclick="goto()">Go!</a>
-    </form>
-</section>
-<script>
- function goto() {
+<!-- <section class="block" id="test-setup">
+     {% csrf_token %}
+     <form action="" name="test_form">
+     <div class="selection">
+     <label for="type">What would you like to be tested on?</label>
+     <select name="type" id="type" value="Hi">
+     {% for type in types %}
+     <option value="{{ type }}">{{ type }}</option>
+     {% endfor %}
+     </select>
+     </div>
+     <br/>
+     <div class="selection">
+     <label for="amount">How many words do you want?</label>
+     <div>
+     <output id="rangevalue">35</output>
+     <input type="range" id="amount" name="amount" step="5" min="5" max="470" oninput="rangevalue.value=value" value="35">
+     </div>
+     </div>
+     <br/>
+     <div class="selection">
+     <label for="direction">Which translation direction?</label>
+     <div>
+     <div><input type="radio" id="directionLatinEnglish" name="direction" checked>Latin -> English</div>
+     <div><input type="radio" id="directionEnglishLatin" name="direction" >English -> Latin</div>
+     </div>
+     </div>
+     <a class="card" id="test-submit" onclick="goto()">Go!</a>
+     </form>
+     </section>
+     <script>
+     function goto() {
      var success = false;
      var typeValue = document.getElementById("type").value;
      if (typeValue === "All"){
-         var typeValue = "everything";
+     var typeValue = "everything";
      }
      var amountValue = document.getElementById("amount").value;
      console.log(amountValue);
      if (amountValue == 0) {
-         document.querySelector("form") += "<h3 id='warning'>You must choose a number greater than 0.</h3>";
+     document.querySelector("form") += "<h3 id='warning'>You must choose a number greater than 0.</h3>";
      } else {
-         success = true;
+     success = true;
      }
      if (document.getElementById('directionLatinEnglish').checked) {
-         var directionValue = "latin";
+     var directionValue = "latin";
      }
      else if (document.getElementById('directionEnglishLatin').checked) {
-         var directionValue = "english";
+     var directionValue = "english";
      }
      if (success === true) {
-         window.location.href = "/test/" + typeValue.toLowerCase() + "/" + amountValue + "/" + directionValue + "/";
+     window.location.href = "/test/" + typeValue.toLowerCase() + "/" + amountValue + "/" + directionValue + "/";
      }
- }
-</script>
+     }
+     </script> -->
 {% endblock %}
