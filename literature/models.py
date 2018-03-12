@@ -22,10 +22,22 @@ class Text(models.Model):
 
 
 class Annotation(models.Model):
-    latin = models.CharField(max_length=120)
     device = models.CharField(max_length=120)
     description = models.TextField()
-    relating_text = models.ForeignKey(Text, on_delete=models.CASCADE)
 
     def __str__(self):
-        return self.device + ": " + self.latin
+        return self.device + ": " + self.description[:5]
+
+class RelatingLatin(models.Model):
+    latin = models.CharField(max_length=120, unique=True)
+    relating_text = models.ForeignKey(Text, on_delete=models.CASCADE)
+    annotations = models.ManyToManyField(Annotation, related_query_name="annotation")
+    slug = models.SlugField(editable=True)
+
+    def save(self, *args, **kwargs):
+        if not self.pk:
+            self.slug = slugify(self.latin)
+        return super(RelatingLatin, self).save(*args, **kwargs)
+
+    def __str__(self):
+        return self.latin

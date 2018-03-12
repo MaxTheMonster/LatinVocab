@@ -40,21 +40,48 @@ for line in file:
     except:
         continue
 
-from literature.models import Annotation
+from literature.models import Annotation, RelatingLatin
 file = open("annotations.txt", "r").readlines()
+annotations = []
+finalAnnotations = []
 
 for line in file:
     b = line.split("/")
     try:
         print(b)
-        latin = b[0]
-        device = b[1]
-        related_text = Text.objects.filter(title=b[2])[0]
+        latin = b[1]
+        device = b[2]
+        related_text = Text.objects.filter(title=b[0])[0]
         description = b[3]
+ #       a = Annotation(device=device, description=description)
 
-        print(related_text)
-        w = Annotation(latin=latin, device=device, description=description, relating_text=related_text)
-
-        w.save()
+        annotations.append(b)
     except:
         continue
+
+previous_relating_latin = ""
+
+for a in annotations:
+    latin = a[1]
+    device = a[2]
+    related_text = Text.objects.filter(title=a[0])[0]
+    description = a[3]
+
+    if latin != previous_relating_latin:
+        relating_latin = RelatingLatin(latin=latin, relating_text=related_text)
+        try:
+            relating_latin.save()
+        except django.db.utils.IntegrityError:
+            pass
+        previous_relating_latin = relating_latin
+
+    relating_latin = RelatingLatin.objects.filter(latin=latin)[0]
+
+    print(relating_latin)
+    annotation = Annotation(device=device, description=description)
+    annotation.save()
+
+    retrieved_annotation = Annotation.objects.filter(description=description)[0]
+    print(retrieved_annotation)
+    relating_latin.annotations.add(retrieved_annotation)
+    relating_latin.save()

@@ -133,7 +133,7 @@ section#literature-texts .text-card {
   section#literature-texts .text-card:hover {
     background: #df3b57;
     color: white;
-    border: 2px solid #df3b57; }
+    border: 1px solid #df3b57; }
 
 main#text-header {
   margin-left: 2em;
@@ -160,79 +160,61 @@ section.text-lines {
   line-height: 3em; }
   @media (max-width: 540px) {
     section.text-lines {
-      font-size: 1.2rem; } }
+      width: 90%;
+      font-size: 1.35rem;
+      line-height: 2.5rem; } }
+
+:target {
+  -webkit-animation: target-fade 3s 1;
+  -moz-animation: target-fade 3s 1; }
+
+@-webkit-keyframes target-fade {
+  0% {
+    background-color: rgba(0, 0, 0, 0.1); }
+  100% {
+    background-color: transparent; } }
+
+@-moz-keyframes target-fade {
+  0% {
+    background-color: rgba(0, 0, 0, 0.1); }
+  100% {
+    background-color: transparent; } }
 
 section#text-translation {
   display: none;
   font-style: italic; }
 
-section#text-content div.annotation-body {
-  position: relative;
-  display: inline; }
-  section#text-content div.annotation-body span.highlight {
-    background: #659157;
-    color: white; }
-    section#text-content div.annotation-body span.highlight:hover {
-      background: #2d4127;
-      cursor: pointer; }
-    section#text-content div.annotation-body span.highlight a {
-      color: white; }
-      @media (max-width: 540px) {
-        section#text-content div.annotation-body span.highlight a {
-          padding: 0.2em; } }
-  section#text-content div.annotation-body div.annotation {
-    position: absolute;
-    bottom: 2rem;
-    right: 2rem;
-    width: 50rem;
-    font-size: 0.9rem;
-    padding: 1.5em;
-    z-index: 1;
-    line-height: initial;
-    display: none; }
-    section#text-content div.annotation-body div.annotation h2 {
-      visibility: hidden;
-      display: none; }
-    section#text-content div.annotation-body div.annotation h3 {
-      margin: 0;
-      display: inline;
-      font-size: 1.4rem;
-      color: #df3b57; }
-    section#text-content div.annotation-body div.annotation p {
-      font-size: 1.2rem;
-      display: inline;
-      margin: 0; }
-    @media (max-width: 540px) {
-      section#text-content div.annotation-body div.annotation {
-        bottom: 1rem;
-        position: relative;
-        right: 0;
-        width: 90vw;
-        font-size: 0.5rem; } }
-  @media (max-width: 540px) {
-    section#text-content div.annotation-body {
-      position: static;
-      left: 0;
-      width: 100vw; } }
+.top-sticky {
+  margin-top: 5em !important; }
+
+section#text-content span.highlight a {
+  background: #659157;
+  color: white;
+  padding: 0.1em; }
+  section#text-content span.highlight a:hover {
+    background: #2d4127; }
 
 section#text-analyses {
   border: 1px solid black;
   padding: 1em; }
-  section#text-analyses .annotation {
+  section#text-analyses div.quotation {
     border: 0;
-    margin: 0;
-    padding-top: 0;
-    border-bottom: 1px solid black; }
-    section#text-analyses .annotation h2 {
+    padding: 0.2em 0.5em 0;
+    border-top: 2px solid black; }
+    section#text-analyses div.quotation div.annotation {
+      padding: 1.5em 0.8em;
+      border-top: 1px solid black; }
+    section#text-analyses div.quotation h2 {
+      margin-bottom: 0.5em;
       font-style: italic;
       display: block;
       font-weight: normal; }
-    section#text-analyses .annotation h3 {
+    section#text-analyses div.quotation h3 {
       font-size: 1.5rem;
       color: #df3b57;
-      display: inline;
-      margin-top: 2em; }
-    section#text-analyses .annotation p {
+      display: inline; }
+    section#text-analyses div.quotation p {
+      font-size: 1.2rem;
       display: inline; }
   @media (max-width: 540px) {
     section#text-analyses {
