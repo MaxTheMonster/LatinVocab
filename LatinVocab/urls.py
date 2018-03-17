@@ -9,7 +9,7 @@ from django.contrib import admin
 urlpatterns = [
     path('', vocabulary.IndexView.as_view(), name="index"),
     path('test/', vocabulary.init_test, name="test"),
-    path('test/<str:type>/<int:amount>/<str:direction>/', vocabulary.TakeTest.as_view(), name="take_test"),
+#    path('test/<str:type>/<int:amount>/<str:direction>/', vocabulary.TakeTest.as_view(), name="take_test"),
     path('literature/', include('literature.urls')),
     path('admin/', admin.site.urls),
 ]

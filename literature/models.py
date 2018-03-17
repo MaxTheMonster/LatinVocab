@@ -29,9 +29,9 @@ class Annotation(models.Model):
         return self.device + ": " + self.description[:5]
 
 class RelatingLatin(models.Model):
-    latin = models.CharField(max_length=120, unique=True)
+    latin = models.CharField(max_length=120, unique=False)
     relating_text = models.ForeignKey(Text, on_delete=models.CASCADE)
-    annotations = models.ManyToManyField(Annotation, related_query_name="annotation")
+    annotations = models.ManyToManyField(Annotation, related_query_name="annotations")
     slug = models.SlugField(editable=True)
 
     def save(self, *args, **kwargs):

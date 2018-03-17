@@ -17,7 +17,7 @@
 <section class="block" id="text-analyses">
     <h1>Summary of analyses</h1>
     {% for quotation in quotations %}
-    <div class="card quotation" id="annotation__{{ quotation.slug }}">
+    <div class="card quotation" id="{{ quotation.slug }}">
         <h2>{{ quotation.latin }}</h2>
         {% for annotation in quotation.annotations.all %}
         <div class="annotation">
@@ -48,12 +48,10 @@
  const content = document.querySelector("#text-content p");
  var newContent = content.innerHTML;
 
- console.log(annotations)
  for (var i = 0, a; a = annotations[i]; i++) {
      var latinLocation = a.parentNode.querySelector("h2").innerHTML;
      var latinID = a.parentNode.id;
      var formulatedLink = "<a href='#" + latinID +"'>" + latinLocation + "</a> ";
-     console.log(latinLocation);
      if (newContent.includes(latinID)) {
          continue;
      }

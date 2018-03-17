@@ -68,15 +68,20 @@ for a in annotations:
     description = a[3]
 
     if latin != previous_relating_latin:
-        relating_latin = RelatingLatin(latin=latin, relating_text=related_text)
-        try:
-            relating_latin.save()
-        except django.db.utils.IntegrityError:
+        existing_related_latin = RelatingLatin.objects.filter(latin=latin, relating_text=related_text)
+        if len(existing_related_latin) > 0:
             pass
+        else:
+            relating_latin = RelatingLatin(latin=latin, relating_text=related_text)
+            relating_latin.save()
+            # except django.db.utils.IntegrityError:
+            #     conflicting_latin = RelatingLatin.objects.filter(latin=latin)
+            #     for latin in conflicting_latin:
+            #         if latin.relating_text == a[0]:
+            #             pass
         previous_relating_latin = relating_latin
 
-    relating_latin = RelatingLatin.objects.filter(latin=latin)[0]
-
+    relating_latin = RelatingLatin.objects.filter(latin=latin, relating_text=related_text)[0]
     print(relating_latin)
     annotation = Annotation(device=device, description=description)
     annotation.save()

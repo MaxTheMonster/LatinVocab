@@ -1,17 +1,36 @@
-Druids: Power/intersunt/Tricolon/Tricolon between 'intersunt', 'procurant' and 'interpretantur' highlights the breadth of the Druids control over society
-Druids: Power/procurant/Tricolon/Tricolon between 'intersunt', 'procurant' and 'interpretantur' highlights the breadth of the Druids control over society
-Druids: Power/interpretantur/Tricolon/Tricolon between 'intersunt', 'procurant' and 'interpretantur' highlights the breadth of the Druids control over society
-Druids: Power/publica ac privata/Repetition/Places emphasis on the Druids commanding control over both public ('publica') and private ('privata') areas of society
-Druids: Power/publica ac privata/Alliteration/Use of harh 'p' sound encourages the reader to take notice of the Druids' control
-Druids: Power/publica ac privata/Homeoteuleuton/Illustrates union of the two realms of society the Druids control
-Druids: Power/privatus ac publicus/Repetition/Places emphasis on the Druids commanding control over both public ('publica') and private ('privata') areas of society
-Druids: Power/publicis privatisque/Repetition/Places emphasis on the Druids commanding control over both public ('publica') and private ('privata') areas of society
-Druids: Power/magnoque hi sunt apud eos honore/Emphatic Word Order/The Druids are literally 'held' between great ('magnoque') and honour ('honore'), emphasising said honour
-Druids: Power/haec poena apud eos est/Short Sentence/Emphasises how serious the punishment is and the capacity the Druids have to inact it
-Druids: Power/gravissima/Emphatic Word Placement/This superlative is placed at the end of the sentence, encouraging the reader to reflect upon it
-Druids: Power/impiorum ac sceletorum/Tautology/Emphasises the individual nature of impiety ('impiorum') being separate from other wicked ('sceletorum') deeds
-Druids: Power/eis omnes decedunt/Emphatic Word Order/The banned men ('eis'), are literally shunned ('decedunt') by all ('omnes'), emphasising the severity of being banned
-Druids: Power/nonnumquam/Litotes/The violence in elections is understated in order to magnify it, and portray the Druids as violent
+The Power of the Druids/intersunt/Tricolon/Tricolon between 'intersunt', 'procurant' and 'interpretantur' highlights the breadth of the Druids control over society
+The Power of the Druids/procurant/Tricolon/Tricolon between 'intersunt', 'procurant' and 'interpretantur' highlights the breadth of the Druids control over society
+The Power of the Druids/interpretantur/Tricolon/Tricolon between 'intersunt', 'procurant' and 'interpretantur' highlights the breadth of the Druids control over society
+The Power of the Druids/publica ac privata/Repetition/Places emphasis on the Druids commanding control over both public ('publica') and private ('privata') areas of society
+The Power of the Druids/publica ac privata/Alliteration/Use of harsh 'p' sound encourages the reader to take notice of the Druids' control
+The Power of the Druids/publica ac privata/Homeoteuleuton/Illustrates union of the two realms of society the Druids control
+The Power of the Druids/privatus ac publicus/Repetition/Places emphasis on the Druids commanding control over both public ('publica') and private ('privata') areas of society
+The Power of the Druids/publicis privatisque/Repetition/Places emphasis on the Druids commanding control over both public ('publica') and private ('privata') areas of society
+The Power of the Druids/magnoque hi sunt apud eos honore/Emphatic Word Order/The Druids are literally 'held' between great ('magnoque') and honour ('honore'), emphasising said honour
+The Power of the Druids/haec poena apud eos est/Short Sentence/Emphasises how serious the punishment is and the capacity the Druids have to inact it
+The Power of the Druids/gravissima/Emphatic Word Placement/This superlative is placed at the end of the sentence, encouraging the reader to reflect upon it
+The Power of the Druids/impiorum ac sceletorum/Tautology/Emphasises the individual nature of impiety ('impiorum') being separate from other wicked ('sceletorum') deeds
+The Power of the Druids/eis omnes decedunt/Emphatic Word Order/The banned men ('eis'), are literally shunned ('decedunt') by all ('omnes'), emphasising the severity of being banned
+The Power of the Druids/nonnumquam/Litotes/The violence in elections is understated in order to magnify it, and portray the Druids as violent
+The Education of the Druids/Chiasmus/vacationem omniumque rerum immunitatem/All things ('omniumque rerum') is surrounded by two words meaning exemption ('vacationem') and ('immunitatem'), emphasising the Druids exemption
+The Education of the Druids/tantis praemiis/Hyperbaton/Forces the benefits ('praemiis') to the front of the sentence, emphasising focus upon it from those who want to learn
+The Education of the Druids/magnum ibi numerum versuum/Homeoteuleuton/The repetition of the 'um' sound reinforces the great amount of literature that the Druids must learn
+The Education of the Druids/fas/Word choice/This is a very powerful word (meaning 'right' or 'just') emphasises the moral implications of writing verses down
+The Education of the Druids/mihi/Word choice/Introduces words from Caesar, reminding us of his presence
+The Education of the Druids/ab allis post mortem transire ad alios/Emphatic sentence/The souls ('allis' and 'alios'), move across the sentence - between those two words - as they move between bodies, emphasis upon the movement
+The Education of the Druids/hoc maxime/Superlative/Emphasises the gravity of the idea of a soul moving from body to body
+The Education of the Druids/metu mortis neglecto/Hyperbaton/Phrase is placed on the end of the sentence to show that the influence of the idea is worthy of attention
+The Education of the Druids/de sideribus atque eorum motu/Climactic List/The list begins with the stars ('sideribus'), goes on to the universe ('mundi'), everything ('rereum'), and the gods ('deorum') - the most significant
+The Education of the Druids/de sideribus atque eorum motu/Long sentence/This sentence is very long, almost making the reader out of breath, emphasising the the great number of things that the Druids discuss
+The Education of the Druids/deorum immortalium/Pleonasm/This sarcasm mocks the Druids and their beliefs
+The Religion of the Druids/gravioribus morbis/Litotes/By playing down the reasons that the Gauls turned to human sacrifice, Caesar makes them seem barbaric as they sacrifice humans often
+The Religion of the Druids/immolant aut se immolaturos/Polypoton/Shows that sacrifice was a regular occurance was a regular occurance in Gallic society
+The Religion of the Druids/vita hominis reddatur hominis vita/Chiasmus/Balance shows the justification for it in society. Reflects how one life is equal to another in the eyes of the gods when sacrificed
+The Religion of the Druids/deorum immortalium/Pleonasm/This sarcasm mocks the Druids and their beliefs. Emphasised by repetition.
+The Religion of the Druids/deorum immortalium/Contrast/The contrast between the immortal ('immortalium') gods and the very mortal human sacrifices is shown here in this repeated phrase
+The Religion of the Druids/incensis homines flamma/Enclosing word order/The men are literally surrounded by burning ('incensis') and flames ('flamma'), emphasising the vivid imagery of their burning
+The Religion of the Druids/furto aut in latrocinio aut aliqua noxia/Tricolon/A list of what must be done in order to be sacrificed by the Druids, emphasises their barbaric nature
+The Religion of the Druids/aliqua noxia/Word choice/This is very vague, using the catch-all phrase 'aliqua noxia' (other offences), portrays the Druids' cruelty and their barbaric nature
 The Invasion of Mona/diversa acies, densa armis/Chiasmus/Repetition of 'd' and 'a' sounds represent the tight formation of the opposing army
 The Invasion of Mona/ut quasi harentibus membris/Simile/Enhances the vivid imagery of immoving soldiers and enhances fear
 The Invasion of Mona/inferunt/Tricolon/Quick succession of verbs ('inferunt', 'sternunt', 'involvunt') shows the efficiency of the Roman army despite their setbacks
@@ -20,4 +39,4 @@ The Invasion of Mona/involvunt/Tricolon/Quick succession of verbs ('inferunt', '
 The Invasion of Mona/timerunt, inferunt/Juxtoposition/Shows the quick transition between fear and bravery
 The Invasion of Mona/luci seavis superstitionibus sacri/Chiasmus/The inhuman superstitions are enclosed by the altars ('luci') and devoted ('sacri'), enhancing the imagery of bloody altars
 The Invasion of Mona/pedites, equites/Homeoteuleuton/Shows the union of the infantry (pedites) and the cavalry (equites), illustrating the organisation of the Roman army
-The Invasion of Mona/Furiarum/Comparison/Emphasises the barbaric nature of the Celtic women, comparing them to the 'Furies' - infernal godesses
+The Invasion of Mona/Furiarum/Comparison/Emphasises the barbaric nature of the Celtic women, comparing them to the 'Furies' - infernal goddesses
