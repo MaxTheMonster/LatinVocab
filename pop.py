@@ -74,11 +74,6 @@ for a in annotations:
         else:
             relating_latin = RelatingLatin(latin=latin, relating_text=related_text)
             relating_latin.save()
-            # except django.db.utils.IntegrityError:
-            #     conflicting_latin = RelatingLatin.objects.filter(latin=latin)
-            #     for latin in conflicting_latin:
-            #         if latin.relating_text == a[0]:
-            #             pass
         previous_relating_latin = relating_latin
 
     relating_latin = RelatingLatin.objects.filter(latin=latin, relating_text=related_text)[0]

@@ -13,16 +13,25 @@ a {
 
 input {
     min-width: 20vw;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: $content-font;
 }
 
-input, select, option {
+.button, input, select, option {
     background: white;
     border: 1px solid black;
     border-radius: 0;
     padding: 0.6em;
     color: black;
+
+}
+
+.button, input[type=button], input[type=submit], button {
+    &:hover {
+        background: $primary-color;
+        color: white;
+        border: 1px solid $primary-color;
+    }
 }
 
 select {

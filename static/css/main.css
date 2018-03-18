@@ -1,10 +1,10 @@
 /* [====] Fonts [====] */
-@import url("https://fonts.googleapis.com/css?family=Quattrocento|Old+Standard+TT:700");
+@import url("https://fonts.googleapis.com/css?family=Petrona|Old+Standard+TT:700");
 /* [====] Variables [====] */
 /* [====] Mixins [====] */
 /* [====] Imports [====] */
 body {
-  font-family: "Quattrocento", serif; }
+  font-family: "Petrona", serif; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Old Standard TT", sans-serif; }
@@ -15,15 +15,20 @@ a {
 
 input {
   min-width: 20vw;
-  font-size: 2rem;
-  font-family: "Quattrocento", serif; }
+  font-size: 1.5rem;
+  font-family: "Petrona", serif; }
 
-input, select, option {
+.button, input, select, option {
   background: white;
   border: 1px solid black;
   border-radius: 0;
   padding: 0.6em;
   color: black; }
+
+.button:hover, input[type=button]:hover, input[type=submit]:hover, button:hover {
+  background: #df3b57;
+  color: white;
+  border: 1px solid #df3b57; }
 
 select {
   padding: 0.1em; }
@@ -210,11 +215,11 @@ section#text-analyses {
       display: block;
       font-weight: normal; }
     section#text-analyses div.quotation h3 {
-      font-size: 1.5rem;
+      font-size: 1.3em;
       color: #df3b57;
       display: inline; }
     section#text-analyses div.quotation p {
-      font-size: 1.2rem;
+      font-size: 1.1em;
       display: inline; }
   @media (max-width: 540px) {
     section#text-analyses {
@@ -222,30 +227,36 @@ section#text-analyses {
 
 section#test-setup .selection {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  flex-direction: column; }
   section#test-setup .selection output {
-    font-size: 1.5rem;
-    width: 10%;
-    text-align: center;
-    height: 3vh;
-    line-height: 3em;
-    vertical-align: middle; }
+    font-size: 1.5rem; }
+    @media (max-width: 540px) {
+      section#test-setup .selection output {
+        text-align: center; } }
   section#test-setup .selection input[type=range] {
     font-size: 1rem;
-    width: 80%;
-    margin: 0;
-    align-self: right; }
+    max-width: 80vw; }
+    @media (max-width: 540px) {
+      section#test-setup .selection input[type=range] {
+        margin: 0 auto; } }
   section#test-setup .selection input[type=radio] {
-    width: 1em;
-    min-width: 1em; }
+    display: inline; }
+  section#test-setup .selection label {
+    border-bottom: 2px solid black;
+    margin: 0.7em 0;
+    padding: 0.5em 0; }
+  section#test-setup .selection div label {
+    display: inline-block;
+    width: auto;
+    border: 0;
+    margin: 0; }
   section#test-setup .selection select {
     display: block;
-    align-self: right; }
-  @media (max-width: 540px) {
-    section#test-setup .selection {
-      flex-direction: column; }
+    width: 50%; }
+    @media (max-width: 540px) {
       section#test-setup .selection select {
-        width: 95%; } }
+        width: 90vw; } }
 
 section#test-setup a#test-submit {
   display: block;
@@ -256,3 +267,54 @@ section#test-setup a#test-submit {
     background: #df3b57;
     color: white;
     border: 2px solid #df3b57; }
+
+#test__scores {
+  display: none;
+  margin-left: 0 calc(auto + 2em); }
+  #test__scores #test__retake {
+    display: block;
+    width: 90%;
+    text-align: center;
+    padding: 1em;
+    margin: 1em auto; }
+  @media (max-width: 540px) {
+    #test__scores div {
+      overflow: scroll; } }
+  #test__scores #test__report {
+    border: 2px solid black;
+    margin: 0 auto; }
+    #test__scores #test__report td, #test__scores #test__report th {
+      margin: 1em;
+      border: 0;
+      border-bottom: 2px solid black;
+      padding: 1em; }
+    #test__scores #test__report tr {
+      margin: 0; }
+    #test__scores #test__report tr:nth-of-type(2n) {
+      background: #e1e3e5; }
+    #test__scores #test__report tr:nth-of-type(1) {
+      border-bottom: 3px solid black; }
+    #test__scores #test__report td:nth-of-type(3n) {
+      color: #df3b57; }
+    #test__scores #test__report .test__correct td:nth-of-type(1) {
+      background: #659157;
+      color: white; }
+
+#test__questions {
+  margin: 0 auto;
+  text-align: center; }
+
+.test__question {
+  display: none;
+  margin: 0 auto; }
+  .test__question div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; }
+    .test__question div input[type=text] {
+      flex-grow: 1; }
+    .test__question div input[type=button] {
+      cursor: pointer;
+      font-size: 1.3rem;
+      flex-grow: 1;
+      margin-left: 2px; }

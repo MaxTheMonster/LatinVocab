@@ -1,150 +1,155 @@
-<!DOCTYPE html>
-{% load staticfiles %}
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>GCSE Latin Vocabulary Quiz</title>
-  <link rel="icon" href="{% static "favicon.ico" %}"/>
-  <link rel="stylesheet" href="{% static "styles.css" %}">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-</head>
-<body class="test_body">
-  <h1><a id="test" href="/">Home</a></h1>
-  <h1 id="title">GCSE Latin Vocabulary Test</h1>
-  <h2 id="question-track">Question <span id="count"></span> out of {{ amount }}</h2>
+{% extends 'base.html' %}
 
-  <div class="scores">
-    <h1 id="retake" onclick="window.location.reload(false);">Retake</h1>
+{% block title %}Latin Vocabulary Test | {% endblock %}
+
+{% block content %}
+<main class="block">
+    <h1>Vocabulary Test</h1>
+    <p>Give your answers in this format:
+        <ul>
+            {% if direction == "english" %}
+            <li>Verbs: all participles (e.g. porto, portare, portavi, portatus)</li>
+            <li>Adjectives: nom. singular all genders (e.g. bonus, bona, bonum)</li>
+            <li>Nouns: nom. singular and gen. singular + gender (e.g. mare, maris, n)</li>
+            {% else %}
+            <li>Verbs: give the infinitive without 'to', (e.g. carry)</li>
+            <li>Adjectives: give the meaning in the singular</li>
+            <li>Nouns: give the meaning in the singular</li>
+            {% endif %}
+        </ul></p>
+    <h2 id="question-track">Question <span id="count"></span> out of {{ amount }}</h2>
+</main>
+
+<section class="block" id="test__scores">
     <h1>You scored <span id="corrects"></span> out of {{ amount }}</h1>
-    <h1 id="percentage"></h1>
-    <div class="report">
-      <div class="incorrectquestions"></div>
-      <div class="answers"></div>
-      <div class="correctanswers"></div>
+    <h1 id="test__percentage"></h1>
+
+    <div>
+        <table id="test__report">
+            <tr>
+                <th><h2>Questions</h2></th>
+                <th><h2>Your Answers</h2></th>
+                <th><h2>Correct Answers</h2></th>
+            </tr>
+        </table>
     </div>
-  </div>
+    <a class="card button" id="test__retake" href=".">Retake</a>
+</section>
 
-  <div class="questions">
-  {% if direction == "latin" %}
-    {% for word in words %}
-    <div class="question">
-      <h2>{{ word.latin }}</h2>
-      <input type="text" class="answer" autocomplete= "off" name="answer">
-
-      <input type="button" value=">" class="answer_button" onclick="checkAnswer({{ forloop.counter }});">
-    </div>
-    {% endfor %}
-  {% else %}
-    {% for word in words %}
-    <div class="question">
-      <h2>{{ word.english }}</h2>
-      <input type="text" class="answer" autocomplete= "off" name="answer">
-
-      <input type="button" value=">" class="answer_button" onclick="checkAnswer({{ forloop.counter }});">
-    </div>
-    {% endfor %}
-  {% endif %}
-  </div>
-
-  <script>
-  var score = 0;
-  var corrects = 0;
-  var incorrects = 0;
-  var incorrectQuestions = [];
-  var incorrectAnswers = [];
-  var questions = [];
-  var answers = [];
-  var correctAnswers = [];
-  {% for current_answer in answers %}
-    var newLength = answers.push('{{ current_answer }}');
-  {% endfor %}
-  {% for current_question in words %}
+<section class="block" id="test__questions">
     {% if direction == "latin" %}
-    var newLength = questions.push("{{ current_question.latin }}");
+    {% for word in words %}
+    <div class="test__question">
+        <p>{{ word.latin }}</p>
+        <div>
+            <input type="text" class="test__answer" autocomplete= "off" name="answer">
+            <input type="button" value=">" class="answer_button" onclick="checkAnswer({{ forloop.counter }});">
+        </div>
+    </div>
+    {% endfor %}
     {% else %}
-    var newLength = questions.push("{{ current_question.english }}");
+    {% for word in words %}
+    <div class="test__question">
+        <h2>{{ word.english }}</h2>
+        <div>
+            <input type="text" class="test__answer" autocomplete= "off" name="answer">
+            <input type="button" value=">" class="answer_button" onclick="checkAnswer({{ forloop.counter }});">
+        </div>
+    </div>
+    {% endfor %}
     {% endif %}
-  {% endfor %}
-  function ifCorrect() {
-    corrects = corrects + 1;
-    correct_text = document.createTextNode(corrects);
-    $("#correct").innerText = correct_text.textContent;
-  }
+</section>
 
-  function ifIncorrect(users_answer, count) {
-    incorrects = incorrects + 1;
-    var incans = incorrectAnswers.push(users_answer)
-    var incques = incorrectQuestions.push(questions[count])
-    var correctAnswer = correctAnswers.push(answers[count]);
-  }
+<script>
+ var score = 0;
+ var corrects = 0;
+ var incorrects = 0;
+ var incorrectQuestions = [];
+ var userAnswers = [];
+ var questions = [];
+ var answers = [];
+ var correctAnswers = [];
+ {% for current_answer in answers %}
+ var newLength = answers.push('{{ current_answer }}');
+ {% endfor %}
+ {% for current_question in words %}
+ {% if direction == "latin" %}
+ var newLength = questions.push("{{ current_question.latin }}");
+ {% else %}
+ var newLength = questions.push("{{ current_question.english }}");
+ {% endif %}
+ {% endfor %}
 
-  function nextQuestion(count) {
-    count = count + 2;
-    $(".question:nth-of-type(" + (count -1 ) +")").css("display", "none");
-    $(".question:nth-of-type(" + (count ) +")").keyup(function (e) {
-     var key = e.which;
-     if(key == 13)  {
-       $('.question:nth-of-type(' + count + ') .answer_button').click();
-      }
-    });
+ function ifCorrect(users_answer) {
+     corrects = corrects + 1;
+     correct_text = document.createTextNode(corrects);
+     var incques = incorrectQuestions.push("");
+     var incans = userAnswers.push(users_answer);
+     $("#correct").innerText = correct_text.textContent;
+     var correctAnswer = correctAnswers.push(answers[count]);
+ }
 
-    if (count > answers.length) {
-      $(".scores").fadeIn();
-      $(".incorrectquestions").append("<h2>Incorrect Questions</h2>");
-      $(".answers").append("<h2>Your Answers</h2>");
-      $(".correctanswers").append("<h2>Correct Answers</h2>");
-      $("#test").fadeIn()
-      for (var incorrect in incorrectQuestions) {
-        $(".incorrectquestions").append("<h3>" + incorrectQuestions[incorrect] + "</h3>");
-      }
-      for (var corrections in incorrectAnswers) {
-        $(".answers").append("<h3 class='correction'>" + incorrectAnswers[corrections] + "</h3>")
-      }
-      for (var correc in correctAnswers) {
-        $(".correctanswers").append("<h3>" + correctAnswers[correc] + "</h3>")
-      }
+ function ifIncorrect(users_answer, count) {
+     incorrects = incorrects + 1;
+     var incans = userAnswers.push(users_answer);
+     var incques = incorrectQuestions.push(questions[count]);
+     var correctAnswer = correctAnswers.push(answers[count]);
+ }
 
-      $("#question-track").fadeOut();
+ function nextQuestion(count) {
+     count = count + 2;
+     $(".test__question:nth-of-type(" + (count -1 ) +")").css("display", "none");
+     $(".test__question:nth-of-type(" + (count ) +")").keyup(function (e) {
+         var key = e.which;
+         if(key == 13)  {
+             $('.test__question:nth-of-type(' + count + ') .answer_button').click();
+         }
+     });
 
-      scores_text = document.createTextNode(corrects);
-      percentage = document.createTextNode((corrects / {{ amount }})*100 + "%");
-      document.getElementById("corrects").innerText = scores_text.textContent;
-      document.getElementById("percentage").innerText = percentage.textContent;
-    }
+     if (count > answers.length) {
+         $("#test__scores").css("display", "block");
+         for (i = 0; i < questions.length; i++) {
+             if (questions[i] != incorrectQuestions[i]) {
+                 $("table#test__report").append("<tr class='test__correct'><td>" + questions[i] + "</td><td>" + userAnswers[i] + "</td><td>" + answers[i] + "</td></tr>");
+             } else {
+                 $("table#test__report").append("<tr><td>" + questions[i] + "</td><td>" + userAnswers[i] + "</td><td>" + answers[i] + "</td></tr>");
+             }
+         }
+         $("#question-track").css("display", "none");
 
-    text = document.createTextNode(count);
-    document.getElementById("count").innerText = text.textContent;
-    $(".question:nth-of-type(" + (count) +")").css("display", "block");
-    $(".answer").focus();
-  }
+         scores_text = document.createTextNode(corrects);
+         percentage = document.createTextNode((corrects / {{ amount }})*100 + "%");
+         document.getElementById("corrects").innerText = scores_text.textContent;
+         document.getElementById("test__percentage").innerText = percentage.textContent;
+     }
 
-  function checkAnswer(count) {
-    count = count - 1;
-    var user_answer = document.getElementsByClassName("answer")[count].value;
-    user_answer = user_answer.toLowerCase()
-    if (user_answer === "") {
-      user_answer = "None";
-    }
-    answer = answers[count];
-    if ("{{ direction }}" === "latin") {
-      possible_answers = answer.split(", ");
-    } else {
-      possible_answers = answer.split(", ");
-    }
-    if ( possible_answers.indexOf(user_answer) >= 0 ) {
-      ifCorrect();
-    } else {
-      ifIncorrect(user_answer, count);
-    }
+     text = document.createTextNode(count);
+     document.getElementById("count").innerText = text.textContent;
+     $(".test__question:nth-of-type(" + (count) +")").css("display", "block");
+     $(".test__answer").focus();
+ }
 
-    nextQuestion(count);
-  }
-  $("#test").hide();
-  nextQuestion(-1);
-  </script>
+ function checkAnswer(count) {
+     count = count - 1;
+     var user_answer = document.getElementsByClassName("test__answer")[count].value;
+     user_answer = user_answer.toLowerCase()
+     if (user_answer === "") {
+         user_answer = "None";
+     }
+     answer = answers[count].toLowerCase();
+     if ("{{ direction }}" === "latin") {
+         possible_answers = answer.split(", ");
+     } else {
+         possible_answers = answer;
+     }
+     if ( possible_answers.indexOf(user_answer) >= 0 ) {
+         ifCorrect(user_answer);
+     } else {
+         ifIncorrect(user_answer, count);
+     }
 
-
-</body>
-</html>
+     nextQuestion(count);
+ }
+ nextQuestion(-1);
+</script>
+{% endblock %}

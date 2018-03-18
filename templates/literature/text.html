@@ -6,7 +6,7 @@
 <main class="block" id="text-header">
     <h1>{{ text.title }}</h1>
     <p>By <span id="text-author">{{ text.author }}</span></p>
-    <a id="toggle-language" class="card" href="#~">Toggle Latin/English</a>
+    <a id="toggle-language" class="button card" href="#~">Toggle Latin/English</a>
 </main>
 <section class="block text-lines" id="text-content">
     <p>{{ text.content }}</p>
@@ -52,7 +52,7 @@
      var latinLocation = a.parentNode.querySelector("h2").innerHTML;
      var latinID = a.parentNode.id;
      var formulatedLink = "<a href='#" + latinID +"'>" + latinLocation + "</a> ";
-     if (newContent.includes(latinID)) {
+     if (newContent.includes('href=\'#' + latinID + '\'')) {
          continue;
      }
      const regex = new RegExp(latinLocation + "[^(')(/a)]", "gi");

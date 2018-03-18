@@ -11,8 +11,8 @@ The Power of the Druids/haec poena apud eos est/Short Sentence/Emphasises how se
 The Power of the Druids/gravissima/Emphatic Word Placement/This superlative is placed at the end of the sentence, encouraging the reader to reflect upon it
 The Power of the Druids/impiorum ac sceletorum/Tautology/Emphasises the individual nature of impiety ('impiorum') being separate from other wicked ('sceletorum') deeds
 The Power of the Druids/eis omnes decedunt/Emphatic Word Order/The banned men ('eis'), are literally shunned ('decedunt') by all ('omnes'), emphasising the severity of being banned
-The Power of the Druids/nonnumquam/Litotes/The violence in elections is understated in order to magnify it, and portray the Druids as violent
-The Education of the Druids/Chiasmus/vacationem omniumque rerum immunitatem/All things ('omniumque rerum') is surrounded by two words meaning exemption ('vacationem') and ('immunitatem'), emphasising the Druids exemption
+The Power of the Druids/nonnumquam/Litotes/The violence in elections is understated, emphasising the rarity of the occasion that they use weapons
+The Education of the Druids/vacationem omniumque rerum immunitatem/Chiasmus/All things ('omniumque rerum') is surrounded by two words meaning exemption ('vacationem') and ('immunitatem'), emphasising the Druids exemption
 The Education of the Druids/tantis praemiis/Hyperbaton/Forces the benefits ('praemiis') to the front of the sentence, emphasising focus upon it from those who want to learn
 The Education of the Druids/magnum ibi numerum versuum/Homeoteuleuton/The repetition of the 'um' sound reinforces the great amount of literature that the Druids must learn
 The Education of the Druids/fas/Word choice/This is a very powerful word (meaning 'right' or 'just') emphasises the moral implications of writing verses down
@@ -36,7 +36,35 @@ The Invasion of Mona/ut quasi harentibus membris/Simile/Enhances the vivid image
 The Invasion of Mona/inferunt/Tricolon/Quick succession of verbs ('inferunt', 'sternunt', 'involvunt') shows the efficiency of the Roman army despite their setbacks
 The Invasion of Mona/sternunt/Tricolon/Quick succession of verbs ('inferunt', 'sternunt', 'involvunt') shows the efficiency of the Roman army despite their setbacks
 The Invasion of Mona/involvunt/Tricolon/Quick succession of verbs ('inferunt', 'sternunt', 'involvunt') shows the efficiency of the Roman army despite their setbacks
-The Invasion of Mona/timerunt, inferunt/Juxtoposition/Shows the quick transition between fear and bravery
+The Invasion of Mona/timerunt, inferunt/Juxtaposition/Shows the quick transition between fear and bravery
 The Invasion of Mona/luci seavis superstitionibus sacri/Chiasmus/The inhuman superstitions are enclosed by the altars ('luci') and devoted ('sacri'), enhancing the imagery of bloody altars
 The Invasion of Mona/pedites, equites/Homeoteuleuton/Shows the union of the infantry (pedites) and the cavalry (equites), illustrating the organisation of the Roman army
 The Invasion of Mona/Furiarum/Comparison/Emphasises the barbaric nature of the Celtic women, comparing them to the 'Furies' - infernal goddesses
+The Invasion of Mona/saevis superstitionibus/Sibilance/Used to create suspicion around the practices of the Druids, and also to arouse fear of them
+Boudicca's Rebellion I/Caesarem heredem duasque filias/Enclosing word order/Forshadows the future dispute over who is the heir. The heir ('heredem') is surrounded on both sides by Caesar and the two daughters ('duasque filias')
+Boudicca's Rebellion I/regnum a centurionibus, domus a servis/Parallelism/The balanced structure emphasises the preparedness of the Roman army in their attack
+Boudicca's Rebellion I/vastarentur/Tricolon/The tricolon of 'vastarentur' (plundered), 'verberata' (beaten), and 'violatae' (raped) - verbs of aggression - emphasise the great damage done to the Iceni by the Romans. The 'v' sound links them
+Boudicca's Rebellion I/avitis bonis/Fractured Syntax/Emphasises the separation between the Iceni chiefs ('principes omnes Icenorum') and their ancestral goods
+Boudicca's Rebellion I/cesserant, rapiunt/Juxtaposition/Forces the reader to see how the Iceni were faced with adverse circumstances, but acted upon them instead of becoming victims
+Boudicca's Rebellion I/servitio/Antithesis/This is a direct opposite to 'libertatem' (freedom), creating suspense and anticipation for the two potential outcomes of the conflict (slavery or freedom)
+Boudicca's Rebellion I/acerrimum in verteranos odium/Enclosing word order/Bitter ('acerrimum') and hatred ('odium') surround the veterans ('verteranos'), inciting sympathy for the veterans
+Boudicca's Rebellion I/acerrimum in verteranos odium/Short Sentence/Highlights the bitterness of the hatred, leaving only a short, sharp memory in the reader's mind
+Boudicca's Rebellion I/pellebant/Tricolon/Driving ('pellebant'), expelling ('exturbabant'), and calling ('appellabant'), these verbs of force shows the Romans asserting their power of the land
+Boudicca's Rebellion I/superbiam saevitiamque/Sibilance/Shows the savageness of the rage that has taken over the Trinobantes
+Boudicca's Rebellion I/similitudine vitae et spe eiusdem licentiate/Parallelism/Separated by 'et', the two phrases show the Romans' reasons for aggrevating the Trinobantes, suggesting a planned motive
+Boudicca's Rebellion I/sacerdotes specie religionis omnes fortunas suas/Sibilance/The repeated 's' sound suggests the disapproval of Tacitus for the priest's actions
+Boudicca's Rebellion I/coloniam nullis munimentis saeptam/Chiasmus/The fortification in the sentence ('munimentis') is separated from the colony ('coloniam'), which is exposed at the beginning of the sentence
+Boudicca's Rebellion II/decem ferme milia armatorum/Alliteration/The repetition of 'm' sounds creates sympathy for the Romans since they are outnumbered
+Boudicca's Rebellion II/comntendere et acie congredi parat/Short Sentence/Shows the simplicity of the concise plan that the Romans have devised
+Boudicca's Rebellion II/locum angustis faucibus et a tergo silvis clausum/Enclosing word order/The word closed ('clausum') is literally shutting off the back of the sentence, reflecting the meaning
+Boudicca's Rebellion II/sciebat/Verbs/This verb, and the many others, show the effectiveness of the Roman army
+Boudicca's Rebellion II/legionarii/Tricolon/The tricolon of 'legionarii', 'levi armature', and 'equites', shows the three divisions of the army, emphasising its professionality
+Boudicca's Rebellion II/at Britannorum copiae/Long sentence/The sentence that begins as such represents the chaos of the opposing Britons, in contrast to the short sentences of the Roman army
+Boudicca's Rebellion II/exultabant, tanta multitude quanta non alias,/Asyndeton/The heft of commas here makes the reader speed up their reading of the passage in order to show the chaos of the Britons
+Boudicca's Rebellion III/tamquam cuneo/Comparison/Tacitus uses this description to help the reader visualise the Romans' attack; vivid imagery enhancements!
+Boudicca's Rebellion III/auxilliares quoque impetum faciunt/Short Sentence/Highlights the impact of the auxilliaries being immediate
+Boudicca's Rebellion III/et equites protentis hastis/Alliteration/The repeated 't' sound reflects the harsh striking of the spears and emphasises their impact
+Boudicca's Rebellion III/saepserant abitus./Hyperbaton/The way out is literally shut off by this phrase at the end of the sentence, making the imagery more vivid
+Boudicca's Rebellion III/eo die/Time Phrase/Emphasises the brutal efficiency of the Roman army. They manage to carry out the attack in just one day
+Boudicca's Rebellion III/tradant/Style/Meaning 'report', this is the classic Tacitean trait of recording a rumour and passing it as fact in order to aid his persuasion.
+Boudicca's Rebellion III/Boudica vitam veneo finivit/Short Sentence/The brevity of the sentence emphasises the closure that her death brought, giving finality to all her actions
