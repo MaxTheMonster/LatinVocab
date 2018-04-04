@@ -15,7 +15,5 @@ class TextView(generic.DetailView):
 
     def get_context_data(self, **kwargs):
         context = super(TextView, self).get_context_data(**kwargs)
-        context['quotations'] = models.RelatingLatin.objects.filter(relating_text=self.get_object()).order_by('-pk')
-#        print(context['annotations'])
-        print(context['quotations'])
+        context['quotations'] = models.RelatingLatin.objects.filter(relating_text=self.get_object()).order_by('pk')
         return context

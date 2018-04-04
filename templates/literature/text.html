@@ -9,10 +9,10 @@
     <a id="toggle-language" class="button card" href="#~">Toggle Latin/English</a>
 </main>
 <section class="block text-lines" id="text-content">
-    <p>{{ text.content }}</p>
+    <p>{{ text.content|linebreaksbr }}</p>
 </section>
 <section class="block text-lines" id="text-translation">
-    <p>{{ text.translation }}</p>
+    <p>{{ text.translation|linebreaksbr }}</p>
 </section>
 <section class="block" id="text-analyses">
     <h1>Summary of analyses</h1>
@@ -27,6 +27,7 @@
     </div>
     {% endfor %}
 </section>
+<a id="backtotop" class="button" href="#">Top</a>
 <script>
  const toggle_language = document.querySelector("#toggle-language");
  const latin = document.querySelector("#text-content");
@@ -44,20 +45,25 @@
  toggle_language.addEventListener("click", toggleLanguage);
 
  const infoAnnotations = document.querySelector("#info-annotations");
- const annotations = document.querySelectorAll(".annotation"); // fix this to work!!
+ const annotations = document.querySelectorAll(".annotation");
  const content = document.querySelector("#text-content p");
  var newContent = content.innerHTML;
 
  for (var i = 0, a; a = annotations[i]; i++) {
-     var latinLocation = a.parentNode.querySelector("h2").innerHTML;
+     var latinLocations = a.parentNode.querySelector("h2").innerHTML.split(' | ');
      var latinID = a.parentNode.id;
-     var formulatedLink = "<a href='#" + latinID +"'>" + latinLocation + "</a> ";
-     if (newContent.includes('href=\'#' + latinID + '\'')) {
-         continue;
-     }
-     const regex = new RegExp(latinLocation + "[^(')(/a)]", "gi");
-     newContent = newContent.replace(regex, "<span class='highlight'>" + formulatedLink + "</span>");
+
+     latinLocations.forEach(function(latinLocation) {
+         latinLocation = latinLocation.replace(" \\ ", "<br>");
+         var formulatedLink = "<a href='#" + latinID +"'>" + latinLocation + "</a> ";
+         if (!newContent.includes('href=\'#' + latinID + '\'') || latinLocations.length > 1) {
+             console.log(latinLocation)
+             const regex = new RegExp(latinLocation + "[^-(')(/a)]", "gi");
+             newContent = newContent.replace(regex, "<span class='highlight'>" + formulatedLink + "</span>");
+         }
+     });
  }
+ newContent.replace("<br>", "<br>");
  content.innerHTML = newContent;
 </script>
 {% endblock %}

@@ -32,7 +32,9 @@ for line in file:
         title = b[0]
         author = b[1]
         content = b[2]
+        content = content.replace("\\n", '\n')
         translation = b[3]
+        translation = translation.replace("\\n", '\n')
 
         w = Text(title=title, author=author, content=content, translation=translation)
 
@@ -85,3 +87,30 @@ for a in annotations:
     print(retrieved_annotation)
     relating_latin.annotations.add(retrieved_annotation)
     relating_latin.save()
+
+# for a in annotations:
+#     relating_latins = []
+#     related_text = Text.objects.filter(title=a[0])[0]
+#     latin = a[1].split(" | ")
+#     for relating_latin in latin:
+#         if relating_latin != previous_relating_latin:
+#             existing_related_latin = RelatingLatin.objects.filter(latin=relating_latin, relating_text=related_text)
+#             if len(existing_related_latin) > 0:
+#                 pass
+#             else:
+#                 new_relating_latin = RelatingLatin(latin=relating_latin, relating_text=related_text)
+#                 new_relating_latin.save()
+#                 previous_relating_latin = new_relating_latin
+
+#         relating_latins.append(RelatingLatin.objects.filter(latin=relating_latin, relating_text=related_text)[0])
+#     device = a[2]
+#     description = a[3]
+#     annotation = Annotation(device=device, description=description)
+#     annotation.save()
+
+#     retrieved_annotation = Annotation.objects.filter(description=description)[0]
+#     print(retrieved_annotation)
+#     for relating_latin in relating_latins:
+#         relating_latin.annotations.add(retrieved_annotation)
+#         relating_latin.save()
+    

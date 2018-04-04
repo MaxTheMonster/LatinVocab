@@ -143,7 +143,8 @@ section#literature-texts .text-card {
 main#text-header {
   margin-left: 2em;
   width: 60rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-width: 90%; }
   main#text-header h1 {
     margin-bottom: 0.1em; }
   main#text-header span#text-author {
@@ -159,29 +160,38 @@ main#text-header {
 
 section.text-lines {
   width: 60rem;
-  max-width: 100%;
+  max-width: 90%;
   margin: 0 auto;
   font-size: 1.5rem;
-  line-height: 3em; }
+  line-height: 4.4rem; }
   @media (max-width: 540px) {
     section.text-lines {
       width: 90%;
       font-size: 1.35rem;
-      line-height: 2.5rem; } }
+      line-height: 4rem; } }
+  section.text-lines br {
+    margin-bottom: 0.7em; }
+
+#backtotop {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  padding: 1em; }
 
 :target {
-  -webkit-animation: target-fade 3s 1;
-  -moz-animation: target-fade 3s 1; }
+  border: 3px solid #df3b57 !important;
+  -webkit-animation: target-fade 1s 1;
+  -moz-animation: target-fade 1s 1; }
 
 @-webkit-keyframes target-fade {
   0% {
-    background-color: rgba(0, 0, 0, 0.1); }
+    background-color: rgba(223, 59, 87, 0.5); }
   100% {
     background-color: transparent; } }
 
 @-moz-keyframes target-fade {
   0% {
-    background-color: rgba(0, 0, 0, 0.1); }
+    background-color: rgba(223, 59, 87, 0.5); }
   100% {
     background-color: transparent; } }
 
@@ -201,7 +211,9 @@ section#text-content span.highlight a {
 
 section#text-analyses {
   border: 1px solid black;
-  padding: 1em; }
+  padding: 1em;
+  max-width: 90%;
+  width: 60rem; }
   section#text-analyses div.quotation {
     border: 0;
     padding: 0.2em 0.5em 0;

@@ -1,6 +1,4 @@
-The Power of the Druids/intersunt/Tricolon/Tricolon between 'intersunt', 'procurant' and 'interpretantur' highlights the breadth of the Druids control over society
-The Power of the Druids/procurant/Tricolon/Tricolon between 'intersunt', 'procurant' and 'interpretantur' highlights the breadth of the Druids control over society
-The Power of the Druids/interpretantur/Tricolon/Tricolon between 'intersunt', 'procurant' and 'interpretantur' highlights the breadth of the Druids control over society
+The Power of the Druids/intersunt | procurant | interpretantur/Tricolon/Tricolon between 'intersunt', 'procurant' and 'interpretantur' highlights the breadth of the Druids control over society
 The Power of the Druids/publica ac privata/Repetition/Places emphasis on the Druids commanding control over both public ('publica') and private ('privata') areas of society
 The Power of the Druids/publica ac privata/Alliteration/Use of harsh 'p' sound encourages the reader to take notice of the Druids' control
 The Power of the Druids/publica ac privata/Homeoteuleuton/Illustrates union of the two realms of society the Druids control
@@ -17,49 +15,47 @@ The Education of the Druids/tantis praemiis/Hyperbaton/Forces the benefits ('pra
 The Education of the Druids/magnum ibi numerum versuum/Homeoteuleuton/The repetition of the 'um' sound reinforces the great amount of literature that the Druids must learn
 The Education of the Druids/fas/Word choice/This is a very powerful word (meaning 'right' or 'just') emphasises the moral implications of writing verses down
 The Education of the Druids/mihi/Word choice/Introduces words from Caesar, reminding us of his presence
-The Education of the Druids/ab allis post mortem transire ad alios/Emphatic sentence/The souls ('allis' and 'alios'), move across the sentence - between those two words - as they move between bodies, emphasis upon the movement
+The Education of the Druids/ab allis post mortem transire ad alios/Emphatic Sentence/The souls ('allis' and 'alios'), move across the sentence - between those two words - as they move between bodies, emphasis upon the movement
 The Education of the Druids/hoc maxime/Superlative/Emphasises the gravity of the idea of a soul moving from body to body
 The Education of the Druids/metu mortis neglecto/Hyperbaton/Phrase is placed on the end of the sentence to show that the influence of the idea is worthy of attention
 The Education of the Druids/de sideribus atque eorum motu/Climactic List/The list begins with the stars ('sideribus'), goes on to the universe ('mundi'), everything ('rereum'), and the gods ('deorum') - the most significant
-The Education of the Druids/de sideribus atque eorum motu/Long sentence/This sentence is very long, almost making the reader out of breath, emphasising the the great number of things that the Druids discuss
+The Education of the Druids/de sideribus atque eorum motu/Long Sentence/This sentence is very long, almost making the reader out of breath, emphasising the the great number of things that the Druids discuss
 The Education of the Druids/deorum immortalium/Pleonasm/This sarcasm mocks the Druids and their beliefs
 The Religion of the Druids/gravioribus morbis/Litotes/By playing down the reasons that the Gauls turned to human sacrifice, Caesar makes them seem barbaric as they sacrifice humans often
 The Religion of the Druids/immolant aut se immolaturos/Polypoton/Shows that sacrifice was a regular occurance was a regular occurance in Gallic society
 The Religion of the Druids/vita hominis reddatur hominis vita/Chiasmus/Balance shows the justification for it in society. Reflects how one life is equal to another in the eyes of the gods when sacrificed
 The Religion of the Druids/deorum immortalium/Pleonasm/This sarcasm mocks the Druids and their beliefs. Emphasised by repetition.
 The Religion of the Druids/deorum immortalium/Contrast/The contrast between the immortal ('immortalium') gods and the very mortal human sacrifices is shown here in this repeated phrase
-The Religion of the Druids/incensis homines flamma/Enclosing word order/The men are literally surrounded by burning ('incensis') and flames ('flamma'), emphasising the vivid imagery of their burning
+The Religion of the Druids/incensis homines flamma/Enclosing Word order/The men are literally surrounded by burning ('incensis') and flames ('flamma'), emphasising the vivid imagery of their burning
 The Religion of the Druids/furto aut in latrocinio aut aliqua noxia/Tricolon/A list of what must be done in order to be sacrificed by the Druids, emphasises their barbaric nature
 The Religion of the Druids/aliqua noxia/Word choice/This is very vague, using the catch-all phrase 'aliqua noxia' (other offences), portrays the Druids' cruelty and their barbaric nature
 The Invasion of Mona/diversa acies, densa armis/Chiasmus/Repetition of 'd' and 'a' sounds represent the tight formation of the opposing army
 The Invasion of Mona/ut quasi harentibus membris/Simile/Enhances the vivid imagery of immoving soldiers and enhances fear
-The Invasion of Mona/inferunt/Tricolon/Quick succession of verbs ('inferunt', 'sternunt', 'involvunt') shows the efficiency of the Roman army despite their setbacks
-The Invasion of Mona/sternunt/Tricolon/Quick succession of verbs ('inferunt', 'sternunt', 'involvunt') shows the efficiency of the Roman army despite their setbacks
-The Invasion of Mona/involvunt/Tricolon/Quick succession of verbs ('inferunt', 'sternunt', 'involvunt') shows the efficiency of the Roman army despite their setbacks
+The Invasion of Mona/inferunt | sternunt | involvunt/Tricolon/Quick succession of verbs ('inferunt', 'sternunt', 'involvunt') shows the efficiency of the Roman army despite their setbacks
 The Invasion of Mona/timerunt, inferunt/Juxtaposition/Shows the quick transition between fear and bravery
 The Invasion of Mona/luci seavis superstitionibus sacri/Chiasmus/The inhuman superstitions are enclosed by the altars ('luci') and devoted ('sacri'), enhancing the imagery of bloody altars
 The Invasion of Mona/pedites, equites/Homeoteuleuton/Shows the union of the infantry (pedites) and the cavalry (equites), illustrating the organisation of the Roman army
 The Invasion of Mona/Furiarum/Comparison/Emphasises the barbaric nature of the Celtic women, comparing them to the 'Furies' - infernal goddesses
 The Invasion of Mona/saevis superstitionibus/Sibilance/Used to create suspicion around the practices of the Druids, and also to arouse fear of them
-Boudicca's Rebellion I/Caesarem heredem duasque filias/Enclosing word order/Forshadows the future dispute over who is the heir. The heir ('heredem') is surrounded on both sides by Caesar and the two daughters ('duasque filias')
+Boudicca's Rebellion I/Caesarem heredem duasque filias/Enclosing Word order/Forshadows the future dispute over who is the heir. The heir ('heredem') is surrounded on both sides by Caesar and the two daughters ('duasque filias')
 Boudicca's Rebellion I/regnum a centurionibus, domus a servis/Parallelism/The balanced structure emphasises the preparedness of the Roman army in their attack
-Boudicca's Rebellion I/vastarentur/Tricolon/The tricolon of 'vastarentur' (plundered), 'verberata' (beaten), and 'violatae' (raped) - verbs of aggression - emphasise the great damage done to the Iceni by the Romans. The 'v' sound links them
+Boudicca's Rebellion I/vastarentur | verberata | violatae sunt/Tricolon/The tricolon of 'vastarentur' (plundered), 'verberata' (beaten), and 'violatae' (raped) - verbs of aggression - emphasise the great damage done to the Iceni by the Romans. The 'v' sound links them
 Boudicca's Rebellion I/avitis bonis/Fractured Syntax/Emphasises the separation between the Iceni chiefs ('principes omnes Icenorum') and their ancestral goods
 Boudicca's Rebellion I/cesserant, rapiunt/Juxtaposition/Forces the reader to see how the Iceni were faced with adverse circumstances, but acted upon them instead of becoming victims
 Boudicca's Rebellion I/servitio/Antithesis/This is a direct opposite to 'libertatem' (freedom), creating suspense and anticipation for the two potential outcomes of the conflict (slavery or freedom)
-Boudicca's Rebellion I/acerrimum in verteranos odium/Enclosing word order/Bitter ('acerrimum') and hatred ('odium') surround the veterans ('verteranos'), inciting sympathy for the veterans
+Boudicca's Rebellion I/acerrimum in verteranos odium/Enclosing Word order/Bitter ('acerrimum') and hatred ('odium') surround the veterans ('verteranos'), inciting sympathy for the veterans
 Boudicca's Rebellion I/acerrimum in verteranos odium/Short Sentence/Highlights the bitterness of the hatred, leaving only a short, sharp memory in the reader's mind
-Boudicca's Rebellion I/pellebant/Tricolon/Driving ('pellebant'), expelling ('exturbabant'), and calling ('appellabant'), these verbs of force shows the Romans asserting their power of the land
+Boudicca's Rebellion I/pellebant | exturbabant | appellabant/Tricolon/Driving ('pellebant'), expelling ('exturbabant'), and calling ('appellabant'), these verbs of force shows the Romans asserting their power of the land
 Boudicca's Rebellion I/superbiam saevitiamque/Sibilance/Shows the savageness of the rage that has taken over the Trinobantes
 Boudicca's Rebellion I/similitudine vitae et spe eiusdem licentiate/Parallelism/Separated by 'et', the two phrases show the Romans' reasons for aggrevating the Trinobantes, suggesting a planned motive
 Boudicca's Rebellion I/sacerdotes specie religionis omnes fortunas suas/Sibilance/The repeated 's' sound suggests the disapproval of Tacitus for the priest's actions
 Boudicca's Rebellion I/coloniam nullis munimentis saeptam/Chiasmus/The fortification in the sentence ('munimentis') is separated from the colony ('coloniam'), which is exposed at the beginning of the sentence
 Boudicca's Rebellion II/decem ferme milia armatorum/Alliteration/The repetition of 'm' sounds creates sympathy for the Romans since they are outnumbered
 Boudicca's Rebellion II/comntendere et acie congredi parat/Short Sentence/Shows the simplicity of the concise plan that the Romans have devised
-Boudicca's Rebellion II/locum angustis faucibus et a tergo silvis clausum/Enclosing word order/The word closed ('clausum') is literally shutting off the back of the sentence, reflecting the meaning
+Boudicca's Rebellion II/locum angustis faucibus et a tergo silvis clausum/Enclosing Word order/The word closed ('clausum') is literally shutting off the back of the sentence, reflecting the meaning
 Boudicca's Rebellion II/sciebat/Verbs/This verb, and the many others, show the effectiveness of the Roman army
-Boudicca's Rebellion II/legionarii/Tricolon/The tricolon of 'legionarii', 'levi armature', and 'equites', shows the three divisions of the army, emphasising its professionality
-Boudicca's Rebellion II/at Britannorum copiae/Long sentence/The sentence that begins as such represents the chaos of the opposing Britons, in contrast to the short sentences of the Roman army
+Boudicca's Rebellion II/legionarii | levi armature | equites/Tricolon/The tricolon of 'legionarii', 'levi armature', and 'equites', shows the three divisions of the army, emphasising its professionality
+Boudicca's Rebellion II/at Britannorum copiae/Long Sentence/The sentence that begins as such represents the chaos of the opposing Britons, in contrast to the short sentences of the Roman army
 Boudicca's Rebellion II/exultabant, tanta multitude quanta non alias,/Asyndeton/The heft of commas here makes the reader speed up their reading of the passage in order to show the chaos of the Britons
 Boudicca's Rebellion III/tamquam cuneo/Comparison/Tacitus uses this description to help the reader visualise the Romans' attack; vivid imagery enhancements!
 Boudicca's Rebellion III/auxilliares quoque impetum faciunt/Short Sentence/Highlights the impact of the auxilliaries being immediate
@@ -68,3 +64,28 @@ Boudicca's Rebellion III/saepserant abitus./Hyperbaton/The way out is literally 
 Boudicca's Rebellion III/eo die/Time Phrase/Emphasises the brutal efficiency of the Roman army. They manage to carry out the attack in just one day
 Boudicca's Rebellion III/tradant/Style/Meaning 'report', this is the classic Tacitean trait of recording a rumour and passing it as fact in order to aid his persuasion.
 Boudicca's Rebellion III/Boudica vitam veneo finivit/Short Sentence/The brevity of the sentence emphasises the closure that her death brought, giving finality to all her actions
+The Aeneid IV (279-287)/horrore comae et vox faucibus/Chiasmus/The voice ('vox') and the hair ('comae') are both affected, and this is emphasised with the balanced structure as they are surrounded by their verbs
+The Aeneid IV (279-287)/ardet/Hyperbaton/Emphasises Aeneas' burning desire ('ardet') to leave and his frantic thinking in this time
+The Aeneid IV (279-287)/abire/Alliteration/The 'a' letter connects Aeneas' desire ('ardet') to the leaving ('abire')
+The Aeneid IV (279-287)/attonitus tanto monitu/The 't' sound reflects the sound of thunder striking, and emphasises Aeneas' reaction to seeing Mercury
+The Aeneid IV (279-287)/reginam ambire/Ellision/Connects the queen ('reginam') to the approach ('ambire') emphasising the immediacy of said approach
+The Aeneid IV (279-287)/quid/Tricolon/Tricolon of questions shows Aeneas' uncertainty
+The Aeneid IV (279-287)/prima exordia/Tautology/Virgil emphasises the tentative nature of Aeneas with this unnecessary emphasis
+The Aeneid IV (279-287)/nunc dividit illuc/Emphatic Word Order/Aeneas' thoughts are divided by 'dividit' and, emphasising the division of his thoughts he has made
+The Aeneid IV (279-287)/nunc huc/Repetition/Continued use of 'nunc' (now) shows Aeneas' chaotic thought
+The Aeneid IV (288-295)/Mnesthea/Greek Accusative/The Greek accusative is used here to hail back to Homer's Odyssey
+The Aeneid IV (288-295)/fortemque Serestum/Imitation of Homer/Classic use of an epithet, hailing back to Homer's Odyssey
+The Aeneid IV (288-295)/aptent taciti/Consonants/Quick use of 't' sound conveys the speed of action seen in Aeneas
+The Aeneid IV (288-295)/arma/Word choice/Foreshadows future conflict both 'arma', meaning equipment here, but could also mean weapons
+The Aeneid IV (288-295)/rebus sit causa novandis/Enclosing Word order/The cause ('causa') is literally concealed in the sentence, between the plans ('rebus') and altered ('novandis')
+The Aeneid IV (288-295)/nesciat/Hyperbaton/Emphasises the 'not knowing' ('nesciat') of Dido
+The Aeneid IV (288-295)/rumpi/Emphatic Word Order/This word literally breaks up ('rumpi') the sentence, emphasising the shattering of their love
+The Aeneid IV (288-295)/imperio laeti parent et iussa facessunt/Parallelism/This sentence is in two parts: 'imperio laeti parent' and 'et iussa facessunt', showing how Aeneas' mentality has been restored (the orders have been received and carried out)
+The Aeneid IV (296-312)/quis fallere possit amantem/Rhetorical Question/The interjection of this rhetorical question shows Dido's paranoia, and also separates the tricks ('dolos') from the detection ('praesensit')
+The Aeneid IV (296-312)/praesensit motusque/Spondees/High frequency of spondees foreshadows future speed of events
+The Aeneid IV (296-312)/Fama furenti/Alliteration/Rumour ('Fama') is connected to Dido, the frenzied one ('furenti'), illustrating Dido's craze.
+The Aeneid IV (296-312)/armari classem cursumque parari/Chiasmus/Sudden balanced phrase shows the efficiency and calm of Aeneas, in contrast to Dido's furor
+The Aeneid IV (296-312)/saeuit/Hyperbaton/Emphasises the immediacy of the raging ('saeuit') of Dido
+The Aeneid IV (296-312)/totamque incensa per urbem/Enclosing Word Order/Represents Dido's rage throughout the city - her flames are spreading from within the whole ('totamque') city ('urbem')
+The Aeneid IV (296-312)/sacris \ Thyias/Enjambement/Dido's actions are so chaotic that they spill onto the next line.
+The Aeneid IV (296-312)/vocat clamore Cithaeron/Assonance/The 'c' sound reflects the sound of the call for Dido to join the festival for Bacchus

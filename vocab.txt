@@ -298,7 +298,7 @@ dico, dicere, dixi, dictus/verb 3/say/Verbs: Perception, Sensory and Mental Proc
 exspecto, exspectare, exspectavi, exspectatus/verb 1/wait for/Verbs: Perception, Sensory and Mental Processes
 iaceo, iacere, iacui/verb 2/lie/Verbs: Perception, Sensory and Mental Processes
 impero, imperare, imperavi, imperatus + dative/verb 1/order, command/Verbs: Perception, Sensory and Mental Processes
-inquit/verb irregular/he/she says, he/she said/Verbs: Perception, Sensory and Mental Processes
+inquit/verb irregular/says, said/Verbs: Perception, Sensory and Mental Processes
 intellego, intellegere, intellexi, intellectus/verb 3/understand, realise/Verbs: Perception, Sensory and Mental Processes
 invito invitare, invitavi, invitatus/verb 1/invite/Verbs: Perception, Sensory and Mental Processes
 iubeo, iubere, iussi, iussus/verb 2/order/Verbs: Perception, Sensory and Mental Processes
@@ -344,7 +344,7 @@ pono, ponere, posui, positus/verb 3/put, place, put up/Verbs that Affect Motion 
 porto, portare, portavi, portatus/verb 1/carry/Verbs that Affect Motion or Position
 rapio, rapere, rapui, raptus/verb 3/seize, grab/Verbs that Affect Motion or Position
 reddo, reddere, reddidi, redditus/verb 3/give back, restore/Verbs that Affect Motion or Position
-refero, referre, rettuli, relatus/verb irregular/bring/carry back, report, tell/Verbs that Affect Motion or Position
+refero, referre, rettuli, relatus/verb irregular/bring, carry back, report, tell/Verbs that Affect Motion or Position
 relinquo, relinquere, reliqui, relictus/verb 3/leave, leave behind/Verbs that Affect Motion or Position
 teneo, tenere, tenui, tentus/verb 2/hold/Verbs that Affect Motion or Position
 tollo, tollere, sustuli, sublatus/verb 3/raise, lift up, hold up/Verbs that Affect Motion or Position
@@ -393,7 +393,7 @@ laboro, laborare, laboravi/verb 1/work/Verbs that Affect the Motion or Location 
 maneo, manere, mansi/verb 2/remain, stay/Verbs that Affect the Motion or Location of a Subject
 navigo, navigare, navigavi/verb 1/sail/Verbs that Affect the Motion or Location of a Subject
 pervenio, pervenire, perveni, perventus/verb 4/reach, arrive at/Verbs that Affect the Motion or Location of a Subject
-peto, petere, petivi, petitus/verb 3/make for, seek, beg/ask for/Verbs that Affect the Motion or Location of a Subject
+peto, petere, petivi, petitus/verb 3/make for, seek, beg, ask for/Verbs that Affect the Motion or Location of a Subject
 procedo, procedere, processi/verb 3/advance, proceed/Verbs that Affect the Motion or Location of a Subject
 proficiscor, proficisci, profectus sum/verb 3 deponent/set out/Verbs that Affect the Motion or Location of a Subject
 progredior, progredi, progressus sum/verb 3 deponent/advance/Verbs that Affect the Motion or Location of a Subject
